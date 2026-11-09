@@ -1,0 +1,11 @@
+kiwipiepy==0.24.1
+matplotlib==3.11.2
+numpy==2.4.6
+pandas==3.1.1
+pyarrow==26.0.1
+scikit-learn==1.9.1
+scipy==1.17.1
+# 음성 실험(보류)과 논문 PDF 읽기에만 필요
+praat-parselmouth==0.4.7
+soundfile==0.14.0
+pypdf==6.21.4

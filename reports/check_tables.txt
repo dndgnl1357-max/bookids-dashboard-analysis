@@ -1,0 +1,5 @@
+children per split: {'train': 2876, 'val': 360}
+dup IDs within split: 0 | IDs in both splits: 0
+missing ages: 0
+utterances missing time: 2 | empty text: 11
+Q/A: {'Q': 180410, 'A': 180406}

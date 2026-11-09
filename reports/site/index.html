@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>부키즈 교사 대시보드 분석</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  /* 분석 보고서: 회색조 바탕에 파랑 하나, 성장(초록)·감소(주황)만 상태색. 읽는 글은 좁게, 그림은 넓게 */
+  --bg: #f6f6f4; --surface: #ffffff; --ink: #1c1d1f; --ink-2: #5c5e63; --line: #dddcd7;
+  --accent: #2a5bd7; --accent-soft: #e8eefc; --good: #1f7a4d; --good-soft: #e3f3ea;
+  --warn: #9a5b00; --warn-soft: #fbf0dc; --figure: #fcfcfb;
+  --font: "IBM Plex Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #17181a; --surface: #202124; --ink: #ecece8; --ink-2: #a9aaa6; --line: #36373b;
+    --accent: #7ea2ff; --accent-soft: #1f2a44; --good: #6fd1a0; --good-soft: #173326;
+    --warn: #f0b45c; --warn-soft: #3a2c14; --figure: #fcfcfb; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #17181a; --surface: #202124; --ink: #ecece8; --ink-2: #a9aaa6; --line: #36373b;
+  --accent: #7ea2ff; --accent-soft: #1f2a44; --good: #6fd1a0; --good-soft: #173326;
+  --warn: #f0b45c; --warn-soft: #3a2c14; --figure: #fcfcfb; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--bg); color: var(--ink); font-family: var(--font); font-size: 16px; line-height: 1.7; }
+h1, h2, h3 { text-wrap: balance; line-height: 1.35; margin: 0; }
+h1 { font-size: 30px; }
+h2 { font-size: 22px; }
+h3 { font-size: 17px; }
+p { margin: 0; }
+a { color: var(--accent); }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.num { font-variant-numeric: tabular-nums; }
+.wrap { max-width: 1040px; margin: 0 auto; padding: 0 20px; }
+.text { max-width: 68ch; }
+header { background: var(--surface); border-bottom: 1px solid var(--line); padding: 36px 0 28px; }
+header .wrap { display: flex; flex-direction: column; gap: 12px; }
+.eyebrow { font-size: 13px; color: var(--ink-2); font-weight: 600; letter-spacing: .02em; }
+.lede { color: var(--ink-2); font-size: 17px; }
+.chips { display: flex; gap: 8px; flex-wrap: wrap; }
+.chip { font-size: 13px; padding: 3px 10px; border-radius: 999px; border: 1px solid var(--line); color: var(--ink-2); }
+.chip.warn { border-color: var(--warn); color: var(--warn); background: var(--warn-soft); }
+.cta { display: inline-flex; align-items: center; gap: 8px; width: fit-content; padding: 9px 16px; border-radius: 10px;
+  background: var(--ink); color: var(--surface); text-decoration: none; font-weight: 600; font-size: 15px; }
+nav.toc { position: sticky; top: 0; z-index: 2; background: var(--bg); border-bottom: 1px solid var(--line); }
+nav.toc .wrap { display: flex; gap: 6px; overflow-x: auto; padding-top: 10px; padding-bottom: 10px; }
+nav.toc a { font-size: 13px; white-space: nowrap; color: var(--ink-2); text-decoration: none; padding: 4px 10px; border-radius: 8px; }
+nav.toc a:hover { background: var(--surface); color: var(--ink); }
+main .wrap { display: flex; flex-direction: column; gap: 56px; padding-top: 36px; padding-bottom: 64px; }
+section { display: flex; flex-direction: column; gap: 16px; scroll-margin-top: 56px; }
+.sec-num { font-size: 13px; color: var(--accent); font-weight: 700; }
+.tiles { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+.tile { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 16px; display: flex; flex-direction: column; gap: 6px; border-top: 4px solid var(--accent); }
+.tile .big { font-size: 28px; font-weight: 700; line-height: 1.2; }
+.tile .big small { font-size: 15px; color: var(--ink-2); font-weight: 500; }
+.tile .label { font-size: 14px; color: var(--ink-2); line-height: 1.5; }
+.tile.good { border-top-color: var(--good); }
+.findings { display: grid; gap: 10px; padding: 0; margin: 0; list-style: none; }
+.findings li { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 12px 16px; }
+.layers { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.layer { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 16px; display: flex; flex-direction: column; gap: 8px; }
+.layer .tag { font-size: 12px; font-weight: 700; width: fit-content; padding: 2px 10px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); }
+.layer ul { margin: 0; padding-left: 18px; font-size: 14px; color: var(--ink-2); }
+.flow { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-size: 14px; color: var(--ink-2); }
+.flow span.box { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 6px 10px; color: var(--ink); }
+figure { margin: 0; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 14px; display: flex; flex-direction: column; gap: 10px; }
+figure img { width: 100%; height: auto; display: block; border-radius: 8px; background: var(--figure); }
+figcaption { font-size: 14px; color: var(--ink-2); }
+figcaption b { color: var(--ink); }
+.table-wrap { overflow-x: auto; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; }
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { color: var(--ink-2); font-weight: 600; font-size: 13px; white-space: nowrap; }
+tr:last-child td { border-bottom: none; }
+.pill { font-size: 12px; padding: 2px 9px; border-radius: 999px; white-space: nowrap; font-weight: 600; }
+.pill.good { background: var(--good-soft); color: var(--good); }
+.pill.warn { background: var(--warn-soft); color: var(--warn); }
+.pill.none { border: 1px solid var(--line); color: var(--ink-2); font-weight: 500; }
+.callout { border-left: 4px solid var(--accent); background: var(--accent-soft); border-radius: 0 12px 12px 0; padding: 12px 16px; font-size: 15px; }
+.callout.warn { border-color: var(--warn); background: var(--warn-soft); }
+.compare { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.say { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 16px; display: flex; flex-direction: column; gap: 6px; }
+.say .when { font-size: 13px; color: var(--ink-2); font-weight: 600; }
+.say .line { font-size: 19px; font-weight: 600; }
+.say.after { border-color: var(--good); }
+.qs { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.q { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 14px 16px; display: flex; flex-direction: column; gap: 6px; }
+.q .who { font-size: 13px; color: var(--ink-2); font-weight: 600; }
+.q .ask { font-size: 16px; font-weight: 600; }
+.q .why { font-size: 13px; color: var(--ink-2); }
+.steps { counter-reset: s; display: grid; gap: 10px; padding: 0; margin: 0; list-style: none; }
+.steps li { counter-increment: s; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 12px 16px 12px 52px; position: relative; }
+.steps li::before { content: counter(s); position: absolute; left: 16px; top: 12px; width: 24px; height: 24px; border-radius: 50%;
+  background: var(--accent); color: #fff; font-size: 13px; font-weight: 700; display: grid; place-items: center; }
+.muted { color: var(--ink-2); font-size: 14px; }
+footer { border-top: 1px solid var(--line); padding: 24px 0 40px; color: var(--ink-2); font-size: 13px; }
+@media (max-width: 860px) {
+  .tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .layers, .qs, .compare { grid-template-columns: 1fr; }
+}
+@media (max-width: 480px) {
+  .tiles { grid-template-columns: 1fr; }
+  h1 { font-size: 24px; }
+  body { font-size: 15px; }
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <span class="eyebrow">BOOKIDS · 교사 대시보드 분석 · 2026년 11월</span>
+    <h1>아이의 이야기가 자라는 것을 보여 주는 대시보드</h1>
+    <p class="lede text">아이가 그림을 보고 지어 말한 그림책에서 말하기와 이야기 짓기의 발달을 읽어 냅니다. 무엇을 재고, 왜 그렇게 재고, 무엇이 아직 확인되지 않았는지 정리했습니다.</p>
+    <div class="chips">
+      <span class="chip warn">데모 단계 · 실제 사용 기록 없음</span>
+      <span class="chip">대시보드 숫자는 가상 반 18명 × 6주</span>
+    </div>
+    <a class="cta" href="https://claude.ai/artifact/77AoNuCstzDuTVPviUwARr">대시보드 데모 열기 →</a>
+  </div>
+</header>
+
+<nav class="toc" aria-label="목차">
+  <div class="wrap">
+    <a href="#summary">요약</a><a href="#design">화면 구성</a><a href="#metrics">1 지표</a><a href="#ref">또래 참고</a><a href="#check">2 채점 확인</a>
+    <a href="#growth">3 성장 판정</a><a href="#evidence">4 문장으로 보기</a><a href="#next">5 다음 질문</a>
+    <a href="#sources">6 근거 자료</a><a href="#pilot">7 남은 일</a>
+  </div>
+</nav>
+
+<main>
+<div class="wrap">
+
+<section id="summary">
+  <h2>요약</h2>
+  <div class="tiles">
+    <div class="tile"><span class="big num">5 <small>+ 5</small></span>
+      <span class="label">성장을 판정하는 지표 5개, 값만 보여 주는 세부 지표 5개</span></div>
+    <div class="tile good"><span class="big num">0 <small>/ 16명</small></span>
+      <span class="label">수준이 일정한 아이에게 성장·감소 표시가 잘못 붙은 수</span></div>
+    <div class="tile"><span class="big num">14 <small>/ 14</small></span>
+      <span class="label">자동 채점 확인 문장 통과</span></div>
+    <div class="tile"><span class="big">80.8%</span>
+      <span class="label">이야기 구성 점수로 언어 발달이 늦은 아이를 구분한 정확도 (해외 연구, 4~8세)</span></div>
+  </div>
+  <ul class="findings">
+    <li><b>숫자, 아이의 실제 문장, 다음에 할 질문을 함께 보여 줍니다.</b></li>
+    <li><b>성장·감소 표시는 확실할 때만 붙입니다.</b> 한 주의 그림책 2~3권으로는 판단하기 어려워 최근 3주와 그 전 3주를 비교합니다.</li>
+    <li><b>지표는 연구에서 나이에 따라 느는 것이 확인된 틀을 따릅니다.</b> 이야기 구성과 문장 길이가 대표적입니다.</li>
+    <li><b>정확도 확인은 시범 운영에서 합니다.</b> 지금 숫자는 가상 데이터입니다.</li>
+  </ul>
+</section>
+
+<section id="design">
+  <h2>화면 구성</h2>
+  <div class="layers">
+    <div class="layer"><span class="tag">숫자</span><h3>얼마나 자랐나</h3>
+      <ul><li>문장 길이, 잇는 말, 이야기 구성, 마음을 나타내는 말, 스스로 이어 말하기</li><li>6주 추세와 최근 3주 평균</li></ul></div>
+    <div class="layer"><span class="tag">문장</span><h3>실제로 어떻게 말했나</h3>
+      <ul><li>그 전 3주와 최근 3주의 보통 장면</li><li>새로 쓰기 시작한 표현</li></ul></div>
+    <div class="layer"><span class="tag">다음 행동</span><h3>무엇을 물어볼까</h3>
+      <ul><li>덜 나온 이야기 요소를 이끄는 질문</li><li>반 전체가 함께 연습할 요소</li></ul></div>
+  </div>
+  <div class="flow" aria-label="분석 흐름">
+    <span class="box">아이 말 + 토리 질문</span>→<span class="box">낱말 단위로 나누기</span>→<span class="box">지표 계산</span>→<span class="box">그 아이의 지난 3주와 비교</span>→<span class="box">대시보드</span>
+  </div>
+</section>
+
+<section id="metrics">
+  <span class="sec-num">1</span>
+  <h2>무엇을 재나</h2>
+  <div class="table-wrap"><table>
+    <thead><tr><th>지표</th><th>무엇을 보나</th><th>근거</th><th>표시</th></tr></thead>
+    <tbody>
+      <tr><td>평균 문장 길이</td><td>문장 하나의 형태소 수(조사·어미 포함). 화면에는 어절 수도 함께</td><td>한국 4~6세 연구: 낱말 단위로는 4세와 5세 차이가 없었고, 형태소 단위로는 나이마다 달랐음</td><td><span class="pill good">성장 판정</span></td></tr>
+      <tr><td>잇는 말</td><td>그래서·그런데·-아서·-다가</td><td>4→5세에 어미 사용이 크게 늘어남</td><td><span class="pill good">성장 판정</span></td></tr>
+      <tr><td>이야기 구성</td><td>배경·등장인물·사건·목표·시도·결과·반응을 얼마나 갖췄나 (0~17점)</td><td>3~9세에서 나이에 따라 증가 (한국·해외 연구)</td><td><span class="pill good">성장 판정</span></td></tr>
+      <tr><td>마음을 나타내는 말</td><td>보다·배고프다·기쁘다·생각하다·말하다</td><td>인물의 마음을 말하는 능력</td><td><span class="pill good">성장 판정</span></td></tr>
+      <tr><td>스스로 이어 말한 장면</td><td>선택지 도움 없이 이어 말한 비율</td><td>Bookids 고유 지표</td><td><span class="pill good">성장 판정</span></td></tr>
+      <tr><td>이야기 짜임</td><td>나열 → 불완전한 에피소드 → 완전한 에피소드</td><td>그림 이야기 평가의 구조 단계</td><td><span class="pill none">값만</span></td></tr>
+      <tr><td>인물 소개</td><td>첫 문장에서 인물을 이름으로 소개했나</td><td>해외 연구의 측정 항목</td><td><span class="pill none">값만</span></td></tr>
+      <tr><td>이어진 문장</td><td>‘배가 고파서’, ‘배가 고픈 토끼’처럼 절이 이어진 문장</td><td>해외 연구의 측정 항목</td><td><span class="pill none">값만</span></td></tr>
+      <tr><td>인물의 말 · 가리키는 말</td><td>‘같이 놀자’라고 말했어요 · ‘걔·그거’</td><td>듣는 사람을 고려한 말하기</td><td><span class="pill none">값만</span></td></tr>
+      <tr><td>서로 다른 낱말</td><td>낱말 50개 중 서로 다른 낱말 수</td><td>유아에게는 믿을 만하지 않다는 연구가 있어 판정하지 않음</td><td><span class="pill none">값만</span></td></tr>
+    </tbody>
+  </table></div>
+  <p class="muted">채점 규칙은 연구의 개념을 참고해 직접 만들었습니다. 평가 도구의 그림·문항은 쓰지 않았습니다.</p>
+</section>
+
+<section id="ref">
+  <h2>또래 참고 범위</h2>
+  <p class="text">한국 4~5세 연구 두 편의 숫자를 대시보드에 ‘또래는 보통’으로 함께 보여 줍니다. 아이의 나이(개월)가 있어야 쓸 수 있습니다.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>이야기 요소 (그 요소가 들어간 이야기 비율)</th><th class="num">4세</th><th class="num">5세</th><th>4~5세에</th></tr></thead>
+    <tbody>
+      <tr><td>배경 (시간·장소)</td><td class="num">55%</td><td class="num">85%</td><td>늘어남</td></tr>
+      <tr><td>등장인물</td><td class="num">70%</td><td class="num">95%</td><td>늘어남</td></tr>
+      <tr><td>시작 사건</td><td class="num">70%</td><td class="num">95%</td><td>늘어남</td></tr>
+      <tr><td>시도</td><td class="num">65%</td><td class="num">100%</td><td>늘어남</td></tr>
+      <tr><td>결과</td><td class="num">60%</td><td class="num">80%</td><td>늘어남</td></tr>
+      <tr><td><b>목표</b> (인물의 바람)</td><td class="num">20%</td><td class="num">25%</td><td><b>아직 드문 것이 정상</b></td></tr>
+      <tr><td><b>반응</b> (끝난 뒤의 마음)</td><td class="num">10%</td><td class="num">11%</td><td><b>아직 드문 것이 정상</b></td></tr>
+      <tr><td>그림책 한 권의 문장 수</td><td class="num">7.9</td><td class="num">14.2</td><td>늘어남</td></tr>
+      <tr><td>문장 길이 (형태소, 다시 말하기)</td><td class="num">15.1</td><td class="num">17.0</td><td>늘어남</td></tr>
+    </tbody>
+  </table></div>
+  <p class="muted">이야기 요소와 문장 수는 3~5세가 인형을 골라 새 이야기를 지어 말한 연구(한유진·유안진, 2001, 나이별 20명), 문장 길이는 들은 이야기를 다시 말한 연구(김기순 외, 2007, 나이별 20명)입니다. 다시 말하기는 스스로 지어 말할 때보다 길게 나옵니다. 연구 수가 적고 과제가 Bookids와 조금 다르므로 판정이 아니라 참고로만 보여 줍니다.</p>
+</section>
+
+<section id="check">
+  <span class="sec-num">2</span>
+  <h2>자동 채점이 맞게 되는지</h2>
+  <p class="text">직접 만든 이야기로 확인했습니다. 단순한 이야기일수록 점수가 낮게 나와야 합니다.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>확인용 이야기</th><th>이야기 구성</th><th>완전한 에피소드</th></tr></thead>
+    <tbody>
+      <tr><td>“토끼가 갔어요. 놀았어요. 먹었어요. 잤어요.”</td><td class="num">0 / 17</td><td class="num">0</td></tr>
+      <tr><td>“어느 날 토끼가 숲에 갔어요. …” (배경만)</td><td class="num">2 / 17</td><td class="num">0</td></tr>
+      <tr><td>배경 · 사건 · 시도 · 결과 · 반응 (목표 없음)</td><td class="num">6 / 17</td><td class="num">0</td></tr>
+      <tr><td>“… 모자를 찾고 싶었어요. 열심히 찾아봤어요. 드디어 찾았어요. 행복했어요.”</td><td class="num">7 / 17</td><td class="num">1</td></tr>
+      <tr><td>에피소드 두 개 (포도를 먹으려다 실패 → 친구를 만나러 감)</td><td class="num">10 / 17</td><td class="num">2</td></tr>
+    </tbody>
+  </table></div>
+  <p class="muted">이야기 구성 5개, 세부 지표 9개 모두 통과했습니다. “말이 달렸어요”의 ‘말’(동물)은 마음을 나타내는 말로 세지 않습니다.</p>
+</section>
+
+<section id="growth">
+  <span class="sec-num">3</span>
+  <h2>성장은 3주와 3주를 비교해 판정</h2>
+  <figure>
+    <img src="figs/fig_8_dev_demo.png" alt="가상 반 6주 발달 지표 변화" loading="lazy">
+    <figcaption><b>읽는 법:</b> 선 하나가 아이 한 명입니다. 파랑은 성장하는 아이, 주황은 줄어드는 아이입니다. 회색 선처럼 주마다 오르내림이 큽니다. 그날 지은 그림책에 따라 값이 달라지기 때문입니다.</figcaption>
+  </figure>
+  <div class="callout">그래서 주 단위로는 값만 보여 줍니다. ‘확실히 늘었어요/줄었어요’는 최근 3주와 그 전 3주를 비교해, 그림책을 무작위로 섞었을 때 생기는 차이보다 확실히 클 때만 붙입니다. 지표가 5개라 기준을 그만큼 엄격하게 잡았습니다.</div>
+  <div class="table-wrap"><table>
+    <thead><tr><th>가상 반 결과</th><th>표시</th></tr></thead>
+    <tbody>
+      <tr><td>아이 D (성장): 문장 길이 5.6 → 8.3형태소, 잇는 말 0.05 → 0.4회, 이야기 구성 1.3 → 5.6점</td><td><span class="pill good">늘었어요</span> 3개</td></tr>
+      <tr><td>아이 G (감소): 잇는 말 0.38 → 0.04회</td><td><span class="pill warn">줄었어요</span> 1개</td></tr>
+      <tr><td>수준이 일정한 아이 16명</td><td><span class="pill none">표시 없음</span></td></tr>
+    </tbody>
+  </table></div>
+  <figure>
+    <img src="figs/fig_9_refined.png" alt="세부 지표 그 전 3주와 최근 3주 비교" loading="lazy">
+    <figcaption><b>세부 지표:</b> 판정하지 않지만 같은 방향으로 움직입니다. 아이 D는 인물을 이름으로 소개한 그림책이 38% → 100%, 이어진 문장이 3% → 26%로 늘었고 ‘걔·그거’는 사라졌습니다.</figcaption>
+  </figure>
+</section>
+
+<section id="evidence">
+  <span class="sec-num">4</span>
+  <h2>문장으로 보는 성장</h2>
+  <p class="text">숫자와 함께 아이의 실제 장면을 나란히 보여 줍니다. 과장하지 않도록 가장 잘한 장면이 아니라 보통 장면을 고릅니다.</p>
+  <div class="compare">
+    <div class="say"><span class="when">아이 D · 그 전 3주 (10/2)</span><span class="line">“다람쥐가 잤어요.”</span></div>
+    <div class="say after"><span class="when">아이 D · 최근 3주 (10/21)</span><span class="line">“그런데 다람쥐가 길을 잃어버렸어요.”</span></div>
+  </div>
+  <div class="table-wrap"><table>
+    <thead><tr><th>새로 쓰기 시작한 표현</th><th>처음 나온 장면</th></tr></thead>
+    <tbody>
+      <tr><td>원인을 잇는 말 (그림책 7권)</td><td>“친구가 와서 다람쥐를 도와줬어요.”</td></tr>
+      <tr><td>목표 말하기 (그림책 5권)</td><td>“다람쥐는 공을 찾고 싶었어요.”</td></tr>
+      <tr><td>완전한 에피소드 (그림책 2권)</td><td>“그런데 공룡이 길을 잃어버렸어요. 공룡이 집에 돌아가려고 했어요. …”</td></tr>
+    </tbody>
+  </table></div>
+  <p class="muted">그 전 3주에는 없었고 최근 3주에 그림책 2권 이상에서 쓴 표현만 보여 줍니다.</p>
+</section>
+
+<section id="next">
+  <span class="sec-num">5</span>
+  <h2>다음에 해 볼 질문</h2>
+  <p class="text">최근 그림책에서 덜 나온 이야기 요소를 찾아, 아이가 자주 쓰는 등장인물 이름으로 질문을 만듭니다. 질문은 두 단계입니다.</p>
+  <ul class="findings"><li><b>먼저 해 볼 질문</b>: 4~5세 대부분이 쓰는 요소(배경·등장인물·사건·시도·결과)가 또래보다 확실히 적을 때. 최대 2개.</li><li><b>한 단계 더</b>: 목표·반응·생각·인물의 말처럼 4~5세에 아직 드문 것이 정상인 요소. 앞의 요소가 다 갖춰졌을 때만 하나, “아직 쓰지 않아도 괜찮아요”와 함께.</li></ul>
+  <div class="qs">
+    <div class="q"><span class="who">아이 D (만 5세) · 먼저 해 볼 질문</span><span class="ask">“그래서 어떻게 됐을까?”</span><span class="why">결과가 7권 중 4권, 또래는 보통 80%</span></div>
+    <div class="q"><span class="who">아이 G (만 5세) · 먼저 해 볼 질문</span><span class="ask">“언제, 어디에서 있었던 일일까?”</span><span class="why">배경이 7권 중 1권, 또래는 보통 85%</span></div>
+    <div class="q"><span class="who">아이 A (만 4세) · 한 단계 더</span><span class="ask">“여우는 무엇을 하고 싶었을까?”</span><span class="why">기본 요소는 갖춤. 목표는 아직 드물어도 괜찮음</span></div>
+  </div>
+  <figure>
+    <img src="figs/fig_10_next_steps.png" alt="반 전체 다음 질문 제안 수" loading="lazy">
+    <figcaption><b>우리 반:</b> 가상 반에서는 ‘결과’(11명)와 ‘배경’(7명)이 먼저 해 볼 질문으로 가장 많이 나왔습니다. 처음 규칙에서는 ‘목표’ 12명, ‘반응’ 10명이었는데, 두 요소는 5세도 대부분 쓰지 않는다는 연구에 따라 ‘한 단계 더’로 옮겼습니다.</figcaption>
+  </figure>
+  <div class="callout"><b>근거:</b> 3~5세 아이와 그림책을 읽으며 열린 질문을 던진 연구 16편을 묶어 보니, 이야기 구성 능력이 뚜렷하게 늘었습니다. 문장 길이는 거의 변하지 않았습니다. 그래서 질문은 문장 길이보다 이야기 요소와 ‘왜’를 겨냥합니다. ‘무슨 생각을 했을까?’는 바람과 감정을 이미 말하는 아이에게만 제안합니다. 생각을 이해하는 능력은 그보다 늦게 자라기 때문입니다.</div>
+  <p class="muted">질문이 실제로 아이의 이야기를 바꾸는지는 시범 운영에서 확인합니다.</p>
+</section>
+
+<section id="sources">
+  <span class="sec-num">6</span>
+  <h2>근거 자료</h2>
+  <div class="table-wrap"><table>
+    <thead><tr><th>자료</th><th>내용</th><th>어디에 썼나</th></tr></thead>
+    <tbody>
+      <tr><td><a href="https://talkbank.org/childes/access/Clinical-Eng/ENNI.html">ENNI</a> (Schneider 외, 2006)</td><td>캐나다 4~9세 377명이 그림을 보고 이야기를 지음. 이야기 구성 점수가 나이에 따라 늘고, 언어 발달이 늦은 아이를 80.8% 구분</td><td>이야기 구성, 인물 소개, 이어진 문장</td></tr>
+      <tr><td>한유진·유안진 (2001) 3, 4, 5세 유아의 이야기 구성능력의 발달. 대한가정학회지</td><td>3~5세 60명이 새 이야기를 지어 말함. 배경·인물·사건·시도·결과는 나이에 따라 늘고, 내적 상태(20~25%)와 반응(10~11%)은 4~5세에도 드묾</td><td>또래 참고 범위, 질문 두 단계</td></tr>
+      <tr><td><a href="https://scholar.kyobobook.co.kr/article/detail/4010023098717">김기순 외 (2007) 학령전기 아동의 연령에 따른 이야기 회상 산출 능력</a></td><td>한국 4~6세 60명. 이야기 구성 점수와 문장 길이가 나이에 따라 증가. 형태소 단위 문장 길이가 4세와 5세를 더 잘 구분</td><td>문장 길이를 형태소 단위로</td></tr>
+      <tr><td><a href="https://scholar.kyobobook.co.kr/article/detail/4010023796556">4~6세 용언 활용 연구</a></td><td>어미 사용이 나이에 따라 정확해지고 4→5세 차이가 큼</td><td>잇는 말</td></tr>
+      <tr><td><a href="https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2026.1817388/full">Özcan (2026)</a></td><td>3~5세 그림책 대화 읽기 연구 16편 종합. 이야기 구성이 뚜렷하게 늘고 문장 길이는 거의 변하지 않음</td><td>다음 질문</td></tr>
+      <tr><td><a href="https://koreascience.kr/article/JAKO200828066506288.pub">송영주 유아의 다양한 마음 상태에 대한 이해 발달</a> (아동학회지)</td><td>3~6세 76명. 보는 것·바라는 것은 잘 이해하고, 잘못 알고 있는 마음은 어려워함. 그림책 과제에서 더 잘함</td><td>질문 순서</td></tr>
+      <tr><td><a href="https://doi.org/10.3389/fpsyg.2022.905789">Yang 외 (2022)</a></td><td>2~6세 1,454명. 서로 다른 낱말 수는 나이에 따라 늘지만 아이 간 구분력이 거의 없음</td><td>서로 다른 낱말을 값만 표시</td></tr>
+      <tr><td><a href="https://doi.org/10.1371/journal.pone.0224634">Jones 외 (2019)</a></td><td>AI 자동 채점이 사람 채점과 잘 맞음. 단, 사람끼리도 일부 항목은 의견이 갈림</td><td>전문가 2명 채점 계획</td></tr>
+      <tr><td><a href="https://arxiv.org/abs/2507.13205">Louw 외 (2025)</a></td><td>4~5세 그림 이야기를 음성 인식 + AI로 채점</td><td>데이터가 쌓인 뒤의 다음 단계</td></tr>
+      <tr><td><a href="https://www.leibniz-zas.de/en/service-transfer/main">MAIN 한국어판</a> (2023)</td><td>3~10세 그림 이야기 평가 도구. 상업적 이용 금지</td><td>개념만 참고</td></tr>
+    </tbody>
+  </table></div>
+  <p class="muted">한국 논문 3편(2001, 2007, 송영주)과 해외 논문 5편, MAIN은 원문을 읽었습니다. 4~6세 용언 활용 연구는 초록만 확인했습니다.</p>
+</section>
+
+<section id="pilot">
+  <span class="sec-num">7</span>
+  <h2>남은 일: 시범 운영에서 확인할 것</h2>
+  <div class="table-wrap"><table>
+    <thead><tr><th>아직 모르는 것</th><th>확인 방법</th></tr></thead>
+    <tbody>
+      <tr><td>실제 아이 데이터에서도 맞나</td><td>실제 그림책 기록을 4~6주 이상 모아 다시 계산</td></tr>
+      <tr><td>자동 채점이 정확한가</td><td>그림책 20~30권을 언어치료 전문가 2명이 채점해 비교</td></tr>
+      <tr><td>지표가 실제 언어 능력과 관련 있나</td><td>일부 아이의 표준화 언어검사(PRES·REVT) 결과와 비교</td></tr>
+      <tr><td>판정 기준이 적절한가</td><td>실제 주당 그림책 수와 오르내림 폭으로 다시 조정</td></tr>
+      <tr><td>또래 참고 범위가 Bookids에도 맞나</td><td>참고 연구는 나이별 20명, 과제도 조금 다름. 시범 반 데이터로 4세·5세 범위를 다시 계산</td></tr>
+      <tr><td>질문이 효과가 있나</td><td>질문한 요소가 이후 그림책에서 늘어나는지 확인</td></tr>
+      <tr><td>음성 인식 오류의 영향</td><td>선생님이 고치기 전후 문장으로 지표 비교</td></tr>
+    </tbody>
+  </table></div>
+  <h3>함께 모을 것</h3>
+  <ol class="steps">
+    <li><b>그림책 기록</b>: 아이 말(선생님 확인 후), 바로 앞 토리 질문, 선택지 도움 여부, 날짜·그림책·장면, <b>아이의 나이(개월)</b></li>
+    <li><b>선생님 사용 기록</b>: 제안 질문을 썼는지, 토리 질문에 넣었는지</li>
+    <li><b>비교 기준</b>: 전문가 채점, 일부 아이의 언어검사 결과</li>
+    <li><b>절차</b>: 보호자 동의, 연구윤리 검토, 아동 개인정보 보관 기준</li>
+  </ol>
+  <div class="callout warn"><b>이번 데모에서 뺀 것:</b> 아이의 심리 상태 추정, 감정 변화 알림, 피해 고백 감지. 4~5세의 실제 말과 전문가 판단이 함께 있는 데이터가 없어 근거가 부족했습니다. 데이터를 구한 뒤 다시 검토합니다.</div>
+</section>
+
+</div>
+</main>
+<footer>
+  <div class="wrap">분석 코드: <code>analysis/scripts</code> · 데이터 명세: <code>reports/dashboard_spec.md</code> · 근거 정리: <code>reports/research_sources.md</code></div>
+</footer>
+</body>
+</html>

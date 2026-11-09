@@ -1,0 +1,7534 @@
+{
+ "class": {
+  "name": "햇살반",
+  "n_children": 18,
+  "week_start": "2026-11-02",
+  "consent": {
+   "given": 18,
+   "total": 18
+  },
+  "synthetic": true,
+  "scope": "발달 지표 데모 (감정 흐름·안전 알림 제외)"
+ },
+ "children": [
+  {
+   "child_id": "아이 A",
+   "age_months": 52,
+   "growth_up": [],
+   "growth_down": [],
+   "milestones": 0
+  },
+  {
+   "child_id": "아이 B",
+   "age_months": 52,
+   "growth_up": [],
+   "growth_down": [],
+   "milestones": 1
+  },
+  {
+   "child_id": "아이 C",
+   "age_months": 67,
+   "growth_up": [],
+   "growth_down": [],
+   "milestones": 0
+  },
+  {
+   "child_id": "아이 D",
+   "age_months": 60,
+   "growth_up": [
+    "평균 문장 길이",
+    "이음말",
+    "이야기문법"
+   ],
+   "growth_down": [],
+   "milestones": 3
+  },
+  {
+   "child_id": "아이 E",
+   "age_months": 62,
+   "growth_up": [],
+   "growth_down": [],
+   "milestones": 1
+  },
+  {
+   "child_id": "아이 F",
+   "age_months": 63,
+   "growth_up": [],
+   "growth_down": [],
+   "milestones": 1
+  },
+  {
+   "child_id": "아이 G",
+   "age_months": 65,
+   "growth_up": [],
+   "growth_down": [
+    "이음말"
+   ],
+   "milestones": 0
+  },
+  {
+   "child_id": "아이 H",
+   "age_months": 50,
+   "growth_up": [],
+   "growth_down": [],
+   "milestones": 0
+  },
+  {
+   "child_id": "아이 I",
+   "age_months": 60,
+   "growth_up": [],
+   "growth_down": [],
+   "milestones": 0
+  },
+  {
+   "child_id": "아이 J",
+   "age_months": 53,
+   "growth_up": [],
+   "growth_down": [],
+   "milestones": 2
+  },
+  {
+   "child_id": "아이 K",
+   "age_months": 58,
+   "growth_up": [],
+   "growth_down": [],
+   "milestones": 0
+  },
+  {
+   "child_id": "아이 L",
+   "age_months": 70,
+   "growth_up": [],
+   "growth_down": [],
+   "milestones": 0
+  },
+  {
+   "child_id": "아이 M",
+   "age_months": 62,
+   "growth_up": [],
+   "growth_down": [],
+   "milestones": 0
+  },
+  {
+   "child_id": "아이 N",
+   "age_months": 51,
+   "growth_up": [],
+   "growth_down": [],
+   "milestones": 0
+  },
+  {
+   "child_id": "아이 O",
+   "age_months": 61,
+   "growth_up": [],
+   "growth_down": [],
+   "milestones": 1
+  },
+  {
+   "child_id": "아이 P",
+   "age_months": 52,
+   "growth_up": [],
+   "growth_down": [],
+   "milestones": 1
+  },
+  {
+   "child_id": "아이 Q",
+   "age_months": 66,
+   "growth_up": [],
+   "growth_down": [],
+   "milestones": 1
+  },
+  {
+   "child_id": "아이 R",
+   "age_months": 70,
+   "growth_up": [],
+   "growth_down": [],
+   "milestones": 1
+  }
+ ],
+ "reports": {
+  "아이 A": {
+   "child_id": "아이 A",
+   "week_start": "2026-11-02",
+   "week_end": "2026-11-08",
+   "books": 2,
+   "age_months": 52,
+   "development": {
+    "weekly": {
+     "mlc_m": [
+      7.46,
+      8.17,
+      7.06,
+      8.36,
+      7.3,
+      7.53
+     ],
+     "conn_rate": [
+      0.13,
+      0.27,
+      0.33,
+      0.3,
+      0.18,
+      0.38
+     ],
+     "sg_score": [
+      3.33,
+      5.0,
+      7.5,
+      4.67,
+      3.33,
+      7.5
+     ],
+     "ist_rate": [
+      0.09,
+      0.2,
+      0.23,
+      0.17,
+      0.14,
+      0.12
+     ],
+     "self_ratio": [
+      60.87,
+      72.73,
+      80.0,
+      60.0,
+      72.73,
+      69.23
+     ]
+    },
+    "recent_3w": {
+     "units": {
+      "배경": 75,
+      "등장인물": 100,
+      "시작 사건": 100,
+      "목표": 38,
+      "시도": 100,
+      "결과": 50,
+      "반응": 25
+     },
+     "ist": {
+      "지각": 0,
+      "생리": 5,
+      "의식": 0,
+      "감정": 2,
+      "정신": 0,
+      "말하기": 2
+     },
+     "conn": {
+      "원인": 10,
+      "순서": 3,
+      "대조": 2
+     },
+     "sentences": 60,
+     "sentences_per_story": 7.5
+    },
+    "age_ref": {
+     "배경": 55,
+     "등장인물": 70,
+     "시작 사건": 70,
+     "목표": 20,
+     "시도": 65,
+     "결과": 60,
+     "반응": 10,
+     "sentences_per_story": 7.9,
+     "structure_8": 3.8,
+     "mlc_m": [
+      15.05,
+      2.07
+     ],
+     "age": 4
+    },
+    "growth_evidence": {
+     "before": {
+      "text": "옛날에 동굴에 공룡이 살았어요.",
+      "date": "2026-09-29",
+      "complexity": 4.0
+     },
+     "recent": {
+      "text": "옛날에 놀이터에 공룡이 살았어요.",
+      "date": "2026-10-23",
+      "complexity": 4.0
+     },
+     "note": "각 기간의 중간 수준 장면 (가장 잘한 장면이 아님)"
+    },
+    "milestones": [],
+    "next_steps": [
+     {
+      "tier": "한 단계 더",
+      "target": "목표",
+      "question": "여우는 무엇을 하고 싶었을까?",
+      "reason": "인물이 무엇을 원했는지는 4~5세에 아직 드물게 말해요. 아직 쓰지 않아도 괜찮아요"
+     }
+    ],
+    "refined": {
+     "recent_3w": {
+      "stories": 8,
+      "ndw50": 30.3,
+      "episode_levels": {
+       "나열·묘사": 0,
+       "불완전한 에피소드": 6,
+       "완전한 에피소드": 2,
+       "여러 에피소드": 0
+      },
+      "best_level": "완전한 에피소드",
+      "intro_explicit_pct": 88,
+      "quotes_per_story": 0.0,
+      "complex_pct": 25,
+      "pronouns_per_10_sent": 0.83
+     },
+     "before_3w": {
+      "stories": 8,
+      "ndw50": 33.3,
+      "episode_levels": {
+       "나열·묘사": 0,
+       "불완전한 에피소드": 6,
+       "완전한 에피소드": 2,
+       "여러 에피소드": 0
+      },
+      "best_level": "완전한 에피소드",
+      "intro_explicit_pct": 88,
+      "quotes_per_story": 0.12,
+      "complex_pct": 20,
+      "pronouns_per_10_sent": 0.15
+     }
+    },
+    "this_week_vs_4weeks": [
+     {
+      "key": "mlc_m",
+      "label": "평균 문장 길이",
+      "unit": "형태소",
+      "help": "문장 하나의 평균 형태소 수(조사·어미 포함). 한국어 연구에서 4세와 5세 차이를 더 잘 보여 준 단위",
+      "value": 7.53,
+      "baseline": 7.77,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "conn_rate",
+      "label": "이음말",
+      "unit": "회 / 문장",
+      "help": "'그래서·그런데·-아서·-다가'처럼 사건을 잇는 말이 한 문장에 몇 번 나오는지",
+      "value": 0.38,
+      "baseline": 0.27,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "sg_score",
+      "label": "이야기문법",
+      "unit": "점 / 17",
+      "help": "배경·시작 사건·목표·시도·결과·반응을 얼마나 갖춰 말했는지 (이야기 한 편 평균)",
+      "value": 7.5,
+      "baseline": 4.91,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "ist_rate",
+      "label": "마음을 나타내는 말",
+      "unit": "회 / 문장",
+      "help": "보다·배고프다·기쁘다·생각하다·말하다처럼 인물의 마음과 상태를 말하는 낱말",
+      "value": 0.12,
+      "baseline": 0.18,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "self_ratio",
+      "label": "스스로 이어 말한 장면",
+      "unit": "%",
+      "help": "선택지 도움 없이 이어 말한 장면 비율",
+      "value": 69.23,
+      "baseline": 70.89,
+      "change": null,
+      "p_value": null
+     }
+    ],
+    "six_week_growth": [
+     {
+      "key": "mlc_m",
+      "label": "평균 문장 길이",
+      "unit": "형태소",
+      "help": "문장 하나의 평균 형태소 수(조사·어미 포함). 한국어 연구에서 4세와 5세 차이를 더 잘 보여 준 단위",
+      "value": 7.75,
+      "baseline": 7.62,
+      "change": null,
+      "p_value": 0.77
+     },
+     {
+      "key": "conn_rate",
+      "label": "이음말",
+      "unit": "회 / 문장",
+      "help": "'그래서·그런데·-아서·-다가'처럼 사건을 잇는 말이 한 문장에 몇 번 나오는지",
+      "value": 0.27,
+      "baseline": 0.23,
+      "change": null,
+      "p_value": 0.57
+     },
+     {
+      "key": "sg_score",
+      "label": "이야기문법",
+      "unit": "점 / 17",
+      "help": "배경·시작 사건·목표·시도·결과·반응을 얼마나 갖춰 말했는지 (이야기 한 편 평균)",
+      "value": 4.88,
+      "baseline": 5.0,
+      "change": null,
+      "p_value": 1.0
+     },
+     {
+      "key": "ist_rate",
+      "label": "마음을 나타내는 말",
+      "unit": "회 / 문장",
+      "help": "보다·배고프다·기쁘다·생각하다·말하다처럼 인물의 마음과 상태를 말하는 낱말",
+      "value": 0.15,
+      "baseline": 0.17,
+      "change": null,
+      "p_value": 0.73
+     },
+     {
+      "key": "self_ratio",
+      "label": "스스로 이어 말한 장면",
+      "unit": "%",
+      "help": "선택지 도움 없이 이어 말한 장면 비율",
+      "value": 67.27,
+      "baseline": 70.0,
+      "change": null,
+      "p_value": 0.67
+     }
+    ],
+    "story_grammar": {
+     "units": {
+      "배경": 100,
+      "등장인물": 100,
+      "시작 사건": 100,
+      "목표": 50,
+      "시도": 100,
+      "결과": 100,
+      "반응": 50
+     },
+     "mean_score": 7.5,
+     "complete_episodes": 1,
+     "stories": 2
+    },
+    "internal_states": {
+     "by_type": {
+      "지각": 0,
+      "생리": 1,
+      "의식": 0,
+      "감정": 1,
+      "정신": 0,
+      "말하기": 0
+     },
+     "examples": {
+      "지각": [],
+      "생리": [
+       "아프"
+      ],
+      "의식": [],
+      "감정": [
+       "행복"
+      ],
+      "정신": [],
+      "말하기": []
+     }
+    },
+    "connectives": {
+     "by_type": {
+      "대조": 1,
+      "순서": 2,
+      "원인": 2
+     },
+     "example": "그런데 갑자기 비가 왔어요."
+    },
+    "emotion_vocab": {
+     "this_week": [
+      "행복"
+     ],
+     "cumulative": 6,
+     "new": []
+    }
+   },
+   "cards": {
+    "scenes": {
+     "value": 13,
+     "last_week": 22
+    },
+    "self_scenes": {
+     "value": 9,
+     "total": 13,
+     "choice_help": 4
+    },
+    "mlc_m": {
+     "value": 7.5,
+     "last_week": 7.3
+    },
+    "mean_eojeol": {
+     "value": 3.5,
+     "last_week": 3.3
+    },
+    "new_words": {
+     "count": 0,
+     "examples": []
+    }
+   },
+   "speech_trend": [
+    {
+     "week_start": "2026-09-28",
+     "mean_eojeol": 3.42
+    },
+    {
+     "week_start": "2026-10-05",
+     "mean_eojeol": 3.75
+    },
+    {
+     "week_start": "2026-10-12",
+     "mean_eojeol": 3.35
+    },
+    {
+     "week_start": "2026-10-19",
+     "mean_eojeol": 3.77
+    },
+    {
+     "week_start": "2026-10-26",
+     "mean_eojeol": 3.26
+    },
+    {
+     "week_start": "2026-11-02",
+     "mean_eojeol": 3.53
+    }
+   ],
+   "themes": [
+    {
+     "word": "여우",
+     "count": 6,
+     "character": true,
+     "increased": false
+    },
+    {
+     "word": "로봇",
+     "count": 5,
+     "character": true,
+     "increased": false
+    },
+    {
+     "word": "공",
+     "count": 3,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "친구",
+     "count": 3,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "옛날",
+     "count": 2,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "집",
+     "count": 2,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "끝",
+     "count": 2,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "동굴",
+     "count": 1,
+     "character": false,
+     "increased": false
+    }
+   ]
+  },
+  "아이 B": {
+   "child_id": "아이 B",
+   "week_start": "2026-11-02",
+   "week_end": "2026-11-08",
+   "books": 3,
+   "age_months": 52,
+   "development": {
+    "weekly": {
+     "mlc_m": [
+      8.33,
+      7.78,
+      7.76,
+      8.61,
+      7.38,
+      9.41
+     ],
+     "conn_rate": [
+      0.38,
+      0.12,
+      0.33,
+      0.29,
+      0.08,
+      0.24
+     ],
+     "sg_score": [
+      5.5,
+      3.0,
+      6.0,
+      4.33,
+      1.5,
+      3.67
+     ],
+     "ist_rate": [
+      0.31,
+      0.09,
+      0.17,
+      0.26,
+      0.08,
+      0.1
+     ],
+     "self_ratio": [
+      87.5,
+      76.47,
+      73.33,
+      66.67,
+      61.54,
+      80.95
+     ]
+    },
+    "recent_3w": {
+     "units": {
+      "배경": 62,
+      "등장인물": 100,
+      "시작 사건": 88,
+      "목표": 38,
+      "시도": 88,
+      "결과": 25,
+      "반응": 0
+     },
+     "ist": {
+      "지각": 0,
+      "생리": 4,
+      "의식": 0,
+      "감정": 1,
+      "정신": 2,
+      "말하기": 2
+     },
+     "conn": {
+      "원인": 7,
+      "순서": 3,
+      "대조": 2
+     },
+     "sentences": 58,
+     "sentences_per_story": 7.2
+    },
+    "age_ref": {
+     "배경": 55,
+     "등장인물": 70,
+     "시작 사건": 70,
+     "목표": 20,
+     "시도": 65,
+     "결과": 60,
+     "반응": 10,
+     "sentences_per_story": 7.9,
+     "structure_8": 3.8,
+     "mlc_m": [
+      15.05,
+      2.07
+     ],
+     "age": 4
+    },
+    "growth_evidence": {
+     "before": {
+      "text": "옛날에 바다에 펭귄이 살았어요.",
+      "date": "2026-10-02",
+      "complexity": 4.0
+     },
+     "recent": {
+      "text": "어느 날 토끼가 숲에 갔어요.",
+      "date": "2026-10-20",
+      "complexity": 5.0
+     },
+     "note": "각 기간의 중간 수준 장면 (가장 잘한 장면이 아님)"
+    },
+    "milestones": [
+     {
+      "skill": "생각을 나타내는 말",
+      "date": "2026-10-22",
+      "text": "토끼는 집에 가야겠다고 생각했어요.",
+      "stories": 2
+     }
+    ],
+    "next_steps": [
+     {
+      "tier": "먼저",
+      "target": "결과",
+      "question": "그래서 어떻게 됐을까?",
+      "reason": "일이 어떻게 끝났는지 말한 경우가 적어요 (최근 그림책 8권 중 2권, 또래는 보통 60%)"
+     }
+    ],
+    "refined": {
+     "recent_3w": {
+      "stories": 8,
+      "ndw50": 32.2,
+      "episode_levels": {
+       "나열·묘사": 1,
+       "불완전한 에피소드": 5,
+       "완전한 에피소드": 2,
+       "여러 에피소드": 0
+      },
+      "best_level": "완전한 에피소드",
+      "intro_explicit_pct": 100,
+      "quotes_per_story": 0.12,
+      "complex_pct": 31,
+      "pronouns_per_10_sent": 0.17
+     },
+     "before_3w": {
+      "stories": 6,
+      "ndw50": 31.1,
+      "episode_levels": {
+       "나열·묘사": 1,
+       "불완전한 에피소드": 2,
+       "완전한 에피소드": 3,
+       "여러 에피소드": 0
+      },
+      "best_level": "완전한 에피소드",
+      "intro_explicit_pct": 100,
+      "quotes_per_story": 0.33,
+      "complex_pct": 17,
+      "pronouns_per_10_sent": 0.19
+     }
+    },
+    "this_week_vs_4weeks": [
+     {
+      "key": "mlc_m",
+      "label": "평균 문장 길이",
+      "unit": "형태소",
+      "help": "문장 하나의 평균 형태소 수(조사·어미 포함). 한국어 연구에서 4세와 5세 차이를 더 잘 보여 준 단위",
+      "value": 9.41,
+      "baseline": 7.97,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "conn_rate",
+      "label": "이음말",
+      "unit": "회 / 문장",
+      "help": "'그래서·그런데·-아서·-다가'처럼 사건을 잇는 말이 한 문장에 몇 번 나오는지",
+      "value": 0.24,
+      "baseline": 0.21,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "sg_score",
+      "label": "이야기문법",
+      "unit": "점 / 17",
+      "help": "배경·시작 사건·목표·시도·결과·반응을 얼마나 갖춰 말했는지 (이야기 한 편 평균)",
+      "value": 3.67,
+      "baseline": 3.78,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "ist_rate",
+      "label": "마음을 나타내는 말",
+      "unit": "회 / 문장",
+      "help": "보다·배고프다·기쁘다·생각하다·말하다처럼 인물의 마음과 상태를 말하는 낱말",
+      "value": 0.1,
+      "baseline": 0.16,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "self_ratio",
+      "label": "스스로 이어 말한 장면",
+      "unit": "%",
+      "help": "선택지 도움 없이 이어 말한 장면 비율",
+      "value": 80.95,
+      "baseline": 69.7,
+      "change": null,
+      "p_value": null
+     }
+    ],
+    "six_week_growth": [
+     {
+      "key": "mlc_m",
+      "label": "평균 문장 길이",
+      "unit": "형태소",
+      "help": "문장 하나의 평균 형태소 수(조사·어미 포함). 한국어 연구에서 4세와 5세 차이를 더 잘 보여 준 단위",
+      "value": 8.64,
+      "baseline": 7.96,
+      "change": null,
+      "p_value": 0.22
+     },
+     {
+      "key": "conn_rate",
+      "label": "이음말",
+      "unit": "회 / 문장",
+      "help": "'그래서·그런데·-아서·-다가'처럼 사건을 잇는 말이 한 문장에 몇 번 나오는지",
+      "value": 0.22,
+      "baseline": 0.27,
+      "change": null,
+      "p_value": 0.5
+     },
+     {
+      "key": "sg_score",
+      "label": "이야기문법",
+      "unit": "점 / 17",
+      "help": "배경·시작 사건·목표·시도·결과·반응을 얼마나 갖춰 말했는지 (이야기 한 편 평균)",
+      "value": 3.38,
+      "baseline": 4.83,
+      "change": null,
+      "p_value": 0.32
+     },
+     {
+      "key": "ist_rate",
+      "label": "마음을 나타내는 말",
+      "unit": "회 / 문장",
+      "help": "보다·배고프다·기쁘다·생각하다·말하다처럼 인물의 마음과 상태를 말하는 낱말",
+      "value": 0.15,
+      "baseline": 0.19,
+      "change": null,
+      "p_value": 0.65
+     },
+     {
+      "key": "self_ratio",
+      "label": "스스로 이어 말한 장면",
+      "unit": "%",
+      "help": "선택지 도움 없이 이어 말한 장면 비율",
+      "value": 70.91,
+      "baseline": 79.17,
+      "change": null,
+      "p_value": 0.38
+     }
+    ],
+    "story_grammar": {
+     "units": {
+      "배경": 67,
+      "등장인물": 100,
+      "시작 사건": 100,
+      "목표": 33,
+      "시도": 100,
+      "결과": 33,
+      "반응": 0
+     },
+     "mean_score": 3.7,
+     "complete_episodes": 1,
+     "stories": 3
+    },
+    "internal_states": {
+     "by_type": {
+      "지각": 0,
+      "생리": 2,
+      "의식": 0,
+      "감정": 0,
+      "정신": 0,
+      "말하기": 0
+     },
+     "examples": {
+      "지각": [],
+      "생리": [
+       "졸리"
+      ],
+      "의식": [],
+      "감정": [],
+      "정신": [],
+      "말하기": []
+     }
+    },
+    "connectives": {
+     "by_type": {
+      "순서": 1,
+      "원인": 3,
+      "대조": 1
+     },
+     "example": "토끼가 드디어 공을 찾았어요."
+    },
+    "emotion_vocab": {
+     "this_week": [],
+     "cumulative": 4,
+     "new": []
+    }
+   },
+   "cards": {
+    "scenes": {
+     "value": 21,
+     "last_week": 13
+    },
+    "self_scenes": {
+     "value": 17,
+     "total": 21,
+     "choice_help": 4
+    },
+    "mlc_m": {
+     "value": 9.4,
+     "last_week": 7.4
+    },
+    "mean_eojeol": {
+     "value": 4.2,
+     "last_week": 3.1
+    },
+    "new_words": {
+     "count": 9,
+     "examples": [
+      "공룡",
+      "선물",
+      "열다"
+     ]
+    }
+   },
+   "speech_trend": [
+    {
+     "week_start": "2026-09-28",
+     "mean_eojeol": 3.67
+    },
+    {
+     "week_start": "2026-10-05",
+     "mean_eojeol": 3.39
+    },
+    {
+     "week_start": "2026-10-12",
+     "mean_eojeol": 3.71
+    },
+    {
+     "week_start": "2026-10-19",
+     "mean_eojeol": 3.91
+    },
+    {
+     "week_start": "2026-10-26",
+     "mean_eojeol": 3.08
+    },
+    {
+     "week_start": "2026-11-02",
+     "mean_eojeol": 4.18
+    }
+   ],
+   "themes": [
+    {
+     "word": "공룡",
+     "count": 8,
+     "character": true,
+     "increased": false
+    },
+    {
+     "word": "친구",
+     "count": 7,
+     "character": false,
+     "increased": true
+    },
+    {
+     "word": "로봇",
+     "count": 7,
+     "character": true,
+     "increased": false
+    },
+    {
+     "word": "토끼",
+     "count": 6,
+     "character": true,
+     "increased": false
+    },
+    {
+     "word": "선물",
+     "count": 3,
+     "character": false,
+     "increased": true
+    },
+    {
+     "word": "숲",
+     "count": 2,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "공",
+     "count": 2,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "조개",
+     "count": 2,
+     "character": false,
+     "increased": false
+    }
+   ]
+  },
+  "아이 C": {
+   "child_id": "아이 C",
+   "week_start": "2026-11-02",
+   "week_end": "2026-11-08",
+   "books": 3,
+   "age_months": 67,
+   "development": {
+    "weekly": {
+     "mlc_m": [
+      8.32,
+      8.65,
+      8.0,
+      8.29,
+      7.71,
+      8.43
+     ],
+     "conn_rate": [
+      0.4,
+      0.25,
+      0.22,
+      0.27,
+      0.2,
+      0.3
+     ],
+     "sg_score": [
+      6.33,
+      4.0,
+      3.0,
+      5.0,
+      5.67,
+      3.33
+     ],
+     "ist_rate": [
+      0.28,
+      0.16,
+      0.33,
+      0.25,
+      0.08,
+      0.13
+     ],
+     "self_ratio": [
+      72.0,
+      81.25,
+      50.0,
+      77.27,
+      68.0,
+      81.48
+     ]
+    },
+    "recent_3w": {
+     "units": {
+      "배경": 67,
+      "등장인물": 100,
+      "시작 사건": 100,
+      "목표": 44,
+      "시도": 89,
+      "결과": 78,
+      "반응": 22
+     },
+     "ist": {
+      "지각": 0,
+      "생리": 5,
+      "의식": 0,
+      "감정": 3,
+      "정신": 1,
+      "말하기": 3
+     },
+     "conn": {
+      "원인": 8,
+      "순서": 5,
+      "대조": 6
+     },
+     "sentences": 80,
+     "sentences_per_story": 8.9
+    },
+    "age_ref": {
+     "배경": 85,
+     "등장인물": 95,
+     "시작 사건": 95,
+     "목표": 25,
+     "시도": 100,
+     "결과": 80,
+     "반응": 11,
+     "sentences_per_story": 14.2,
+     "structure_8": 5.41,
+     "mlc_m": [
+      16.96,
+      2.05
+     ],
+     "age": 5
+    },
+    "growth_evidence": {
+     "before": {
+      "text": "로봇은 집에 가야겠다고 생각했어요.",
+      "date": "2026-09-28",
+      "complexity": 5.0
+     },
+     "recent": {
+      "text": "로봇은 집에 가야겠다고 생각했어요.",
+      "date": "2026-10-20",
+      "complexity": 5.0
+     },
+     "note": "각 기간의 중간 수준 장면 (가장 잘한 장면이 아님)"
+    },
+    "milestones": [],
+    "next_steps": [
+     {
+      "tier": "먼저",
+      "target": "배경",
+      "question": "언제, 어디에서 있었던 일일까?",
+      "reason": "이야기의 시간·장소를 말한 경우가 적어요 (최근 그림책 9권 중 6권, 또래는 보통 85%)"
+     }
+    ],
+    "refined": {
+     "recent_3w": {
+      "stories": 9,
+      "ndw50": 34.0,
+      "episode_levels": {
+       "나열·묘사": 0,
+       "불완전한 에피소드": 5,
+       "완전한 에피소드": 4,
+       "여러 에피소드": 0
+      },
+      "best_level": "완전한 에피소드",
+      "intro_explicit_pct": 89,
+      "quotes_per_story": 0.22,
+      "complex_pct": 26,
+      "pronouns_per_10_sent": 0.38
+     },
+     "before_3w": {
+      "stories": 8,
+      "ndw50": 31.5,
+      "episode_levels": {
+       "나열·묘사": 2,
+       "불완전한 에피소드": 3,
+       "완전한 에피소드": 3,
+       "여러 에피소드": 0
+      },
+      "best_level": "완전한 에피소드",
+      "intro_explicit_pct": 100,
+      "quotes_per_story": 0.25,
+      "complex_pct": 25,
+      "pronouns_per_10_sent": 0.0
+     }
+    },
+    "this_week_vs_4weeks": [
+     {
+      "key": "mlc_m",
+      "label": "평균 문장 길이",
+      "unit": "형태소",
+      "help": "문장 하나의 평균 형태소 수(조사·어미 포함). 한국어 연구에서 4세와 5세 차이를 더 잘 보여 준 단위",
+      "value": 8.43,
+      "baseline": 8.11,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "conn_rate",
+      "label": "이음말",
+      "unit": "회 / 문장",
+      "help": "'그래서·그런데·-아서·-다가'처럼 사건을 잇는 말이 한 문장에 몇 번 나오는지",
+      "value": 0.3,
+      "baseline": 0.23,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "sg_score",
+      "label": "이야기문법",
+      "unit": "점 / 17",
+      "help": "배경·시작 사건·목표·시도·결과·반응을 얼마나 갖춰 말했는지 (이야기 한 편 평균)",
+      "value": 3.33,
+      "baseline": 4.45,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "ist_rate",
+      "label": "마음을 나타내는 말",
+      "unit": "회 / 문장",
+      "help": "보다·배고프다·기쁘다·생각하다·말하다처럼 인물의 마음과 상태를 말하는 낱말",
+      "value": 0.13,
+      "baseline": 0.2,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "self_ratio",
+      "label": "스스로 이어 말한 장면",
+      "unit": "%",
+      "help": "선택지 도움 없이 이어 말한 장면 비율",
+      "value": 81.48,
+      "baseline": 69.14,
+      "change": null,
+      "p_value": null
+     }
+    ],
+    "six_week_growth": [
+     {
+      "key": "mlc_m",
+      "label": "평균 문장 길이",
+      "unit": "형태소",
+      "help": "문장 하나의 평균 형태소 수(조사·어미 포함). 한국어 연구에서 4세와 5세 차이를 더 잘 보여 준 단위",
+      "value": 8.14,
+      "baseline": 8.32,
+      "change": null,
+      "p_value": 0.6
+     },
+     {
+      "key": "conn_rate",
+      "label": "이음말",
+      "unit": "회 / 문장",
+      "help": "'그래서·그런데·-아서·-다가'처럼 사건을 잇는 말이 한 문장에 몇 번 나오는지",
+      "value": 0.26,
+      "baseline": 0.31,
+      "change": null,
+      "p_value": 0.59
+     },
+     {
+      "key": "sg_score",
+      "label": "이야기문법",
+      "unit": "점 / 17",
+      "help": "배경·시작 사건·목표·시도·결과·반응을 얼마나 갖춰 말했는지 (이야기 한 편 평균)",
+      "value": 4.67,
+      "baseline": 4.5,
+      "change": null,
+      "p_value": 0.92
+     },
+     {
+      "key": "ist_rate",
+      "label": "마음을 나타내는 말",
+      "unit": "회 / 문장",
+      "help": "보다·배고프다·기쁘다·생각하다·말하다처럼 인물의 마음과 상태를 말하는 낱말",
+      "value": 0.15,
+      "baseline": 0.26,
+      "change": null,
+      "p_value": 0.11
+     },
+     {
+      "key": "self_ratio",
+      "label": "스스로 이어 말한 장면",
+      "unit": "%",
+      "help": "선택지 도움 없이 이어 말한 장면 비율",
+      "value": 75.68,
+      "baseline": 67.8,
+      "change": null,
+      "p_value": 0.31
+     }
+    ],
+    "story_grammar": {
+     "units": {
+      "배경": 33,
+      "등장인물": 100,
+      "시작 사건": 100,
+      "목표": 0,
+      "시도": 67,
+      "결과": 67,
+      "반응": 33
+     },
+     "mean_score": 3.3,
+     "complete_episodes": 0,
+     "stories": 3
+    },
+    "internal_states": {
+     "by_type": {
+      "지각": 0,
+      "생리": 3,
+      "의식": 0,
+      "감정": 1,
+      "정신": 0,
+      "말하기": 0
+     },
+     "examples": {
+      "지각": [],
+      "생리": [
+       "고프",
+       "졸리"
+      ],
+      "의식": [],
+      "감정": [
+       "행복"
+      ],
+      "정신": [],
+      "말하기": []
+     }
+    },
+    "connectives": {
+     "by_type": {
+      "원인": 3,
+      "순서": 3,
+      "대조": 2
+     },
+     "example": "고양이가 졸려서 낮잠을 잤어요."
+    },
+    "emotion_vocab": {
+     "this_week": [
+      "울다",
+      "행복"
+     ],
+     "cumulative": 6,
+     "new": [
+      "울다"
+     ]
+    }
+   },
+   "cards": {
+    "scenes": {
+     "value": 27,
+     "last_week": 25
+    },
+    "self_scenes": {
+     "value": 22,
+     "total": 27,
+     "choice_help": 5
+    },
+    "mlc_m": {
+     "value": 8.4,
+     "last_week": 7.7
+    },
+    "mean_eojeol": {
+     "value": 3.7,
+     "last_week": 3.6
+    },
+    "new_words": {
+     "count": 13,
+     "examples": [
+      "토끼",
+      "반짝이다",
+      "조개"
+     ]
+    }
+   },
+   "speech_trend": [
+    {
+     "week_start": "2026-09-28",
+     "mean_eojeol": 3.86
+    },
+    {
+     "week_start": "2026-10-05",
+     "mean_eojeol": 4.0
+    },
+    {
+     "week_start": "2026-10-12",
+     "mean_eojeol": 3.39
+    },
+    {
+     "week_start": "2026-10-19",
+     "mean_eojeol": 3.67
+    },
+    {
+     "week_start": "2026-10-26",
+     "mean_eojeol": 3.61
+    },
+    {
+     "week_start": "2026-11-02",
+     "mean_eojeol": 3.71
+    }
+   ],
+   "themes": [
+    {
+     "word": "공룡",
+     "count": 9,
+     "character": true,
+     "increased": false
+    },
+    {
+     "word": "토끼",
+     "count": 8,
+     "character": true,
+     "increased": false
+    },
+    {
+     "word": "고양이",
+     "count": 7,
+     "character": true,
+     "increased": false
+    },
+    {
+     "word": "친구",
+     "count": 3,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "조개",
+     "count": 3,
+     "character": false,
+     "increased": true
+    },
+    {
+     "word": "껍데기",
+     "count": 3,
+     "character": false,
+     "increased": true
+    },
+    {
+     "word": "낮잠",
+     "count": 2,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "신비",
+     "count": 2,
+     "character": false,
+     "increased": false
+    }
+   ]
+  },
+  "아이 D": {
+   "child_id": "아이 D",
+   "week_start": "2026-11-02",
+   "week_end": "2026-11-08",
+   "books": 2,
+   "age_months": 60,
+   "development": {
+    "weekly": {
+     "mlc_m": [
+      4.58,
+      6.14,
+      6.44,
+      8.52,
+      7.93,
+      8.13
+     ],
+     "conn_rate": [
+      0.0,
+      0.1,
+      0.06,
+      0.41,
+      0.58,
+      0.23
+     ],
+     "sg_score": [
+      0.33,
+      2.33,
+      1.0,
+      5.67,
+      5.5,
+      5.5
+     ],
+     "ist_rate": [
+      0.0,
+      0.1,
+      0.06,
+      0.16,
+      0.25,
+      0.15
+     ],
+     "self_ratio": [
+      70.83,
+      80.0,
+      62.5,
+      81.82,
+      83.33,
+      76.92
+     ]
+    },
+    "recent_3w": {
+     "units": {
+      "배경": 100,
+      "등장인물": 100,
+      "시작 사건": 100,
+      "목표": 71,
+      "시도": 100,
+      "결과": 57,
+      "반응": 29
+     },
+     "ist": {
+      "지각": 0,
+      "생리": 6,
+      "의식": 0,
+      "감정": 3,
+      "정신": 0,
+      "말하기": 1
+     },
+     "conn": {
+      "원인": 12,
+      "순서": 4,
+      "대조": 3
+     },
+     "sentences": 54,
+     "sentences_per_story": 7.7
+    },
+    "age_ref": {
+     "배경": 85,
+     "등장인물": 95,
+     "시작 사건": 95,
+     "목표": 25,
+     "시도": 100,
+     "결과": 80,
+     "반응": 11,
+     "sentences_per_story": 14.2,
+     "structure_8": 5.41,
+     "mlc_m": [
+      16.96,
+      2.05
+     ],
+     "age": 5
+    },
+    "growth_evidence": {
+     "before": {
+      "text": "다람쥐가 잤어요.",
+      "date": "2026-10-02",
+      "complexity": 2.0
+     },
+     "recent": {
+      "text": "그런데 다람쥐가 길을 잃어버렸어요.",
+      "date": "2026-10-21",
+      "complexity": 6.0
+     },
+     "note": "각 기간의 중간 수준 장면 (가장 잘한 장면이 아님)"
+    },
+    "milestones": [
+     {
+      "skill": "원인 이음말",
+      "date": "2026-10-21",
+      "text": "친구가 와서 다람쥐를 도와줬어요.",
+      "stories": 7
+     },
+     {
+      "skill": "목표 말하기",
+      "date": "2026-10-21",
+      "text": "다람쥐는 공을 찾고 싶었어요.",
+      "stories": 5
+     },
+     {
+      "skill": "완전한 에피소드 (목표→시도→결과)",
+      "date": "2026-10-22",
+      "text": "옛날에 놀이터에 공룡이 살았어요. 그런데 공룡이 길을 잃어버렸어요. 공룡이 집에 돌아가려고 했어요. 공룡이 나무에 올라가 봤어요. …",
+      "stories": 2
+     }
+    ],
+    "next_steps": [
+     {
+      "tier": "먼저",
+      "target": "결과",
+      "question": "그래서 어떻게 됐을까?",
+      "reason": "일이 어떻게 끝났는지 말한 경우가 적어요 (최근 그림책 7권 중 4권, 또래는 보통 80%)"
+     }
+    ],
+    "refined": {
+     "recent_3w": {
+      "stories": 7,
+      "ndw50": 28.7,
+      "episode_levels": {
+       "나열·묘사": 0,
+       "불완전한 에피소드": 5,
+       "완전한 에피소드": 2,
+       "여러 에피소드": 0
+      },
+      "best_level": "완전한 에피소드",
+      "intro_explicit_pct": 100,
+      "quotes_per_story": 0.14,
+      "complex_pct": 26,
+      "pronouns_per_10_sent": 0.0
+     },
+     "before_3w": {
+      "stories": 8,
+      "ndw50": 26.0,
+      "episode_levels": {
+       "나열·묘사": 5,
+       "불완전한 에피소드": 3,
+       "완전한 에피소드": 0,
+       "여러 에피소드": 0
+      },
+      "best_level": "불완전한 에피소드",
+      "intro_explicit_pct": 38,
+      "quotes_per_story": 0.0,
+      "complex_pct": 3,
+      "pronouns_per_10_sent": 1.31
+     }
+    },
+    "this_week_vs_4weeks": [
+     {
+      "key": "mlc_m",
+      "label": "평균 문장 길이",
+      "unit": "형태소",
+      "help": "문장 하나의 평균 형태소 수(조사·어미 포함). 한국어 연구에서 4세와 5세 차이를 더 잘 보여 준 단위",
+      "value": 8.13,
+      "baseline": 7.32,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "conn_rate",
+      "label": "이음말",
+      "unit": "회 / 문장",
+      "help": "'그래서·그런데·-아서·-다가'처럼 사건을 잇는 말이 한 문장에 몇 번 나오는지",
+      "value": 0.23,
+      "baseline": 0.27,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "sg_score",
+      "label": "이야기문법",
+      "unit": "점 / 17",
+      "help": "배경·시작 사건·목표·시도·결과·반응을 얼마나 갖춰 말했는지 (이야기 한 편 평균)",
+      "value": 5.5,
+      "baseline": 3.7,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "ist_rate",
+      "label": "마음을 나타내는 말",
+      "unit": "회 / 문장",
+      "help": "보다·배고프다·기쁘다·생각하다·말하다처럼 인물의 마음과 상태를 말하는 낱말",
+      "value": 0.15,
+      "baseline": 0.14,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "self_ratio",
+      "label": "스스로 이어 말한 장면",
+      "unit": "%",
+      "help": "선택지 도움 없이 이어 말한 장면 비율",
+      "value": 76.92,
+      "baseline": 77.14,
+      "change": null,
+      "p_value": null
+     }
+    ],
+    "six_week_growth": [
+     {
+      "key": "mlc_m",
+      "label": "평균 문장 길이",
+      "unit": "형태소",
+      "help": "문장 하나의 평균 형태소 수(조사·어미 포함). 한국어 연구에서 4세와 5세 차이를 더 잘 보여 준 단위",
+      "value": 8.26,
+      "baseline": 5.61,
+      "change": "up",
+      "p_value": 0.0005
+     },
+     {
+      "key": "conn_rate",
+      "label": "이음말",
+      "unit": "회 / 문장",
+      "help": "'그래서·그런데·-아서·-다가'처럼 사건을 잇는 말이 한 문장에 몇 번 나오는지",
+      "value": 0.4,
+      "baseline": 0.05,
+      "change": "up",
+      "p_value": 0.0005
+     },
+     {
+      "key": "sg_score",
+      "label": "이야기문법",
+      "unit": "점 / 17",
+      "help": "배경·시작 사건·목표·시도·결과·반응을 얼마나 갖춰 말했는지 (이야기 한 편 평균)",
+      "value": 5.57,
+      "baseline": 1.25,
+      "change": "up",
+      "p_value": 0.002
+     },
+     {
+      "key": "ist_rate",
+      "label": "마음을 나타내는 말",
+      "unit": "회 / 문장",
+      "help": "보다·배고프다·기쁘다·생각하다·말하다처럼 인물의 마음과 상태를 말하는 낱말",
+      "value": 0.18,
+      "baseline": 0.05,
+      "change": null,
+      "p_value": 0.02
+     },
+     {
+      "key": "self_ratio",
+      "label": "스스로 이어 말한 장면",
+      "unit": "%",
+      "help": "선택지 도움 없이 이어 말한 장면 비율",
+      "value": 80.85,
+      "baseline": 71.67,
+      "change": null,
+      "p_value": 0.47
+     }
+    ],
+    "story_grammar": {
+     "units": {
+      "배경": 100,
+      "등장인물": 100,
+      "시작 사건": 100,
+      "목표": 100,
+      "시도": 100,
+      "결과": 50,
+      "반응": 0
+     },
+     "mean_score": 5.5,
+     "complete_episodes": 1,
+     "stories": 2
+    },
+    "internal_states": {
+     "by_type": {
+      "지각": 0,
+      "생리": 1,
+      "의식": 0,
+      "감정": 0,
+      "정신": 0,
+      "말하기": 1
+     },
+     "examples": {
+      "지각": [],
+      "생리": [
+       "아프"
+      ],
+      "의식": [],
+      "감정": [],
+      "정신": [],
+      "말하기": [
+       "말"
+      ]
+     }
+    },
+    "connectives": {
+     "by_type": {
+      "원인": 2,
+      "순서": 1
+     },
+     "example": "친구가 와서 다람쥐를 도와줬어요."
+    },
+    "emotion_vocab": {
+     "this_week": [],
+     "cumulative": 4,
+     "new": []
+    }
+   },
+   "cards": {
+    "scenes": {
+     "value": 13,
+     "last_week": 12
+    },
+    "self_scenes": {
+     "value": 10,
+     "total": 13,
+     "choice_help": 3
+    },
+    "mlc_m": {
+     "value": 8.1,
+     "last_week": 7.9
+    },
+    "mean_eojeol": {
+     "value": 3.8,
+     "last_week": 3.7
+    },
+    "new_words": {
+     "count": 1,
+     "examples": [
+      "공원"
+     ]
+    }
+   },
+   "speech_trend": [
+    {
+     "week_start": "2026-09-28",
+     "mean_eojeol": 1.96
+    },
+    {
+     "week_start": "2026-10-05",
+     "mean_eojeol": 2.71
+    },
+    {
+     "week_start": "2026-10-12",
+     "mean_eojeol": 2.75
+    },
+    {
+     "week_start": "2026-10-19",
+     "mean_eojeol": 3.92
+    },
+    {
+     "week_start": "2026-10-26",
+     "mean_eojeol": 3.71
+    },
+    {
+     "week_start": "2026-11-02",
+     "mean_eojeol": 3.8
+    }
+   ],
+   "themes": [
+    {
+     "word": "공룡",
+     "count": 7,
+     "character": true,
+     "increased": false
+    },
+    {
+     "word": "다람쥐",
+     "count": 6,
+     "character": true,
+     "increased": false
+    },
+    {
+     "word": "친구",
+     "count": 3,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "공",
+     "count": 2,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "집",
+     "count": 2,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "잠",
+     "count": 2,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "끝",
+     "count": 2,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "옛날",
+     "count": 1,
+     "character": false,
+     "increased": false
+    }
+   ]
+  },
+  "아이 E": {
+   "child_id": "아이 E",
+   "week_start": "2026-11-02",
+   "week_end": "2026-11-08",
+   "books": 2,
+   "age_months": 62,
+   "development": {
+    "weekly": {
+     "mlc_m": [
+      8.24,
+      7.92,
+      6.93,
+      7.69,
+      7.75,
+      8.67
+     ],
+     "conn_rate": [
+      0.32,
+      0.08,
+      0.07,
+      0.25,
+      0.29,
+      0.38
+     ],
+     "sg_score": [
+      5.0,
+      1.0,
+      1.0,
+      3.5,
+      5.0,
+      5.0
+     ],
+     "ist_rate": [
+      0.21,
+      0.31,
+      0.07,
+      0.12,
+      0.18,
+      0.16
+     ],
+     "self_ratio": [
+      84.21,
+      69.23,
+      92.86,
+      83.33,
+      57.14,
+      87.5
+     ]
+    },
+    "recent_3w": {
+     "units": {
+      "배경": 83,
+      "등장인물": 100,
+      "시작 사건": 83,
+      "목표": 50,
+      "시도": 83,
+      "결과": 50,
+      "반응": 17
+     },
+     "ist": {
+      "지각": 0,
+      "생리": 0,
+      "의식": 0,
+      "감정": 4,
+      "정신": 2,
+      "말하기": 2
+     },
+     "conn": {
+      "원인": 6,
+      "순서": 3,
+      "대조": 4
+     },
+     "sentences": 47,
+     "sentences_per_story": 7.8
+    },
+    "age_ref": {
+     "배경": 85,
+     "등장인물": 95,
+     "시작 사건": 95,
+     "목표": 25,
+     "시도": 100,
+     "결과": 80,
+     "반응": 11,
+     "sentences_per_story": 14.2,
+     "structure_8": 5.41,
+     "mlc_m": [
+      16.96,
+      2.05
+     ],
+     "age": 5
+    },
+    "growth_evidence": {
+     "before": {
+      "text": "공룡이 자전거를 타고 달렸어요.",
+      "date": "2026-09-30",
+      "complexity": 4.0
+     },
+     "recent": {
+      "text": "어느 날 공룡이 기차역에 갔어요.",
+      "date": "2026-10-30",
+      "complexity": 5.0
+     },
+     "note": "각 기간의 중간 수준 장면 (가장 잘한 장면이 아님)"
+    },
+    "milestones": [
+     {
+      "skill": "완전한 에피소드 (목표→시도→결과)",
+      "date": "2026-10-20",
+      "text": "옛날에 동굴에 펭귄이 살았어요. 펭귄은 소중한 공을 잃어버렸어요. 펭귄은 공을 찾고 싶었어요. 펭귄이 큰 소리로 친구를 불렀어요. …",
+      "stories": 3
+     }
+    ],
+    "next_steps": [
+     {
+      "tier": "먼저",
+      "target": "결과",
+      "question": "그래서 어떻게 됐을까?",
+      "reason": "일이 어떻게 끝났는지 말한 경우가 적어요 (최근 그림책 6권 중 3권, 또래는 보통 80%)"
+     }
+    ],
+    "refined": {
+     "recent_3w": {
+      "stories": 6,
+      "ndw50": 27.8,
+      "episode_levels": {
+       "나열·묘사": 1,
+       "불완전한 에피소드": 2,
+       "완전한 에피소드": 3,
+       "여러 에피소드": 0
+      },
+      "best_level": "완전한 에피소드",
+      "intro_explicit_pct": 100,
+      "quotes_per_story": 0.0,
+      "complex_pct": 13,
+      "pronouns_per_10_sent": 0.0
+     },
+     "before_3w": {
+      "stories": 7,
+      "ndw50": 32.7,
+      "episode_levels": {
+       "나열·묘사": 2,
+       "불완전한 에피소드": 5,
+       "완전한 에피소드": 0,
+       "여러 에피소드": 0
+      },
+      "best_level": "불완전한 에피소드",
+      "intro_explicit_pct": 100,
+      "quotes_per_story": 0.14,
+      "complex_pct": 21,
+      "pronouns_per_10_sent": 0.83
+     }
+    },
+    "this_week_vs_4weeks": [
+     {
+      "key": "mlc_m",
+      "label": "평균 문장 길이",
+      "unit": "형태소",
+      "help": "문장 하나의 평균 형태소 수(조사·어미 포함). 한국어 연구에서 4세와 5세 차이를 더 잘 보여 준 단위",
+      "value": 8.67,
+      "baseline": 7.57,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "conn_rate",
+      "label": "이음말",
+      "unit": "회 / 문장",
+      "help": "'그래서·그런데·-아서·-다가'처럼 사건을 잇는 말이 한 문장에 몇 번 나오는지",
+      "value": 0.38,
+      "baseline": 0.17,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "sg_score",
+      "label": "이야기문법",
+      "unit": "점 / 17",
+      "help": "배경·시작 사건·목표·시도·결과·반응을 얼마나 갖춰 말했는지 (이야기 한 편 평균)",
+      "value": 5.0,
+      "baseline": 2.62,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "ist_rate",
+      "label": "마음을 나타내는 말",
+      "unit": "회 / 문장",
+      "help": "보다·배고프다·기쁘다·생각하다·말하다처럼 인물의 마음과 상태를 말하는 낱말",
+      "value": 0.16,
+      "baseline": 0.17,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "self_ratio",
+      "label": "스스로 이어 말한 장면",
+      "unit": "%",
+      "help": "선택지 도움 없이 이어 말한 장면 비율",
+      "value": 87.5,
+      "baseline": 75.47,
+      "change": null,
+      "p_value": null
+     }
+    ],
+    "six_week_growth": [
+     {
+      "key": "mlc_m",
+      "label": "평균 문장 길이",
+      "unit": "형태소",
+      "help": "문장 하나의 평균 형태소 수(조사·어미 포함). 한국어 연구에서 4세와 5세 차이를 더 잘 보여 준 단위",
+      "value": 8.09,
+      "baseline": 7.77,
+      "change": null,
+      "p_value": 0.59
+     },
+     {
+      "key": "conn_rate",
+      "label": "이음말",
+      "unit": "회 / 문장",
+      "help": "'그래서·그런데·-아서·-다가'처럼 사건을 잇는 말이 한 문장에 몇 번 나오는지",
+      "value": 0.31,
+      "baseline": 0.17,
+      "change": null,
+      "p_value": 0.14
+     },
+     {
+      "key": "sg_score",
+      "label": "이야기문법",
+      "unit": "점 / 17",
+      "help": "배경·시작 사건·목표·시도·결과·반응을 얼마나 갖춰 말했는지 (이야기 한 편 평균)",
+      "value": 4.5,
+      "baseline": 2.71,
+      "change": null,
+      "p_value": 0.24
+     },
+     {
+      "key": "ist_rate",
+      "label": "마음을 나타내는 말",
+      "unit": "회 / 문장",
+      "help": "보다·배고프다·기쁘다·생각하다·말하다처럼 인물의 마음과 상태를 말하는 낱말",
+      "value": 0.15,
+      "baseline": 0.2,
+      "change": null,
+      "p_value": 0.6
+     },
+     {
+      "key": "self_ratio",
+      "label": "스스로 이어 말한 장면",
+      "unit": "%",
+      "help": "선택지 도움 없이 이어 말한 장면 비율",
+      "value": 76.19,
+      "baseline": 82.61,
+      "change": null,
+      "p_value": 0.51
+     }
+    ],
+    "story_grammar": {
+     "units": {
+      "배경": 100,
+      "등장인물": 100,
+      "시작 사건": 100,
+      "목표": 50,
+      "시도": 100,
+      "결과": 50,
+      "반응": 0
+     },
+     "mean_score": 5.0,
+     "complete_episodes": 1,
+     "stories": 2
+    },
+    "internal_states": {
+     "by_type": {
+      "지각": 0,
+      "생리": 0,
+      "의식": 0,
+      "감정": 1,
+      "정신": 2,
+      "말하기": 0
+     },
+     "examples": {
+      "지각": [],
+      "생리": [],
+      "의식": [],
+      "감정": [
+       "행복"
+      ],
+      "정신": [
+       "생각"
+      ],
+      "말하기": []
+     }
+    },
+    "connectives": {
+     "by_type": {
+      "대조": 3,
+      "원인": 2,
+      "순서": 1
+     },
+     "example": "그런데 로봇이 길을 잃어버렸어요."
+    },
+    "emotion_vocab": {
+     "this_week": [
+      "행복"
+     ],
+     "cumulative": 5,
+     "new": []
+    }
+   },
+   "cards": {
+    "scenes": {
+     "value": 16,
+     "last_week": 14
+    },
+    "self_scenes": {
+     "value": 14,
+     "total": 16,
+     "choice_help": 2
+    },
+    "mlc_m": {
+     "value": 8.7,
+     "last_week": 7.8
+    },
+    "mean_eojeol": {
+     "value": 3.8,
+     "last_week": 3.6
+    },
+    "new_words": {
+     "count": 5,
+     "examples": [
+      "로봇",
+      "생각",
+      "밤하늘"
+     ]
+    }
+   },
+   "speech_trend": [
+    {
+     "week_start": "2026-09-28",
+     "mean_eojeol": 3.76
+    },
+    {
+     "week_start": "2026-10-05",
+     "mean_eojeol": 3.38
+    },
+    {
+     "week_start": "2026-10-12",
+     "mean_eojeol": 2.93
+    },
+    {
+     "week_start": "2026-10-19",
+     "mean_eojeol": 3.46
+    },
+    {
+     "week_start": "2026-10-26",
+     "mean_eojeol": 3.56
+    },
+    {
+     "week_start": "2026-11-02",
+     "mean_eojeol": 3.83
+    }
+   ],
+   "themes": [
+    {
+     "word": "여우",
+     "count": 8,
+     "character": true,
+     "increased": false
+    },
+    {
+     "word": "로봇",
+     "count": 7,
+     "character": true,
+     "increased": false
+    },
+    {
+     "word": "친구",
+     "count": 4,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "집",
+     "count": 4,
+     "character": false,
+     "increased": true
+    },
+    {
+     "word": "공원",
+     "count": 2,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "길",
+     "count": 2,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "생각",
+     "count": 2,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "끝",
+     "count": 2,
+     "character": false,
+     "increased": false
+    }
+   ]
+  },
+  "아이 F": {
+   "child_id": "아이 F",
+   "week_start": "2026-11-02",
+   "week_end": "2026-11-08",
+   "books": 3,
+   "age_months": 63,
+   "development": {
+    "weekly": {
+     "mlc_m": [
+      7.84,
+      7.72,
+      7.56,
+      8.18,
+      7.82,
+      7.88
+     ],
+     "conn_rate": [
+      0.45,
+      0.26,
+      0.31,
+      0.4,
+      0.38,
+      0.22
+     ],
+     "sg_score": [
+      5.0,
+      3.67,
+      5.0,
+      6.0,
+      4.5,
+      2.33
+     ],
+     "ist_rate": [
+      0.18,
+      0.15,
+      0.19,
+      0.17,
+      0.41,
+      0.17
+     ],
+     "self_ratio": [
+      86.36,
+      69.57,
+      68.75,
+      73.33,
+      68.75,
+      91.3
+     ]
+    },
+    "recent_3w": {
+     "units": {
+      "배경": 57,
+      "등장인물": 100,
+      "시작 사건": 86,
+      "목표": 29,
+      "시도": 86,
+      "결과": 57,
+      "반응": 29
+     },
+     "ist": {
+      "지각": 0,
+      "생리": 3,
+      "의식": 0,
+      "감정": 7,
+      "정신": 0,
+      "말하기": 4
+     },
+     "conn": {
+      "원인": 7,
+      "순서": 5,
+      "대조": 5
+     },
+     "sentences": 58,
+     "sentences_per_story": 8.3
+    },
+    "age_ref": {
+     "배경": 85,
+     "등장인물": 95,
+     "시작 사건": 95,
+     "목표": 25,
+     "시도": 100,
+     "결과": 80,
+     "반응": 11,
+     "sentences_per_story": 14.2,
+     "structure_8": 5.41,
+     "mlc_m": [
+      16.96,
+      2.05
+     ],
+     "age": 5
+    },
+    "growth_evidence": {
+     "before": {
+      "text": "옛날에 숲에 고양이가 살았어요.",
+      "date": "2026-10-01",
+      "complexity": 4.0
+     },
+     "recent": {
+      "text": "그런데 펭귄이 길을 잃어버렸어요.",
+      "date": "2026-10-20",
+      "complexity": 6.0
+     },
+     "note": "각 기간의 중간 수준 장면 (가장 잘한 장면이 아님)"
+    },
+    "milestones": [
+     {
+      "skill": "인용",
+      "date": "2026-10-20",
+      "text": "펭귄이 \"같이 놀자\"라고 말했어요.",
+      "stories": 3
+     }
+    ],
+    "next_steps": [
+     {
+      "tier": "먼저",
+      "target": "배경",
+      "question": "언제, 어디에서 있었던 일일까?",
+      "reason": "이야기의 시간·장소를 말한 경우가 적어요 (최근 그림책 7권 중 4권, 또래는 보통 85%)"
+     },
+     {
+      "tier": "먼저",
+      "target": "결과",
+      "question": "그래서 어떻게 됐을까?",
+      "reason": "일이 어떻게 끝났는지 말한 경우가 적어요 (최근 그림책 7권 중 4권, 또래는 보통 80%)"
+     }
+    ],
+    "refined": {
+     "recent_3w": {
+      "stories": 7,
+      "ndw50": 32.5,
+      "episode_levels": {
+       "나열·묘사": 1,
+       "불완전한 에피소드": 4,
+       "완전한 에피소드": 2,
+       "여러 에피소드": 0
+      },
+      "best_level": "완전한 에피소드",
+      "intro_explicit_pct": 100,
+      "quotes_per_story": 0.43,
+      "complex_pct": 26,
+      "pronouns_per_10_sent": 0.34
+     },
+     "before_3w": {
+      "stories": 8,
+      "ndw50": 32.3,
+      "episode_levels": {
+       "나열·묘사": 1,
+       "불완전한 에피소드": 5,
+       "완전한 에피소드": 2,
+       "여러 에피소드": 0
+      },
+      "best_level": "완전한 에피소드",
+      "intro_explicit_pct": 88,
+      "quotes_per_story": 0.0,
+      "complex_pct": 19,
+      "pronouns_per_10_sent": 0.29
+     }
+    },
+    "this_week_vs_4weeks": [
+     {
+      "key": "mlc_m",
+      "label": "평균 문장 길이",
+      "unit": "형태소",
+      "help": "문장 하나의 평균 형태소 수(조사·어미 포함). 한국어 연구에서 4세와 5세 차이를 더 잘 보여 준 단위",
+      "value": 7.88,
+      "baseline": 7.81,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "conn_rate",
+      "label": "이음말",
+      "unit": "회 / 문장",
+      "help": "'그래서·그런데·-아서·-다가'처럼 사건을 잇는 말이 한 문장에 몇 번 나오는지",
+      "value": 0.22,
+      "baseline": 0.33,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "sg_score",
+      "label": "이야기문법",
+      "unit": "점 / 17",
+      "help": "배경·시작 사건·목표·시도·결과·반응을 얼마나 갖춰 말했는지 (이야기 한 편 평균)",
+      "value": 2.33,
+      "baseline": 4.67,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "ist_rate",
+      "label": "마음을 나타내는 말",
+      "unit": "회 / 문장",
+      "help": "보다·배고프다·기쁘다·생각하다·말하다처럼 인물의 마음과 상태를 말하는 낱말",
+      "value": 0.17,
+      "baseline": 0.22,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "self_ratio",
+      "label": "스스로 이어 말한 장면",
+      "unit": "%",
+      "help": "선택지 도움 없이 이어 말한 장면 비율",
+      "value": 91.3,
+      "baseline": 70.0,
+      "change": null,
+      "p_value": null
+     }
+    ],
+    "six_week_growth": [
+     {
+      "key": "mlc_m",
+      "label": "평균 문장 길이",
+      "unit": "형태소",
+      "help": "문장 하나의 평균 형태소 수(조사·어미 포함). 한국어 연구에서 4세와 5세 차이를 더 잘 보여 준 단위",
+      "value": 7.95,
+      "baseline": 7.72,
+      "change": null,
+      "p_value": 0.5
+     },
+     {
+      "key": "conn_rate",
+      "label": "이음말",
+      "unit": "회 / 문장",
+      "help": "'그래서·그런데·-아서·-다가'처럼 사건을 잇는 말이 한 문장에 몇 번 나오는지",
+      "value": 0.31,
+      "baseline": 0.34,
+      "change": null,
+      "p_value": 0.73
+     },
+     {
+      "key": "sg_score",
+      "label": "이야기문법",
+      "unit": "점 / 17",
+      "help": "배경·시작 사건·목표·시도·결과·반응을 얼마나 갖춰 말했는지 (이야기 한 편 평균)",
+      "value": 4.0,
+      "baseline": 4.5,
+      "change": null,
+      "p_value": 0.74
+     },
+     {
+      "key": "ist_rate",
+      "label": "마음을 나타내는 말",
+      "unit": "회 / 문장",
+      "help": "보다·배고프다·기쁘다·생각하다·말하다처럼 인물의 마음과 상태를 말하는 낱말",
+      "value": 0.24,
+      "baseline": 0.17,
+      "change": null,
+      "p_value": 0.21
+     },
+     {
+      "key": "self_ratio",
+      "label": "스스로 이어 말한 장면",
+      "unit": "%",
+      "help": "선택지 도움 없이 이어 말한 장면 비율",
+      "value": 79.63,
+      "baseline": 75.41,
+      "change": null,
+      "p_value": 0.62
+     }
+    ],
+    "story_grammar": {
+     "units": {
+      "배경": 33,
+      "등장인물": 100,
+      "시작 사건": 67,
+      "목표": 0,
+      "시도": 67,
+      "결과": 33,
+      "반응": 0
+     },
+     "mean_score": 2.3,
+     "complete_episodes": 0,
+     "stories": 3
+    },
+    "internal_states": {
+     "by_type": {
+      "지각": 0,
+      "생리": 0,
+      "의식": 0,
+      "감정": 3,
+      "정신": 0,
+      "말하기": 1
+     },
+     "examples": {
+      "지각": [],
+      "생리": [],
+      "의식": [],
+      "감정": [
+       "놀라",
+       "신나"
+      ],
+      "정신": [],
+      "말하기": [
+       "말"
+      ]
+     }
+    },
+    "connectives": {
+     "by_type": {
+      "원인": 3,
+      "순서": 1,
+      "대조": 1
+     },
+     "example": "그래서 로봇은 집으로 갔어요."
+    },
+    "emotion_vocab": {
+     "this_week": [
+      "깜짝",
+      "놀라다",
+      "신나다",
+      "울다"
+     ],
+     "cumulative": 5,
+     "new": [
+      "신나다",
+      "울다"
+     ]
+    }
+   },
+   "cards": {
+    "scenes": {
+     "value": 23,
+     "last_week": 16
+    },
+    "self_scenes": {
+     "value": 21,
+     "total": 23,
+     "choice_help": 2
+    },
+    "mlc_m": {
+     "value": 7.9,
+     "last_week": 7.8
+    },
+    "mean_eojeol": {
+     "value": 3.6,
+     "last_week": 3.6
+    },
+    "new_words": {
+     "count": 12,
+     "examples": [
+      "토끼",
+      "맛있다",
+      "케이크"
+     ]
+    }
+   },
+   "speech_trend": [
+    {
+     "week_start": "2026-09-28",
+     "mean_eojeol": 3.48
+    },
+    {
+     "week_start": "2026-10-05",
+     "mean_eojeol": 3.44
+    },
+    {
+     "week_start": "2026-10-12",
+     "mean_eojeol": 3.56
+    },
+    {
+     "week_start": "2026-10-19",
+     "mean_eojeol": 3.82
+    },
+    {
+     "week_start": "2026-10-26",
+     "mean_eojeol": 3.59
+    },
+    {
+     "week_start": "2026-11-02",
+     "mean_eojeol": 3.62
+    }
+   ],
+   "themes": [
+    {
+     "word": "로봇",
+     "count": 7,
+     "character": true,
+     "increased": false
+    },
+    {
+     "word": "다람쥐",
+     "count": 7,
+     "character": true,
+     "increased": false
+    },
+    {
+     "word": "토끼",
+     "count": 6,
+     "character": true,
+     "increased": false
+    },
+    {
+     "word": "친구",
+     "count": 4,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "집",
+     "count": 3,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "케이크",
+     "count": 3,
+     "character": false,
+     "increased": true
+    },
+    {
+     "word": "끝",
+     "count": 2,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "자전거",
+     "count": 1,
+     "character": false,
+     "increased": false
+    }
+   ]
+  },
+  "아이 G": {
+   "child_id": "아이 G",
+   "week_start": "2026-11-02",
+   "week_end": "2026-11-08",
+   "books": 2,
+   "age_months": 65,
+   "development": {
+    "weekly": {
+     "mlc_m": [
+      8.0,
+      8.33,
+      8.6,
+      7.82,
+      6.69,
+      5.5
+     ],
+     "conn_rate": [
+      0.41,
+      0.36,
+      0.36,
+      0.05,
+      0.06,
+      0.0
+     ],
+     "sg_score": [
+      5.5,
+      5.0,
+      2.5,
+      1.0,
+      1.0,
+      0.0
+     ],
+     "ist_rate": [
+      0.24,
+      0.23,
+      0.36,
+      0.18,
+      0.12,
+      0.07
+     ],
+     "self_ratio": [
+      76.47,
+      81.82,
+      71.43,
+      72.73,
+      93.75,
+      35.71
+     ]
+    },
+    "recent_3w": {
+     "units": {
+      "배경": 14,
+      "등장인물": 100,
+      "시작 사건": 29,
+      "목표": 0,
+      "시도": 14,
+      "결과": 14,
+      "반응": 0
+     },
+     "ist": {
+      "지각": 0,
+      "생리": 2,
+      "의식": 0,
+      "감정": 1,
+      "정신": 2,
+      "말하기": 2
+     },
+     "conn": {
+      "원인": 1,
+      "순서": 0,
+      "대조": 1
+     },
+     "sentences": 52,
+     "sentences_per_story": 7.4
+    },
+    "age_ref": {
+     "배경": 85,
+     "등장인물": 95,
+     "시작 사건": 95,
+     "목표": 25,
+     "시도": 100,
+     "결과": 80,
+     "반응": 11,
+     "sentences_per_story": 14.2,
+     "structure_8": 5.41,
+     "mlc_m": [
+      16.96,
+      2.05
+     ],
+     "age": 5
+    },
+    "growth_evidence": {
+     "before": {
+      "text": "다람쥐가 무거운 상자를 옮겼어요.",
+      "date": "2026-10-01",
+      "complexity": 6.0
+     },
+     "recent": {
+      "text": "곰은 그림을 그렸어요.",
+      "date": "2026-10-22",
+      "complexity": 3.0
+     },
+     "note": "각 기간의 중간 수준 장면 (가장 잘한 장면이 아님)"
+    },
+    "milestones": [],
+    "next_steps": [
+     {
+      "tier": "먼저",
+      "target": "배경",
+      "question": "언제, 어디에서 있었던 일일까?",
+      "reason": "이야기의 시간·장소를 말한 경우가 적어요 (최근 그림책 7권 중 1권, 또래는 보통 85%)"
+     },
+     {
+      "tier": "먼저",
+      "target": "시작 사건",
+      "question": "그런데 곰에게 무슨 일이 생겼을까?",
+      "reason": "이야기를 움직이는 사건이 드물어요 (최근 그림책 7권 중 2권, 또래는 보통 95%)"
+     }
+    ],
+    "refined": {
+     "recent_3w": {
+      "stories": 7,
+      "ndw50": 31.9,
+      "episode_levels": {
+       "나열·묘사": 5,
+       "불완전한 에피소드": 2,
+       "완전한 에피소드": 0,
+       "여러 에피소드": 0
+      },
+      "best_level": "불완전한 에피소드",
+      "intro_explicit_pct": 43,
+      "quotes_per_story": 0.14,
+      "complex_pct": 15,
+      "pronouns_per_10_sent": 1.35
+     },
+     "before_3w": {
+      "stories": 7,
+      "ndw50": 30.5,
+      "episode_levels": {
+       "나열·묘사": 1,
+       "불완전한 에피소드": 4,
+       "완전한 에피소드": 2,
+       "여러 에피소드": 0
+      },
+      "best_level": "완전한 에피소드",
+      "intro_explicit_pct": 86,
+      "quotes_per_story": 0.43,
+      "complex_pct": 34,
+      "pronouns_per_10_sent": 0.17
+     }
+    },
+    "this_week_vs_4weeks": [
+     {
+      "key": "mlc_m",
+      "label": "평균 문장 길이",
+      "unit": "형태소",
+      "help": "문장 하나의 평균 형태소 수(조사·어미 포함). 한국어 연구에서 4세와 5세 차이를 더 잘 보여 준 단위",
+      "value": 5.5,
+      "baseline": 7.9,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "conn_rate",
+      "label": "이음말",
+      "unit": "회 / 문장",
+      "help": "'그래서·그런데·-아서·-다가'처럼 사건을 잇는 말이 한 문장에 몇 번 나오는지",
+      "value": 0.0,
+      "baseline": 0.2,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "sg_score",
+      "label": "이야기문법",
+      "unit": "점 / 17",
+      "help": "배경·시작 사건·목표·시도·결과·반응을 얼마나 갖춰 말했는지 (이야기 한 편 평균)",
+      "value": 0.0,
+      "baseline": 2.5,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "ist_rate",
+      "label": "마음을 나타내는 말",
+      "unit": "회 / 문장",
+      "help": "보다·배고프다·기쁘다·생각하다·말하다처럼 인물의 마음과 상태를 말하는 낱말",
+      "value": 0.07,
+      "baseline": 0.22,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "self_ratio",
+      "label": "스스로 이어 말한 장면",
+      "unit": "%",
+      "help": "선택지 도움 없이 이어 말한 장면 비율",
+      "value": 35.71,
+      "baseline": 79.73,
+      "change": null,
+      "p_value": null
+     }
+    ],
+    "six_week_growth": [
+     {
+      "key": "mlc_m",
+      "label": "평균 문장 길이",
+      "unit": "형태소",
+      "help": "문장 하나의 평균 형태소 수(조사·어미 포함). 한국어 연구에서 4세와 5세 차이를 더 잘 보여 준 단위",
+      "value": 6.85,
+      "baseline": 8.29,
+      "change": null,
+      "p_value": 0.0045
+     },
+     {
+      "key": "conn_rate",
+      "label": "이음말",
+      "unit": "회 / 문장",
+      "help": "'그래서·그런데·-아서·-다가'처럼 사건을 잇는 말이 한 문장에 몇 번 나오는지",
+      "value": 0.04,
+      "baseline": 0.38,
+      "change": "down",
+      "p_value": 0.0005
+     },
+     {
+      "key": "sg_score",
+      "label": "이야기문법",
+      "unit": "점 / 17",
+      "help": "배경·시작 사건·목표·시도·결과·반응을 얼마나 갖춰 말했는지 (이야기 한 편 평균)",
+      "value": 0.71,
+      "baseline": 4.43,
+      "change": null,
+      "p_value": 0.0065
+     },
+     {
+      "key": "ist_rate",
+      "label": "마음을 나타내는 말",
+      "unit": "회 / 문장",
+      "help": "보다·배고프다·기쁘다·생각하다·말하다처럼 인물의 마음과 상태를 말하는 낱말",
+      "value": 0.13,
+      "baseline": 0.26,
+      "change": null,
+      "p_value": 0.026
+     },
+     {
+      "key": "self_ratio",
+      "label": "스스로 이어 말한 장면",
+      "unit": "%",
+      "help": "선택지 도움 없이 이어 말한 장면 비율",
+      "value": 69.23,
+      "baseline": 77.36,
+      "change": null,
+      "p_value": 0.52
+     }
+    ],
+    "story_grammar": {
+     "units": {
+      "배경": 0,
+      "등장인물": 100,
+      "시작 사건": 0,
+      "목표": 0,
+      "시도": 0,
+      "결과": 0,
+      "반응": 0
+     },
+     "mean_score": 0.0,
+     "complete_episodes": 0,
+     "stories": 2
+    },
+    "internal_states": {
+     "by_type": {
+      "지각": 0,
+      "생리": 0,
+      "의식": 0,
+      "감정": 0,
+      "정신": 0,
+      "말하기": 1
+     },
+     "examples": {
+      "지각": [],
+      "생리": [],
+      "의식": [],
+      "감정": [],
+      "정신": [],
+      "말하기": [
+       "말"
+      ]
+     }
+    },
+    "connectives": {
+     "by_type": {},
+     "example": null
+    },
+    "emotion_vocab": {
+     "this_week": [
+      "울다"
+     ],
+     "cumulative": 5,
+     "new": []
+    }
+   },
+   "cards": {
+    "scenes": {
+     "value": 14,
+     "last_week": 16
+    },
+    "self_scenes": {
+     "value": 5,
+     "total": 14,
+     "choice_help": 9
+    },
+    "mlc_m": {
+     "value": 5.5,
+     "last_week": 6.7
+    },
+    "mean_eojeol": {
+     "value": 2.2,
+     "last_week": 3.0
+    },
+    "new_words": {
+     "count": 2,
+     "examples": [
+      "고양이",
+      "공원"
+     ]
+    }
+   },
+   "speech_trend": [
+    {
+     "week_start": "2026-09-28",
+     "mean_eojeol": 3.79
+    },
+    {
+     "week_start": "2026-10-05",
+     "mean_eojeol": 3.88
+    },
+    {
+     "week_start": "2026-10-12",
+     "mean_eojeol": 3.67
+    },
+    {
+     "week_start": "2026-10-19",
+     "mean_eojeol": 3.23
+    },
+    {
+     "week_start": "2026-10-26",
+     "mean_eojeol": 3.0
+    },
+    {
+     "week_start": "2026-11-02",
+     "mean_eojeol": 2.21
+    }
+   ],
+   "themes": [
+    {
+     "word": "다람쥐",
+     "count": 3,
+     "character": true,
+     "increased": false
+    },
+    {
+     "word": "고양이",
+     "count": 3,
+     "character": true,
+     "increased": false
+    },
+    {
+     "word": "나무",
+     "count": 1,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "집",
+     "count": 1,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "공원",
+     "count": 1,
+     "character": false,
+     "increased": false
+    }
+   ]
+  },
+  "아이 H": {
+   "child_id": "아이 H",
+   "week_start": "2026-11-02",
+   "week_end": "2026-11-08",
+   "books": 3,
+   "age_months": 50,
+   "development": {
+    "weekly": {
+     "mlc_m": [
+      7.81,
+      7.27,
+      8.09,
+      7.6,
+      8.5,
+      7.96
+     ],
+     "conn_rate": [
+      0.2,
+      0.14,
+      0.17,
+      0.36,
+      0.18,
+      0.45
+     ],
+     "sg_score": [
+      2.67,
+      3.67,
+      3.0,
+      4.5,
+      5.33,
+      5.33
+     ],
+     "ist_rate": [
+      0.12,
+      0.1,
+      0.3,
+      0.25,
+      0.16,
+      0.14
+     ],
+     "self_ratio": [
+      76.0,
+      76.19,
+      78.26,
+      78.57,
+      81.82,
+      86.36
+     ]
+    },
+    "recent_3w": {
+     "units": {
+      "배경": 75,
+      "등장인물": 100,
+      "시작 사건": 100,
+      "목표": 25,
+      "시도": 88,
+      "결과": 75,
+      "반응": 50
+     },
+     "ist": {
+      "지각": 0,
+      "생리": 6,
+      "의식": 0,
+      "감정": 4,
+      "정신": 0,
+      "말하기": 2
+     },
+     "conn": {
+      "원인": 11,
+      "순서": 4,
+      "대조": 4
+     },
+     "sentences": 64,
+     "sentences_per_story": 8.0
+    },
+    "age_ref": {
+     "배경": 55,
+     "등장인물": 70,
+     "시작 사건": 70,
+     "목표": 20,
+     "시도": 65,
+     "결과": 60,
+     "반응": 10,
+     "sentences_per_story": 7.9,
+     "structure_8": 3.8,
+     "mlc_m": [
+      15.05,
+      2.07
+     ],
+     "age": 4
+    },
+    "growth_evidence": {
+     "before": {
+      "text": "다람쥐는 너무 행복했어요.",
+      "date": "2026-10-01",
+      "complexity": 4.0
+     },
+     "recent": {
+      "text": "강아지가 큰 나무에 올라갔어요.",
+      "date": "2026-10-22",
+      "complexity": 6.0
+     },
+     "note": "각 기간의 중간 수준 장면 (가장 잘한 장면이 아님)"
+    },
+    "milestones": [],
+    "next_steps": [
+     {
+      "tier": "한 단계 더",
+      "target": "목표",
+      "question": "공룡은 무엇을 하고 싶었을까?",
+      "reason": "인물이 무엇을 원했는지는 4~5세에 아직 드물게 말해요. 아직 쓰지 않아도 괜찮아요"
+     }
+    ],
+    "refined": {
+     "recent_3w": {
+      "stories": 8,
+      "ndw50": 32.1,
+      "episode_levels": {
+       "나열·묘사": 0,
+       "불완전한 에피소드": 7,
+       "완전한 에피소드": 1,
+       "여러 에피소드": 0
+      },
+      "best_level": "완전한 에피소드",
+      "intro_explicit_pct": 100,
+      "quotes_per_story": 0.0,
+      "complex_pct": 22,
+      "pronouns_per_10_sent": 0.16
+     },
+     "before_3w": {
+      "stories": 9,
+      "ndw50": 34.1,
+      "episode_levels": {
+       "나열·묘사": 2,
+       "불완전한 에피소드": 5,
+       "완전한 에피소드": 2,
+       "여러 에피소드": 0
+      },
+      "best_level": "완전한 에피소드",
+      "intro_explicit_pct": 78,
+      "quotes_per_story": 0.11,
+      "complex_pct": 21,
+      "pronouns_per_10_sent": 0.42
+     }
+    },
+    "this_week_vs_4weeks": [
+     {
+      "key": "mlc_m",
+      "label": "평균 문장 길이",
+      "unit": "형태소",
+      "help": "문장 하나의 평균 형태소 수(조사·어미 포함). 한국어 연구에서 4세와 5세 차이를 더 잘 보여 준 단위",
+      "value": 7.96,
+      "baseline": 7.9,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "conn_rate",
+      "label": "이음말",
+      "unit": "회 / 문장",
+      "help": "'그래서·그런데·-아서·-다가'처럼 사건을 잇는 말이 한 문장에 몇 번 나오는지",
+      "value": 0.45,
+      "baseline": 0.2,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "sg_score",
+      "label": "이야기문법",
+      "unit": "점 / 17",
+      "help": "배경·시작 사건·목표·시도·결과·반응을 얼마나 갖춰 말했는지 (이야기 한 편 평균)",
+      "value": 5.33,
+      "baseline": 4.09,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "ist_rate",
+      "label": "마음을 나타내는 말",
+      "unit": "회 / 문장",
+      "help": "보다·배고프다·기쁘다·생각하다·말하다처럼 인물의 마음과 상태를 말하는 낱말",
+      "value": 0.14,
+      "baseline": 0.2,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "self_ratio",
+      "label": "스스로 이어 말한 장면",
+      "unit": "%",
+      "help": "선택지 도움 없이 이어 말한 장면 비율",
+      "value": 86.36,
+      "baseline": 78.75,
+      "change": null,
+      "p_value": null
+     }
+    ],
+    "six_week_growth": [
+     {
+      "key": "mlc_m",
+      "label": "평균 문장 길이",
+      "unit": "형태소",
+      "help": "문장 하나의 평균 형태소 수(조사·어미 포함). 한국어 연구에서 4세와 5세 차이를 더 잘 보여 준 단위",
+      "value": 8.08,
+      "baseline": 7.73,
+      "change": null,
+      "p_value": 0.31
+     },
+     {
+      "key": "conn_rate",
+      "label": "이음말",
+      "unit": "회 / 문장",
+      "help": "'그래서·그런데·-아서·-다가'처럼 사건을 잇는 말이 한 문장에 몇 번 나오는지",
+      "value": 0.33,
+      "baseline": 0.17,
+      "change": null,
+      "p_value": 0.084
+     },
+     {
+      "key": "sg_score",
+      "label": "이야기문법",
+      "unit": "점 / 17",
+      "help": "배경·시작 사건·목표·시도·결과·반응을 얼마나 갖춰 말했는지 (이야기 한 편 평균)",
+      "value": 5.12,
+      "baseline": 3.11,
+      "change": null,
+      "p_value": 0.055
+     },
+     {
+      "key": "ist_rate",
+      "label": "마음을 나타내는 말",
+      "unit": "회 / 문장",
+      "help": "보다·배고프다·기쁘다·생각하다·말하다처럼 인물의 마음과 상태를 말하는 낱말",
+      "value": 0.17,
+      "baseline": 0.17,
+      "change": null,
+      "p_value": 1.0
+     },
+     {
+      "key": "self_ratio",
+      "label": "스스로 이어 말한 장면",
+      "unit": "%",
+      "help": "선택지 도움 없이 이어 말한 장면 비율",
+      "value": 82.76,
+      "baseline": 76.81,
+      "change": null,
+      "p_value": 0.36
+     }
+    ],
+    "story_grammar": {
+     "units": {
+      "배경": 100,
+      "등장인물": 100,
+      "시작 사건": 100,
+      "목표": 0,
+      "시도": 100,
+      "결과": 67,
+      "반응": 67
+     },
+     "mean_score": 5.3,
+     "complete_episodes": 0,
+     "stories": 3
+    },
+    "internal_states": {
+     "by_type": {
+      "지각": 0,
+      "생리": 2,
+      "의식": 0,
+      "감정": 2,
+      "정신": 0,
+      "말하기": 0
+     },
+     "examples": {
+      "지각": [],
+      "생리": [
+       "고프",
+       "졸리"
+      ],
+      "의식": [],
+      "감정": [
+       "행복"
+      ],
+      "정신": [],
+      "말하기": []
+     }
+    },
+    "connectives": {
+     "by_type": {
+      "원인": 5,
+      "순서": 2,
+      "대조": 3
+     },
+     "example": "로봇이 졸려서 낮잠을 잤어요."
+    },
+    "emotion_vocab": {
+     "this_week": [
+      "행복"
+     ],
+     "cumulative": 6,
+     "new": []
+    }
+   },
+   "cards": {
+    "scenes": {
+     "value": 22,
+     "last_week": 22
+    },
+    "self_scenes": {
+     "value": 19,
+     "total": 22,
+     "choice_help": 3
+    },
+    "mlc_m": {
+     "value": 8.0,
+     "last_week": 8.5
+    },
+    "mean_eojeol": {
+     "value": 3.6,
+     "last_week": 3.8
+    },
+    "new_words": {
+     "count": 2,
+     "examples": [
+      "놀이터",
+      "하늘"
+     ]
+    }
+   },
+   "speech_trend": [
+    {
+     "week_start": "2026-09-28",
+     "mean_eojeol": 3.54
+    },
+    {
+     "week_start": "2026-10-05",
+     "mean_eojeol": 3.23
+    },
+    {
+     "week_start": "2026-10-12",
+     "mean_eojeol": 3.48
+    },
+    {
+     "week_start": "2026-10-19",
+     "mean_eojeol": 3.4
+    },
+    {
+     "week_start": "2026-10-26",
+     "mean_eojeol": 3.83
+    },
+    {
+     "week_start": "2026-11-02",
+     "mean_eojeol": 3.64
+    }
+   ],
+   "themes": [
+    {
+     "word": "공룡",
+     "count": 14,
+     "character": true,
+     "increased": false
+    },
+    {
+     "word": "로봇",
+     "count": 6,
+     "character": true,
+     "increased": false
+    },
+    {
+     "word": "공",
+     "count": 4,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "끝",
+     "count": 3,
+     "character": false,
+     "increased": true
+    },
+    {
+     "word": "친구",
+     "count": 3,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "옛날",
+     "count": 2,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "행복",
+     "count": 2,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "집",
+     "count": 2,
+     "character": false,
+     "increased": false
+    }
+   ]
+  },
+  "아이 I": {
+   "child_id": "아이 I",
+   "week_start": "2026-11-02",
+   "week_end": "2026-11-08",
+   "books": 2,
+   "age_months": 60,
+   "development": {
+    "weekly": {
+     "mlc_m": [
+      8.33,
+      7.72,
+      8.46,
+      8.22,
+      8.58,
+      7.87
+     ],
+     "conn_rate": [
+      0.29,
+      0.12,
+      0.36,
+      0.28,
+      0.32,
+      0.38
+     ],
+     "sg_score": [
+      4.0,
+      3.0,
+      5.33,
+      5.0,
+      3.67,
+      6.0
+     ],
+     "ist_rate": [
+      0.32,
+      0.06,
+      0.36,
+      0.2,
+      0.09,
+      0.12
+     ],
+     "self_ratio": [
+      78.57,
+      88.24,
+      81.82,
+      88.0,
+      72.73,
+      76.92
+     ]
+    },
+    "recent_3w": {
+     "units": {
+      "배경": 88,
+      "등장인물": 100,
+      "시작 사건": 88,
+      "목표": 50,
+      "시도": 88,
+      "결과": 62,
+      "반응": 25
+     },
+     "ist": {
+      "지각": 0,
+      "생리": 2,
+      "의식": 0,
+      "감정": 4,
+      "정신": 2,
+      "말하기": 2
+     },
+     "conn": {
+      "원인": 11,
+      "순서": 3,
+      "대조": 5
+     },
+     "sentences": 66,
+     "sentences_per_story": 8.2
+    },
+    "age_ref": {
+     "배경": 85,
+     "등장인물": 95,
+     "시작 사건": 95,
+     "목표": 25,
+     "시도": 100,
+     "결과": 80,
+     "반응": 11,
+     "sentences_per_story": 14.2,
+     "structure_8": 5.41,
+     "mlc_m": [
+      16.96,
+      2.05
+     ],
+     "age": 5
+    },
+    "growth_evidence": {
+     "before": {
+      "text": "공룡은 너무 행복했어요.",
+      "date": "2026-09-29",
+      "complexity": 4.0
+     },
+     "recent": {
+      "text": "어느 날 강아지가 놀이터에 갔어요.",
+      "date": "2026-10-20",
+      "complexity": 5.0
+     },
+     "note": "각 기간의 중간 수준 장면 (가장 잘한 장면이 아님)"
+    },
+    "milestones": [],
+    "next_steps": [
+     {
+      "tier": "먼저",
+      "target": "결과",
+      "question": "그래서 어떻게 됐을까?",
+      "reason": "일이 어떻게 끝났는지 말한 경우가 적어요 (최근 그림책 8권 중 5권, 또래는 보통 80%)"
+     }
+    ],
+    "refined": {
+     "recent_3w": {
+      "stories": 8,
+      "ndw50": 30.1,
+      "episode_levels": {
+       "나열·묘사": 1,
+       "불완전한 에피소드": 3,
+       "완전한 에피소드": 4,
+       "여러 에피소드": 0
+      },
+      "best_level": "완전한 에피소드",
+      "intro_explicit_pct": 100,
+      "quotes_per_story": 0.0,
+      "complex_pct": 20,
+      "pronouns_per_10_sent": 0.0
+     },
+     "before_3w": {
+      "stories": 7,
+      "ndw50": 31.5,
+      "episode_levels": {
+       "나열·묘사": 1,
+       "불완전한 에피소드": 5,
+       "완전한 에피소드": 1,
+       "여러 에피소드": 0
+      },
+      "best_level": "완전한 에피소드",
+      "intro_explicit_pct": 100,
+      "quotes_per_story": 0.43,
+      "complex_pct": 19,
+      "pronouns_per_10_sent": 0.18
+     }
+    },
+    "this_week_vs_4weeks": [
+     {
+      "key": "mlc_m",
+      "label": "평균 문장 길이",
+      "unit": "형태소",
+      "help": "문장 하나의 평균 형태소 수(조사·어미 포함). 한국어 연구에서 4세와 5세 차이를 더 잘 보여 준 단위",
+      "value": 7.87,
+      "baseline": 8.28,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "conn_rate",
+      "label": "이음말",
+      "unit": "회 / 문장",
+      "help": "'그래서·그런데·-아서·-다가'처럼 사건을 잇는 말이 한 문장에 몇 번 나오는지",
+      "value": 0.38,
+      "baseline": 0.28,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "sg_score",
+      "label": "이야기문법",
+      "unit": "점 / 17",
+      "help": "배경·시작 사건·목표·시도·결과·반응을 얼마나 갖춰 말했는지 (이야기 한 편 평균)",
+      "value": 6.0,
+      "baseline": 4.36,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "ist_rate",
+      "label": "마음을 나타내는 말",
+      "unit": "회 / 문장",
+      "help": "보다·배고프다·기쁘다·생각하다·말하다처럼 인물의 마음과 상태를 말하는 낱말",
+      "value": 0.12,
+      "baseline": 0.19,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "self_ratio",
+      "label": "스스로 이어 말한 장면",
+      "unit": "%",
+      "help": "선택지 도움 없이 이어 말한 장면 비율",
+      "value": 76.92,
+      "baseline": 82.56,
+      "change": null,
+      "p_value": null
+     }
+    ],
+    "six_week_growth": [
+     {
+      "key": "mlc_m",
+      "label": "평균 문장 길이",
+      "unit": "형태소",
+      "help": "문장 하나의 평균 형태소 수(조사·어미 포함). 한국어 연구에서 4세와 5세 차이를 더 잘 보여 준 단위",
+      "value": 8.27,
+      "baseline": 8.19,
+      "change": null,
+      "p_value": 0.77
+     },
+     {
+      "key": "conn_rate",
+      "label": "이음말",
+      "unit": "회 / 문장",
+      "help": "'그래서·그런데·-아서·-다가'처럼 사건을 잇는 말이 한 문장에 몇 번 나오는지",
+      "value": 0.32,
+      "baseline": 0.26,
+      "change": null,
+      "p_value": 0.54
+     },
+     {
+      "key": "sg_score",
+      "label": "이야기문법",
+      "unit": "점 / 17",
+      "help": "배경·시작 사건·목표·시도·결과·반응을 얼마나 갖춰 말했는지 (이야기 한 편 평균)",
+      "value": 4.75,
+      "baseline": 4.29,
+      "change": null,
+      "p_value": 0.73
+     },
+     {
+      "key": "ist_rate",
+      "label": "마음을 나타내는 말",
+      "unit": "회 / 문장",
+      "help": "보다·배고프다·기쁘다·생각하다·말하다처럼 인물의 마음과 상태를 말하는 낱말",
+      "value": 0.14,
+      "baseline": 0.25,
+      "change": null,
+      "p_value": 0.23
+     },
+     {
+      "key": "self_ratio",
+      "label": "스스로 이어 말한 장면",
+      "unit": "%",
+      "help": "선택지 도움 없이 이어 말한 장면 비율",
+      "value": 80.0,
+      "baseline": 83.02,
+      "change": null,
+      "p_value": 0.73
+     }
+    ],
+    "story_grammar": {
+     "units": {
+      "배경": 100,
+      "등장인물": 100,
+      "시작 사건": 100,
+      "목표": 50,
+      "시도": 100,
+      "결과": 100,
+      "반응": 50
+     },
+     "mean_score": 6.0,
+     "complete_episodes": 1,
+     "stories": 2
+    },
+    "internal_states": {
+     "by_type": {
+      "지각": 0,
+      "생리": 1,
+      "의식": 0,
+      "감정": 1,
+      "정신": 0,
+      "말하기": 0
+     },
+     "examples": {
+      "지각": [],
+      "생리": [
+       "아프"
+      ],
+      "의식": [],
+      "감정": [
+       "행복"
+      ],
+      "정신": [],
+      "말하기": []
+     }
+    },
+    "connectives": {
+     "by_type": {
+      "원인": 2,
+      "순서": 2,
+      "대조": 1
+     },
+     "example": "강아지가 넘어져서 다리가 아팠어요."
+    },
+    "emotion_vocab": {
+     "this_week": [
+      "행복"
+     ],
+     "cumulative": 6,
+     "new": []
+    }
+   },
+   "cards": {
+    "scenes": {
+     "value": 13,
+     "last_week": 22
+    },
+    "self_scenes": {
+     "value": 10,
+     "total": 13,
+     "choice_help": 3
+    },
+    "mlc_m": {
+     "value": 7.9,
+     "last_week": 8.6
+    },
+    "mean_eojeol": {
+     "value": 3.7,
+     "last_week": 3.7
+    },
+    "new_words": {
+     "count": 1,
+     "examples": [
+      "공원"
+     ]
+    }
+   },
+   "speech_trend": [
+    {
+     "week_start": "2026-09-28",
+     "mean_eojeol": 3.67
+    },
+    {
+     "week_start": "2026-10-05",
+     "mean_eojeol": 3.44
+    },
+    {
+     "week_start": "2026-10-12",
+     "mean_eojeol": 3.67
+    },
+    {
+     "week_start": "2026-10-19",
+     "mean_eojeol": 3.74
+    },
+    {
+     "week_start": "2026-10-26",
+     "mean_eojeol": 3.71
+    },
+    {
+     "week_start": "2026-11-02",
+     "mean_eojeol": 3.67
+    }
+   ],
+   "themes": [
+    {
+     "word": "강아지",
+     "count": 7,
+     "character": true,
+     "increased": false
+    },
+    {
+     "word": "로봇",
+     "count": 6,
+     "character": true,
+     "increased": false
+    },
+    {
+     "word": "친구",
+     "count": 3,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "집",
+     "count": 2,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "끝",
+     "count": 2,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "날",
+     "count": 1,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "동굴",
+     "count": 1,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "다리",
+     "count": 1,
+     "character": false,
+     "increased": false
+    }
+   ]
+  },
+  "아이 J": {
+   "child_id": "아이 J",
+   "week_start": "2026-11-02",
+   "week_end": "2026-11-08",
+   "books": 2,
+   "age_months": 53,
+   "development": {
+    "weekly": {
+     "mlc_m": [
+      6.31,
+      6.62,
+      7.62,
+      8.2,
+      5.8,
+      7.07
+     ],
+     "conn_rate": [
+      0.25,
+      0.13,
+      0.57,
+      0.22,
+      0.07,
+      0.07
+     ],
+     "sg_score": [
+      2.0,
+      3.33,
+      6.0,
+      5.0,
+      1.0,
+      3.0
+     ],
+     "ist_rate": [
+      0.0,
+      0.11,
+      0.07,
+      0.17,
+      0.07,
+      0.14
+     ],
+     "self_ratio": [
+      81.25,
+      73.91,
+      71.43,
+      77.78,
+      80.0,
+      71.43
+     ]
+    },
+    "recent_3w": {
+     "units": {
+      "배경": 50,
+      "등장인물": 100,
+      "시작 사건": 67,
+      "목표": 33,
+      "시도": 67,
+      "결과": 33,
+      "반응": 0
+     },
+     "ist": {
+      "지각": 0,
+      "생리": 2,
+      "의식": 0,
+      "감정": 0,
+      "정신": 0,
+      "말하기": 4
+     },
+     "conn": {
+      "원인": 3,
+      "순서": 2,
+      "대조": 1
+     },
+     "sentences": 50,
+     "sentences_per_story": 8.3
+    },
+    "age_ref": {
+     "배경": 55,
+     "등장인물": 70,
+     "시작 사건": 70,
+     "목표": 20,
+     "시도": 65,
+     "결과": 60,
+     "반응": 10,
+     "sentences_per_story": 7.9,
+     "structure_8": 3.8,
+     "mlc_m": [
+      15.05,
+      2.07
+     ],
+     "age": 4
+    },
+    "growth_evidence": {
+     "before": {
+      "text": "펭귄은 커다란 무지개를 바라봤어요.",
+      "date": "2026-09-28",
+      "complexity": 4.0
+     },
+     "recent": {
+      "text": "곰은 소중한 공을 잃어버렸어요.",
+      "date": "2026-10-21",
+      "complexity": 4.0
+     },
+     "note": "각 기간의 중간 수준 장면 (가장 잘한 장면이 아님)"
+    },
+    "milestones": [
+     {
+      "skill": "목표 말하기",
+      "date": "2026-10-21",
+      "text": "곰은 친구를 만나고 싶었어요.",
+      "stories": 2
+     },
+     {
+      "skill": "완전한 에피소드 (목표→시도→결과)",
+      "date": "2026-10-21",
+      "text": "어느 날 곰이 하늘에 갔어요. 곰은 소중한 공을 잃어버렸어요. 곰은 친구를 만나고 싶었어요. 곰이 여기저기 열심히 찾아봤어요. …",
+      "stories": 2
+     }
+    ],
+    "next_steps": [
+     {
+      "tier": "먼저",
+      "target": "결과",
+      "question": "그래서 어떻게 됐을까?",
+      "reason": "일이 어떻게 끝났는지 말한 경우가 적어요 (최근 그림책 6권 중 2권, 또래는 보통 60%)"
+     }
+    ],
+    "refined": {
+     "recent_3w": {
+      "stories": 6,
+      "ndw50": 33.1,
+      "episode_levels": {
+       "나열·묘사": 2,
+       "불완전한 에피소드": 2,
+       "완전한 에피소드": 2,
+       "여러 에피소드": 0
+      },
+      "best_level": "완전한 에피소드",
+      "intro_explicit_pct": 83,
+      "quotes_per_story": 0.17,
+      "complex_pct": 14,
+      "pronouns_per_10_sent": 0.8
+     },
+     "before_3w": {
+      "stories": 7,
+      "ndw50": 31.4,
+      "episode_levels": {
+       "나열·묘사": 2,
+       "불완전한 에피소드": 5,
+       "완전한 에피소드": 0,
+       "여러 에피소드": 0
+      },
+      "best_level": "불완전한 에피소드",
+      "intro_explicit_pct": 86,
+      "quotes_per_story": 0.14,
+      "complex_pct": 14,
+      "pronouns_per_10_sent": 0.54
+     }
+    },
+    "this_week_vs_4weeks": [
+     {
+      "key": "mlc_m",
+      "label": "평균 문장 길이",
+      "unit": "형태소",
+      "help": "문장 하나의 평균 형태소 수(조사·어미 포함). 한국어 연구에서 4세와 5세 차이를 더 잘 보여 준 단위",
+      "value": 7.07,
+      "baseline": 7.09,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "conn_rate",
+      "label": "이음말",
+      "unit": "회 / 문장",
+      "help": "'그래서·그런데·-아서·-다가'처럼 사건을 잇는 말이 한 문장에 몇 번 나오는지",
+      "value": 0.07,
+      "baseline": 0.23,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "sg_score",
+      "label": "이야기문법",
+      "unit": "점 / 17",
+      "help": "배경·시작 사건·목표·시도·결과·반응을 얼마나 갖춰 말했는지 (이야기 한 편 평균)",
+      "value": 3.0,
+      "baseline": 3.78,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "ist_rate",
+      "label": "마음을 나타내는 말",
+      "unit": "회 / 문장",
+      "help": "보다·배고프다·기쁘다·생각하다·말하다처럼 인물의 마음과 상태를 말하는 낱말",
+      "value": 0.14,
+      "baseline": 0.11,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "self_ratio",
+      "label": "스스로 이어 말한 장면",
+      "unit": "%",
+      "help": "선택지 도움 없이 이어 말한 장면 비율",
+      "value": 71.43,
+      "baseline": 75.71,
+      "change": null,
+      "p_value": null
+     }
+    ],
+    "six_week_growth": [
+     {
+      "key": "mlc_m",
+      "label": "평균 문장 길이",
+      "unit": "형태소",
+      "help": "문장 하나의 평균 형태소 수(조사·어미 포함). 한국어 연구에서 4세와 5세 차이를 더 잘 보여 준 단위",
+      "value": 7.14,
+      "baseline": 6.82,
+      "change": null,
+      "p_value": 0.65
+     },
+     {
+      "key": "conn_rate",
+      "label": "이음말",
+      "unit": "회 / 문장",
+      "help": "'그래서·그런데·-아서·-다가'처럼 사건을 잇는 말이 한 문장에 몇 번 나오는지",
+      "value": 0.13,
+      "baseline": 0.28,
+      "change": null,
+      "p_value": 0.13
+     },
+     {
+      "key": "sg_score",
+      "label": "이야기문법",
+      "unit": "점 / 17",
+      "help": "배경·시작 사건·목표·시도·결과·반응을 얼마나 갖춰 말했는지 (이야기 한 편 평균)",
+      "value": 3.0,
+      "baseline": 3.71,
+      "change": null,
+      "p_value": 0.67
+     },
+     {
+      "key": "ist_rate",
+      "label": "마음을 나타내는 말",
+      "unit": "회 / 문장",
+      "help": "보다·배고프다·기쁘다·생각하다·말하다처럼 인물의 마음과 상태를 말하는 낱말",
+      "value": 0.13,
+      "baseline": 0.07,
+      "change": null,
+      "p_value": 0.39
+     },
+     {
+      "key": "self_ratio",
+      "label": "스스로 이어 말한 장면",
+      "unit": "%",
+      "help": "선택지 도움 없이 이어 말한 장면 비율",
+      "value": 76.6,
+      "baseline": 75.47,
+      "change": null,
+      "p_value": 0.86
+     }
+    ],
+    "story_grammar": {
+     "units": {
+      "배경": 50,
+      "등장인물": 100,
+      "시작 사건": 50,
+      "목표": 50,
+      "시도": 50,
+      "결과": 50,
+      "반응": 0
+     },
+     "mean_score": 3.0,
+     "complete_episodes": 1,
+     "stories": 2
+    },
+    "internal_states": {
+     "by_type": {
+      "지각": 0,
+      "생리": 0,
+      "의식": 0,
+      "감정": 0,
+      "정신": 0,
+      "말하기": 2
+     },
+     "examples": {
+      "지각": [],
+      "생리": [],
+      "의식": [],
+      "감정": [],
+      "정신": [],
+      "말하기": [
+       "부르"
+      ]
+     }
+    },
+    "connectives": {
+     "by_type": {
+      "순서": 1
+     },
+     "example": "결국 강아지가 집을 찾았어요."
+    },
+    "emotion_vocab": {
+     "this_week": [
+      "웃다"
+     ],
+     "cumulative": 4,
+     "new": []
+    }
+   },
+   "cards": {
+    "scenes": {
+     "value": 14,
+     "last_week": 15
+    },
+    "self_scenes": {
+     "value": 10,
+     "total": 14,
+     "choice_help": 4
+    },
+    "mlc_m": {
+     "value": 7.1,
+     "last_week": 5.8
+    },
+    "mean_eojeol": {
+     "value": 3.3,
+     "last_week": 2.6
+    },
+    "new_words": {
+     "count": 5,
+     "examples": [
+      "강아지",
+      "밤하늘",
+      "별"
+     ]
+    }
+   },
+   "speech_trend": [
+    {
+     "week_start": "2026-09-28",
+     "mean_eojeol": 2.81
+    },
+    {
+     "week_start": "2026-10-05",
+     "mean_eojeol": 2.88
+    },
+    {
+     "week_start": "2026-10-12",
+     "mean_eojeol": 3.62
+    },
+    {
+     "week_start": "2026-10-19",
+     "mean_eojeol": 3.85
+    },
+    {
+     "week_start": "2026-10-26",
+     "mean_eojeol": 2.6
+    },
+    {
+     "week_start": "2026-11-02",
+     "mean_eojeol": 3.27
+    }
+   ],
+   "themes": [
+    {
+     "word": "강아지",
+     "count": 6,
+     "character": true,
+     "increased": false
+    },
+    {
+     "word": "여우",
+     "count": 4,
+     "character": true,
+     "increased": false
+    },
+    {
+     "word": "집",
+     "count": 2,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "친구",
+     "count": 2,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "무지개",
+     "count": 1,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "밤하늘",
+     "count": 1,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "별",
+     "count": 1,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "노래",
+     "count": 1,
+     "character": false,
+     "increased": false
+    }
+   ]
+  },
+  "아이 K": {
+   "child_id": "아이 K",
+   "week_start": "2026-11-02",
+   "week_end": "2026-11-08",
+   "books": 3,
+   "age_months": 58,
+   "development": {
+    "weekly": {
+     "mlc_m": [
+      7.19,
+      8.31,
+      6.42,
+      8.5,
+      7.21,
+      6.91
+     ],
+     "conn_rate": [
+      0.33,
+      0.2,
+      0.13,
+      0.33,
+      0.07,
+      0.38
+     ],
+     "sg_score": [
+      4.0,
+      4.0,
+      2.0,
+      5.0,
+      1.0,
+      5.33
+     ],
+     "ist_rate": [
+      0.2,
+      0.1,
+      0.0,
+      0.37,
+      0.07,
+      0.19
+     ],
+     "self_ratio": [
+      80.0,
+      80.0,
+      65.22,
+      80.0,
+      71.43,
+      71.43
+     ]
+    },
+    "recent_3w": {
+     "units": {
+      "배경": 57,
+      "등장인물": 100,
+      "시작 사건": 86,
+      "목표": 29,
+      "시도": 86,
+      "결과": 57,
+      "반응": 43
+     },
+     "ist": {
+      "지각": 0,
+      "생리": 3,
+      "의식": 0,
+      "감정": 6,
+      "정신": 1,
+      "말하기": 2
+     },
+     "conn": {
+      "원인": 7,
+      "순서": 5,
+      "대조": 2
+     },
+     "sentences": 53,
+     "sentences_per_story": 7.6
+    },
+    "age_ref": {
+     "배경": 55,
+     "등장인물": 70,
+     "시작 사건": 70,
+     "목표": 20,
+     "시도": 65,
+     "결과": 60,
+     "반응": 10,
+     "sentences_per_story": 7.9,
+     "structure_8": 3.8,
+     "mlc_m": [
+      15.05,
+      2.07
+     ],
+     "age": 4
+    },
+    "growth_evidence": {
+     "before": {
+      "text": "펭귄은 공을 찾고 싶었어요.",
+      "date": "2026-09-30",
+      "complexity": 4.0
+     },
+     "recent": {
+      "text": "다람쥐는 빨간 풍선을 날렸어요.",
+      "date": "2026-10-23",
+      "complexity": 4.0
+     },
+     "note": "각 기간의 중간 수준 장면 (가장 잘한 장면이 아님)"
+    },
+    "milestones": [],
+    "next_steps": [
+     {
+      "tier": "한 단계 더",
+      "target": "목표",
+      "question": "로봇은 무엇을 하고 싶었을까?",
+      "reason": "인물이 무엇을 원했는지는 4~5세에 아직 드물게 말해요. 아직 쓰지 않아도 괜찮아요"
+     }
+    ],
+    "refined": {
+     "recent_3w": {
+      "stories": 7,
+      "ndw50": 31.8,
+      "episode_levels": {
+       "나열·묘사": 1,
+       "불완전한 에피소드": 4,
+       "완전한 에피소드": 2,
+       "여러 에피소드": 0
+      },
+      "best_level": "완전한 에피소드",
+      "intro_explicit_pct": 100,
+      "quotes_per_story": 0.14,
+      "complex_pct": 19,
+      "pronouns_per_10_sent": 0.38
+     },
+     "before_3w": {
+      "stories": 7,
+      "ndw50": 31.5,
+      "episode_levels": {
+       "나열·묘사": 2,
+       "불완전한 에피소드": 4,
+       "완전한 에피소드": 1,
+       "여러 에피소드": 0
+      },
+      "best_level": "완전한 에피소드",
+      "intro_explicit_pct": 71,
+      "quotes_per_story": 0.0,
+      "complex_pct": 16,
+      "pronouns_per_10_sent": 0.54
+     }
+    },
+    "this_week_vs_4weeks": [
+     {
+      "key": "mlc_m",
+      "label": "평균 문장 길이",
+      "unit": "형태소",
+      "help": "문장 하나의 평균 형태소 수(조사·어미 포함). 한국어 연구에서 4세와 5세 차이를 더 잘 보여 준 단위",
+      "value": 6.91,
+      "baseline": 7.49,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "conn_rate",
+      "label": "이음말",
+      "unit": "회 / 문장",
+      "help": "'그래서·그런데·-아서·-다가'처럼 사건을 잇는 말이 한 문장에 몇 번 나오는지",
+      "value": 0.38,
+      "baseline": 0.18,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "sg_score",
+      "label": "이야기문법",
+      "unit": "점 / 17",
+      "help": "배경·시작 사건·목표·시도·결과·반응을 얼마나 갖춰 말했는지 (이야기 한 편 평균)",
+      "value": 5.33,
+      "baseline": 2.89,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "ist_rate",
+      "label": "마음을 나타내는 말",
+      "unit": "회 / 문장",
+      "help": "보다·배고프다·기쁘다·생각하다·말하다처럼 인물의 마음과 상태를 말하는 낱말",
+      "value": 0.19,
+      "baseline": 0.12,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "self_ratio",
+      "label": "스스로 이어 말한 장면",
+      "unit": "%",
+      "help": "선택지 도움 없이 이어 말한 장면 비율",
+      "value": 71.43,
+      "baseline": 73.13,
+      "change": null,
+      "p_value": null
+     }
+    ],
+    "six_week_growth": [
+     {
+      "key": "mlc_m",
+      "label": "평균 문장 길이",
+      "unit": "형태소",
+      "help": "문장 하나의 평균 형태소 수(조사·어미 포함). 한국어 연구에서 4세와 5세 차이를 더 잘 보여 준 단위",
+      "value": 7.47,
+      "baseline": 7.18,
+      "change": null,
+      "p_value": 0.64
+     },
+     {
+      "key": "conn_rate",
+      "label": "이음말",
+      "unit": "회 / 문장",
+      "help": "'그래서·그런데·-아서·-다가'처럼 사건을 잇는 말이 한 문장에 몇 번 나오는지",
+      "value": 0.28,
+      "baseline": 0.21,
+      "change": null,
+      "p_value": 0.45
+     },
+     {
+      "key": "sg_score",
+      "label": "이야기문법",
+      "unit": "점 / 17",
+      "help": "배경·시작 사건·목표·시도·결과·반응을 얼마나 갖춰 말했는지 (이야기 한 편 평균)",
+      "value": 4.0,
+      "baseline": 3.14,
+      "change": null,
+      "p_value": 0.59
+     },
+     {
+      "key": "ist_rate",
+      "label": "마음을 나타내는 말",
+      "unit": "회 / 문장",
+      "help": "보다·배고프다·기쁘다·생각하다·말하다처럼 인물의 마음과 상태를 말하는 낱말",
+      "value": 0.21,
+      "baseline": 0.08,
+      "change": null,
+      "p_value": 0.081
+     },
+     {
+      "key": "self_ratio",
+      "label": "스스로 이어 말한 장면",
+      "unit": "%",
+      "help": "선택지 도움 없이 이어 말한 장면 비율",
+      "value": 74.0,
+      "baseline": 73.58,
+      "change": null,
+      "p_value": 1.0
+     }
+    ],
+    "story_grammar": {
+     "units": {
+      "배경": 67,
+      "등장인물": 100,
+      "시작 사건": 100,
+      "목표": 33,
+      "시도": 100,
+      "결과": 100,
+      "반응": 67
+     },
+     "mean_score": 5.3,
+     "complete_episodes": 1,
+     "stories": 3
+    },
+    "internal_states": {
+     "by_type": {
+      "지각": 0,
+      "생리": 1,
+      "의식": 0,
+      "감정": 3,
+      "정신": 0,
+      "말하기": 1
+     },
+     "examples": {
+      "지각": [],
+      "생리": [
+       "아프"
+      ],
+      "의식": [],
+      "감정": [
+       "놀라",
+       "행복"
+      ],
+      "정신": [],
+      "말하기": [
+       "말"
+      ]
+     }
+    },
+    "connectives": {
+     "by_type": {
+      "원인": 3,
+      "순서": 3,
+      "대조": 2
+     },
+     "example": "곰이 넘어져서 다리가 아팠어요."
+    },
+    "emotion_vocab": {
+     "this_week": [
+      "깜짝",
+      "놀라다",
+      "울다",
+      "웃다",
+      "행복"
+     ],
+     "cumulative": 6,
+     "new": [
+      "깜짝",
+      "놀라다"
+     ]
+    }
+   },
+   "cards": {
+    "scenes": {
+     "value": 21,
+     "last_week": 14
+    },
+    "self_scenes": {
+     "value": 15,
+     "total": 21,
+     "choice_help": 6
+    },
+    "mlc_m": {
+     "value": 6.9,
+     "last_week": 7.2
+    },
+    "mean_eojeol": {
+     "value": 3.3,
+     "last_week": 3.1
+    },
+    "new_words": {
+     "count": 9,
+     "examples": [
+      "곰",
+      "옛날",
+      "살다"
+     ]
+    }
+   },
+   "speech_trend": [
+    {
+     "week_start": "2026-09-28",
+     "mean_eojeol": 3.38
+    },
+    {
+     "week_start": "2026-10-05",
+     "mean_eojeol": 3.69
+    },
+    {
+     "week_start": "2026-10-12",
+     "mean_eojeol": 2.83
+    },
+    {
+     "week_start": "2026-10-19",
+     "mean_eojeol": 3.81
+    },
+    {
+     "week_start": "2026-10-26",
+     "mean_eojeol": 3.14
+    },
+    {
+     "week_start": "2026-11-02",
+     "mean_eojeol": 3.26
+    }
+   ],
+   "themes": [
+    {
+     "word": "곰",
+     "count": 6,
+     "character": true,
+     "increased": false
+    },
+    {
+     "word": "로봇",
+     "count": 5,
+     "character": true,
+     "increased": false
+    },
+    {
+     "word": "토끼",
+     "count": 4,
+     "character": true,
+     "increased": false
+    },
+    {
+     "word": "친구",
+     "count": 3,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "집",
+     "count": 3,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "행복",
+     "count": 2,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "끝",
+     "count": 2,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "옛날",
+     "count": 1,
+     "character": false,
+     "increased": false
+    }
+   ]
+  },
+  "아이 L": {
+   "child_id": "아이 L",
+   "week_start": "2026-11-02",
+   "week_end": "2026-11-08",
+   "books": 2,
+   "age_months": 70,
+   "development": {
+    "weekly": {
+     "mlc_m": [
+      6.65,
+      7.56,
+      7.24,
+      7.56,
+      8.23,
+      8.15
+     ],
+     "conn_rate": [
+      0.13,
+      0.26,
+      0.25,
+      0.24,
+      0.19,
+      0.23
+     ],
+     "sg_score": [
+      1.67,
+      4.0,
+      2.5,
+      3.5,
+      2.33,
+      2.5
+     ],
+     "ist_rate": [
+      0.04,
+      0.2,
+      0.06,
+      0.15,
+      0.1,
+      0.15
+     ],
+     "self_ratio": [
+      60.87,
+      65.22,
+      81.25,
+      64.71,
+      57.14,
+      76.92
+     ]
+    },
+    "recent_3w": {
+     "units": {
+      "배경": 43,
+      "등장인물": 100,
+      "시작 사건": 71,
+      "목표": 14,
+      "시도": 57,
+      "결과": 43,
+      "반응": 14
+     },
+     "ist": {
+      "지각": 0,
+      "생리": 4,
+      "의식": 0,
+      "감정": 1,
+      "정신": 1,
+      "말하기": 1
+     },
+     "conn": {
+      "원인": 7,
+      "순서": 2,
+      "대조": 2
+     },
+     "sentences": 53,
+     "sentences_per_story": 7.6
+    },
+    "age_ref": {
+     "배경": 85,
+     "등장인물": 95,
+     "시작 사건": 95,
+     "목표": 25,
+     "시도": 100,
+     "결과": 80,
+     "반응": 11,
+     "sentences_per_story": 14.2,
+     "structure_8": 5.41,
+     "mlc_m": [
+      16.96,
+      2.05
+     ],
+     "age": 5
+    },
+    "growth_evidence": {
+     "before": {
+      "text": "공주는 신비한 지도를 펼쳤어요.",
+      "date": "2026-09-29",
+      "complexity": 4.0
+     },
+     "recent": {
+      "text": "다람쥐가 밤하늘의 별을 세었어요.",
+      "date": "2026-10-19",
+      "complexity": 4.0
+     },
+     "note": "각 기간의 중간 수준 장면 (가장 잘한 장면이 아님)"
+    },
+    "milestones": [],
+    "next_steps": [
+     {
+      "tier": "먼저",
+      "target": "배경",
+      "question": "언제, 어디에서 있었던 일일까?",
+      "reason": "이야기의 시간·장소를 말한 경우가 적어요 (최근 그림책 7권 중 3권, 또래는 보통 85%)"
+     },
+     {
+      "tier": "먼저",
+      "target": "결과",
+      "question": "그래서 어떻게 됐을까?",
+      "reason": "일이 어떻게 끝났는지 말한 경우가 적어요 (최근 그림책 7권 중 3권, 또래는 보통 80%)"
+     }
+    ],
+    "refined": {
+     "recent_3w": {
+      "stories": 7,
+      "ndw50": 30.9,
+      "episode_levels": {
+       "나열·묘사": 2,
+       "불완전한 에피소드": 4,
+       "완전한 에피소드": 1,
+       "여러 에피소드": 0
+      },
+      "best_level": "완전한 에피소드",
+      "intro_explicit_pct": 71,
+      "quotes_per_story": 0.14,
+      "complex_pct": 19,
+      "pronouns_per_10_sent": 1.51
+     },
+     "before_3w": {
+      "stories": 8,
+      "ndw50": 31.4,
+      "episode_levels": {
+       "나열·묘사": 3,
+       "불완전한 에피소드": 5,
+       "완전한 에피소드": 0,
+       "여러 에피소드": 0
+      },
+      "best_level": "불완전한 에피소드",
+      "intro_explicit_pct": 88,
+      "quotes_per_story": 0.12,
+      "complex_pct": 18,
+      "pronouns_per_10_sent": 0.92
+     }
+    },
+    "this_week_vs_4weeks": [
+     {
+      "key": "mlc_m",
+      "label": "평균 문장 길이",
+      "unit": "형태소",
+      "help": "문장 하나의 평균 형태소 수(조사·어미 포함). 한국어 연구에서 4세와 5세 차이를 더 잘 보여 준 단위",
+      "value": 8.15,
+      "baseline": 7.67,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "conn_rate",
+      "label": "이음말",
+      "unit": "회 / 문장",
+      "help": "'그래서·그런데·-아서·-다가'처럼 사건을 잇는 말이 한 문장에 몇 번 나오는지",
+      "value": 0.23,
+      "baseline": 0.23,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "sg_score",
+      "label": "이야기문법",
+      "unit": "점 / 17",
+      "help": "배경·시작 사건·목표·시도·결과·반응을 얼마나 갖춰 말했는지 (이야기 한 편 평균)",
+      "value": 2.5,
+      "baseline": 3.1,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "ist_rate",
+      "label": "마음을 나타내는 말",
+      "unit": "회 / 문장",
+      "help": "보다·배고프다·기쁘다·생각하다·말하다처럼 인물의 마음과 상태를 말하는 낱말",
+      "value": 0.15,
+      "baseline": 0.13,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "self_ratio",
+      "label": "스스로 이어 말한 장면",
+      "unit": "%",
+      "help": "선택지 도움 없이 이어 말한 장면 비율",
+      "value": 76.92,
+      "baseline": 66.23,
+      "change": null,
+      "p_value": null
+     }
+    ],
+    "six_week_growth": [
+     {
+      "key": "mlc_m",
+      "label": "평균 문장 길이",
+      "unit": "형태소",
+      "help": "문장 하나의 평균 형태소 수(조사·어미 포함). 한국어 연구에서 4세와 5세 차이를 더 잘 보여 준 단위",
+      "value": 7.98,
+      "baseline": 7.15,
+      "change": null,
+      "p_value": 0.15
+     },
+     {
+      "key": "conn_rate",
+      "label": "이음말",
+      "unit": "회 / 문장",
+      "help": "'그래서·그런데·-아서·-다가'처럼 사건을 잇는 말이 한 문장에 몇 번 나오는지",
+      "value": 0.22,
+      "baseline": 0.21,
+      "change": null,
+      "p_value": 0.96
+     },
+     {
+      "key": "sg_score",
+      "label": "이야기문법",
+      "unit": "점 / 17",
+      "help": "배경·시작 사건·목표·시도·결과·반응을 얼마나 갖춰 말했는지 (이야기 한 편 평균)",
+      "value": 2.71,
+      "baseline": 2.75,
+      "change": null,
+      "p_value": 1.0
+     },
+     {
+      "key": "ist_rate",
+      "label": "마음을 나타내는 말",
+      "unit": "회 / 문장",
+      "help": "보다·배고프다·기쁘다·생각하다·말하다처럼 인물의 마음과 상태를 말하는 낱말",
+      "value": 0.13,
+      "baseline": 0.1,
+      "change": null,
+      "p_value": 0.61
+     },
+     {
+      "key": "self_ratio",
+      "label": "스스로 이어 말한 장면",
+      "unit": "%",
+      "help": "선택지 도움 없이 이어 말한 장면 비율",
+      "value": 64.71,
+      "baseline": 67.74,
+      "change": null,
+      "p_value": 0.63
+     }
+    ],
+    "story_grammar": {
+     "units": {
+      "배경": 0,
+      "등장인물": 100,
+      "시작 사건": 100,
+      "목표": 0,
+      "시도": 50,
+      "결과": 100,
+      "반응": 0
+     },
+     "mean_score": 2.5,
+     "complete_episodes": 0,
+     "stories": 2
+    },
+    "internal_states": {
+     "by_type": {
+      "지각": 0,
+      "생리": 2,
+      "의식": 0,
+      "감정": 0,
+      "정신": 0,
+      "말하기": 0
+     },
+     "examples": {
+      "지각": [],
+      "생리": [
+       "고프"
+      ],
+      "의식": [],
+      "감정": [],
+      "정신": [],
+      "말하기": []
+     }
+    },
+    "connectives": {
+     "by_type": {
+      "원인": 1,
+      "대조": 1,
+      "순서": 1
+     },
+     "example": "그래서 고양이는 집으로 갔어요."
+    },
+    "emotion_vocab": {
+     "this_week": [],
+     "cumulative": 3,
+     "new": []
+    }
+   },
+   "cards": {
+    "scenes": {
+     "value": 13,
+     "last_week": 21
+    },
+    "self_scenes": {
+     "value": 10,
+     "total": 13,
+     "choice_help": 3
+    },
+    "mlc_m": {
+     "value": 8.2,
+     "last_week": 8.2
+    },
+    "mean_eojeol": {
+     "value": 3.5,
+     "last_week": 3.5
+    },
+    "new_words": {
+     "count": 1,
+     "examples": [
+      "펭귄"
+     ]
+    }
+   },
+   "speech_trend": [
+    {
+     "week_start": "2026-09-28",
+     "mean_eojeol": 2.87
+    },
+    {
+     "week_start": "2026-10-05",
+     "mean_eojeol": 3.4
+    },
+    {
+     "week_start": "2026-10-12",
+     "mean_eojeol": 3.35
+    },
+    {
+     "week_start": "2026-10-19",
+     "mean_eojeol": 3.39
+    },
+    {
+     "week_start": "2026-10-26",
+     "mean_eojeol": 3.55
+    },
+    {
+     "week_start": "2026-11-02",
+     "mean_eojeol": 3.54
+    }
+   ],
+   "themes": [
+    {
+     "word": "펭귄",
+     "count": 7,
+     "character": true,
+     "increased": false
+    },
+    {
+     "word": "고양이",
+     "count": 5,
+     "character": true,
+     "increased": false
+    },
+    {
+     "word": "배",
+     "count": 2,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "사과",
+     "count": 2,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "신비",
+     "count": 1,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "지도",
+     "count": 1,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "밤하늘",
+     "count": 1,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "별",
+     "count": 1,
+     "character": false,
+     "increased": false
+    }
+   ]
+  },
+  "아이 M": {
+   "child_id": "아이 M",
+   "week_start": "2026-11-02",
+   "week_end": "2026-11-08",
+   "books": 3,
+   "age_months": 62,
+   "development": {
+    "weekly": {
+     "mlc_m": [
+      7.27,
+      6.06,
+      7.87,
+      7.57,
+      7.44,
+      7.0
+     ],
+     "conn_rate": [
+      0.29,
+      0.0,
+      0.31,
+      0.18,
+      0.07,
+      0.24
+     ],
+     "sg_score": [
+      4.0,
+      0.0,
+      5.5,
+      3.33,
+      3.0,
+      3.33
+     ],
+     "ist_rate": [
+      0.1,
+      0.12,
+      0.19,
+      0.18,
+      0.07,
+      0.12
+     ],
+     "self_ratio": [
+      83.33,
+      81.25,
+      69.23,
+      68.18,
+      60.0,
+      76.19
+     ]
+    },
+    "recent_3w": {
+     "units": {
+      "배경": 75,
+      "등장인물": 100,
+      "시작 사건": 88,
+      "목표": 12,
+      "시도": 75,
+      "결과": 38,
+      "반응": 0
+     },
+     "ist": {
+      "지각": 0,
+      "생리": 2,
+      "의식": 0,
+      "감정": 3,
+      "정신": 1,
+      "말하기": 2
+     },
+     "conn": {
+      "원인": 4,
+      "순서": 3,
+      "대조": 3
+     },
+     "sentences": 61,
+     "sentences_per_story": 7.6
+    },
+    "age_ref": {
+     "배경": 85,
+     "등장인물": 95,
+     "시작 사건": 95,
+     "목표": 25,
+     "시도": 100,
+     "결과": 80,
+     "반응": 11,
+     "sentences_per_story": 14.2,
+     "structure_8": 5.41,
+     "mlc_m": [
+      16.96,
+      2.05
+     ],
+     "age": 5
+    },
+    "growth_evidence": {
+     "before": {
+      "text": "다람쥐는 빨간 풍선을 날렸어요.",
+      "date": "2026-10-02",
+      "complexity": 4.0
+     },
+     "recent": {
+      "text": "강아지는 커다란 무지개를 바라봤어요.",
+      "date": "2026-10-19",
+      "complexity": 4.0
+     },
+     "note": "각 기간의 중간 수준 장면 (가장 잘한 장면이 아님)"
+    },
+    "milestones": [],
+    "next_steps": [
+     {
+      "tier": "먼저",
+      "target": "결과",
+      "question": "그래서 어떻게 됐을까?",
+      "reason": "일이 어떻게 끝났는지 말한 경우가 적어요 (최근 그림책 8권 중 3권, 또래는 보통 80%)"
+     }
+    ],
+    "refined": {
+     "recent_3w": {
+      "stories": 8,
+      "ndw50": 32.4,
+      "episode_levels": {
+       "나열·묘사": 1,
+       "불완전한 에피소드": 6,
+       "완전한 에피소드": 1,
+       "여러 에피소드": 0
+      },
+      "best_level": "완전한 에피소드",
+      "intro_explicit_pct": 100,
+      "quotes_per_story": 0.12,
+      "complex_pct": 15,
+      "pronouns_per_10_sent": 0.98
+     },
+     "before_3w": {
+      "stories": 7,
+      "ndw50": 31.9,
+      "episode_levels": {
+       "나열·묘사": 2,
+       "불완전한 에피소드": 3,
+       "완전한 에피소드": 2,
+       "여러 에피소드": 0
+      },
+      "best_level": "완전한 에피소드",
+      "intro_explicit_pct": 86,
+      "quotes_per_story": 0.0,
+      "complex_pct": 23,
+      "pronouns_per_10_sent": 1.23
+     }
+    },
+    "this_week_vs_4weeks": [
+     {
+      "key": "mlc_m",
+      "label": "평균 문장 길이",
+      "unit": "형태소",
+      "help": "문장 하나의 평균 형태소 수(조사·어미 포함). 한국어 연구에서 4세와 5세 차이를 더 잘 보여 준 단위",
+      "value": 7.0,
+      "baseline": 7.26,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "conn_rate",
+      "label": "이음말",
+      "unit": "회 / 문장",
+      "help": "'그래서·그런데·-아서·-다가'처럼 사건을 잇는 말이 한 문장에 몇 번 나오는지",
+      "value": 0.24,
+      "baseline": 0.14,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "sg_score",
+      "label": "이야기문법",
+      "unit": "점 / 17",
+      "help": "배경·시작 사건·목표·시도·결과·반응을 얼마나 갖춰 말했는지 (이야기 한 편 평균)",
+      "value": 3.33,
+      "baseline": 3.0,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "ist_rate",
+      "label": "마음을 나타내는 말",
+      "unit": "회 / 문장",
+      "help": "보다·배고프다·기쁘다·생각하다·말하다처럼 인물의 마음과 상태를 말하는 낱말",
+      "value": 0.12,
+      "baseline": 0.14,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "self_ratio",
+      "label": "스스로 이어 말한 장면",
+      "unit": "%",
+      "help": "선택지 도움 없이 이어 말한 장면 비율",
+      "value": 76.19,
+      "baseline": 69.7,
+      "change": null,
+      "p_value": null
+     }
+    ],
+    "six_week_growth": [
+     {
+      "key": "mlc_m",
+      "label": "평균 문장 길이",
+      "unit": "형태소",
+      "help": "문장 하나의 평균 형태소 수(조사·어미 포함). 한국어 연구에서 4세와 5세 차이를 더 잘 보여 준 단위",
+      "value": 7.33,
+      "baseline": 7.09,
+      "change": null,
+      "p_value": 0.65
+     },
+     {
+      "key": "conn_rate",
+      "label": "이음말",
+      "unit": "회 / 문장",
+      "help": "'그래서·그런데·-아서·-다가'처럼 사건을 잇는 말이 한 문장에 몇 번 나오는지",
+      "value": 0.17,
+      "baseline": 0.21,
+      "change": null,
+      "p_value": 0.7
+     },
+     {
+      "key": "sg_score",
+      "label": "이야기문법",
+      "unit": "점 / 17",
+      "help": "배경·시작 사건·목표·시도·결과·반응을 얼마나 갖춰 말했는지 (이야기 한 편 평균)",
+      "value": 3.25,
+      "baseline": 3.29,
+      "change": null,
+      "p_value": 1.0
+     },
+     {
+      "key": "ist_rate",
+      "label": "마음을 나타내는 말",
+      "unit": "회 / 문장",
+      "help": "보다·배고프다·기쁘다·생각하다·말하다처럼 인물의 마음과 상태를 말하는 낱말",
+      "value": 0.13,
+      "baseline": 0.13,
+      "change": null,
+      "p_value": 0.98
+     },
+     {
+      "key": "self_ratio",
+      "label": "스스로 이어 말한 장면",
+      "unit": "%",
+      "help": "선택지 도움 없이 이어 말한 장면 비율",
+      "value": 68.97,
+      "baseline": 79.25,
+      "change": null,
+      "p_value": 0.3
+     }
+    ],
+    "story_grammar": {
+     "units": {
+      "배경": 100,
+      "등장인물": 100,
+      "시작 사건": 100,
+      "목표": 0,
+      "시도": 100,
+      "결과": 0,
+      "반응": 0
+     },
+     "mean_score": 3.3,
+     "complete_episodes": 0,
+     "stories": 3
+    },
+    "internal_states": {
+     "by_type": {
+      "지각": 0,
+      "생리": 1,
+      "의식": 0,
+      "감정": 2,
+      "정신": 0,
+      "말하기": 0
+     },
+     "examples": {
+      "지각": [],
+      "생리": [
+       "졸리"
+      ],
+      "의식": [],
+      "감정": [
+       "놀라",
+       "행복"
+      ],
+      "정신": [],
+      "말하기": []
+     }
+    },
+    "connectives": {
+     "by_type": {
+      "원인": 4,
+      "대조": 1
+     },
+     "example": "곰이 졸려서 낮잠을 잤어요."
+    },
+    "emotion_vocab": {
+     "this_week": [
+      "깜짝",
+      "놀라다",
+      "울다",
+      "행복"
+     ],
+     "cumulative": 6,
+     "new": []
+    }
+   },
+   "cards": {
+    "scenes": {
+     "value": 21,
+     "last_week": 15
+    },
+    "self_scenes": {
+     "value": 16,
+     "total": 21,
+     "choice_help": 5
+    },
+    "mlc_m": {
+     "value": 7.0,
+     "last_week": 7.4
+    },
+    "mean_eojeol": {
+     "value": 3.1,
+     "last_week": 3.4
+    },
+    "new_words": {
+     "count": 5,
+     "examples": [
+      "신비",
+      "지도",
+      "펼치다"
+     ]
+    }
+   },
+   "speech_trend": [
+    {
+     "week_start": "2026-09-28",
+     "mean_eojeol": 3.38
+    },
+    {
+     "week_start": "2026-10-05",
+     "mean_eojeol": 2.62
+    },
+    {
+     "week_start": "2026-10-12",
+     "mean_eojeol": 3.67
+    },
+    {
+     "week_start": "2026-10-19",
+     "mean_eojeol": 3.43
+    },
+    {
+     "week_start": "2026-10-26",
+     "mean_eojeol": 3.38
+    },
+    {
+     "week_start": "2026-11-02",
+     "mean_eojeol": 3.14
+    }
+   ],
+   "themes": [
+    {
+     "word": "곰",
+     "count": 9,
+     "character": true,
+     "increased": false
+    },
+    {
+     "word": "펭귄",
+     "count": 6,
+     "character": true,
+     "increased": false
+    },
+    {
+     "word": "집",
+     "count": 4,
+     "character": false,
+     "increased": true
+    },
+    {
+     "word": "하늘",
+     "count": 3,
+     "character": false,
+     "increased": true
+    },
+    {
+     "word": "끝",
+     "count": 2,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "친구",
+     "count": 2,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "신비",
+     "count": 1,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "지도",
+     "count": 1,
+     "character": false,
+     "increased": false
+    }
+   ]
+  },
+  "아이 N": {
+   "child_id": "아이 N",
+   "week_start": "2026-11-02",
+   "week_end": "2026-11-08",
+   "books": 2,
+   "age_months": 51,
+   "development": {
+    "weekly": {
+     "mlc_m": [
+      6.64,
+      7.23,
+      7.74,
+      8.29,
+      8.12,
+      7.39
+     ],
+     "conn_rate": [
+      0.23,
+      0.08,
+      0.11,
+      0.36,
+      0.33,
+      0.31
+     ],
+     "sg_score": [
+      4.5,
+      0.33,
+      3.0,
+      1.0,
+      3.33,
+      5.5
+     ],
+     "ist_rate": [
+      0.12,
+      0.19,
+      0.28,
+      0.29,
+      0.21,
+      0.06
+     ],
+     "self_ratio": [
+      61.54,
+      76.92,
+      72.22,
+      92.86,
+      66.67,
+      81.25
+     ]
+    },
+    "recent_3w": {
+     "units": {
+      "배경": 71,
+      "등장인물": 100,
+      "시작 사건": 86,
+      "목표": 14,
+      "시도": 71,
+      "결과": 57,
+      "반응": 0
+     },
+     "ist": {
+      "지각": 0,
+      "생리": 6,
+      "의식": 0,
+      "감정": 2,
+      "정신": 1,
+      "말하기": 1
+     },
+     "conn": {
+      "원인": 10,
+      "순서": 3,
+      "대조": 5
+     },
+     "sentences": 56,
+     "sentences_per_story": 8.0
+    },
+    "age_ref": {
+     "배경": 55,
+     "등장인물": 70,
+     "시작 사건": 70,
+     "목표": 20,
+     "시도": 65,
+     "결과": 60,
+     "반응": 10,
+     "sentences_per_story": 7.9,
+     "structure_8": 3.8,
+     "mlc_m": [
+      15.05,
+      2.07
+     ],
+     "age": 4
+    },
+    "growth_evidence": {
+     "before": {
+      "text": "옛날에 숲에 고양이가 살았어요.",
+      "date": "2026-09-29",
+      "complexity": 4.0
+     },
+     "recent": {
+      "text": "그런데 갑자기 비가 왔어요.",
+      "date": "2026-10-20",
+      "complexity": 6.0
+     },
+     "note": "각 기간의 중간 수준 장면 (가장 잘한 장면이 아님)"
+    },
+    "milestones": [],
+    "next_steps": [
+     {
+      "tier": "한 단계 더",
+      "target": "목표",
+      "question": "공주는 무엇을 하고 싶었을까?",
+      "reason": "인물이 무엇을 원했는지는 4~5세에 아직 드물게 말해요. 아직 쓰지 않아도 괜찮아요"
+     }
+    ],
+    "refined": {
+     "recent_3w": {
+      "stories": 7,
+      "ndw50": 33.8,
+      "episode_levels": {
+       "나열·묘사": 1,
+       "불완전한 에피소드": 5,
+       "완전한 에피소드": 1,
+       "여러 에피소드": 0
+      },
+      "best_level": "완전한 에피소드",
+      "intro_explicit_pct": 100,
+      "quotes_per_story": 0.14,
+      "complex_pct": 27,
+      "pronouns_per_10_sent": 0.71
+     },
+     "before_3w": {
+      "stories": 7,
+      "ndw50": 30.9,
+      "episode_levels": {
+       "나열·묘사": 4,
+       "불완전한 에피소드": 2,
+       "완전한 에피소드": 1,
+       "여러 에피소드": 0
+      },
+      "best_level": "완전한 에피소드",
+      "intro_explicit_pct": 71,
+      "quotes_per_story": 0.29,
+      "complex_pct": 19,
+      "pronouns_per_10_sent": 0.68
+     }
+    },
+    "this_week_vs_4weeks": [
+     {
+      "key": "mlc_m",
+      "label": "평균 문장 길이",
+      "unit": "형태소",
+      "help": "문장 하나의 평균 형태소 수(조사·어미 포함). 한국어 연구에서 4세와 5세 차이를 더 잘 보여 준 단위",
+      "value": 7.39,
+      "baseline": 7.78,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "conn_rate",
+      "label": "이음말",
+      "unit": "회 / 문장",
+      "help": "'그래서·그런데·-아서·-다가'처럼 사건을 잇는 말이 한 문장에 몇 번 나오는지",
+      "value": 0.31,
+      "baseline": 0.21,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "sg_score",
+      "label": "이야기문법",
+      "unit": "점 / 17",
+      "help": "배경·시작 사건·목표·시도·결과·반응을 얼마나 갖춰 말했는지 (이야기 한 편 평균)",
+      "value": 5.5,
+      "baseline": 1.9,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "ist_rate",
+      "label": "마음을 나타내는 말",
+      "unit": "회 / 문장",
+      "help": "보다·배고프다·기쁘다·생각하다·말하다처럼 인물의 마음과 상태를 말하는 낱말",
+      "value": 0.06,
+      "baseline": 0.23,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "self_ratio",
+      "label": "스스로 이어 말한 장면",
+      "unit": "%",
+      "help": "선택지 도움 없이 이어 말한 장면 비율",
+      "value": 81.25,
+      "baseline": 75.61,
+      "change": null,
+      "p_value": null
+     }
+    ],
+    "six_week_growth": [
+     {
+      "key": "mlc_m",
+      "label": "평균 문장 길이",
+      "unit": "형태소",
+      "help": "문장 하나의 평균 형태소 수(조사·어미 포함). 한국어 연구에서 4세와 5세 차이를 더 잘 보여 준 단위",
+      "value": 7.93,
+      "baseline": 7.25,
+      "change": null,
+      "p_value": 0.14
+     },
+     {
+      "key": "conn_rate",
+      "label": "이음말",
+      "unit": "회 / 문장",
+      "help": "'그래서·그런데·-아서·-다가'처럼 사건을 잇는 말이 한 문장에 몇 번 나오는지",
+      "value": 0.33,
+      "baseline": 0.12,
+      "change": null,
+      "p_value": 0.003
+     },
+     {
+      "key": "sg_score",
+      "label": "이야기문법",
+      "unit": "점 / 17",
+      "help": "배경·시작 사건·목표·시도·결과·반응을 얼마나 갖춰 말했는지 (이야기 한 편 평균)",
+      "value": 3.29,
+      "baseline": 2.29,
+      "change": null,
+      "p_value": 0.51
+     },
+     {
+      "key": "ist_rate",
+      "label": "마음을 나타내는 말",
+      "unit": "회 / 문장",
+      "help": "보다·배고프다·기쁘다·생각하다·말하다처럼 인물의 마음과 상태를 말하는 낱말",
+      "value": 0.19,
+      "baseline": 0.2,
+      "change": null,
+      "p_value": 0.78
+     },
+     {
+      "key": "self_ratio",
+      "label": "스스로 이어 말한 장면",
+      "unit": "%",
+      "help": "선택지 도움 없이 이어 말한 장면 비율",
+      "value": 77.78,
+      "baseline": 71.93,
+      "change": null,
+      "p_value": 0.48
+     }
+    ],
+    "story_grammar": {
+     "units": {
+      "배경": 100,
+      "등장인물": 100,
+      "시작 사건": 100,
+      "목표": 50,
+      "시도": 100,
+      "결과": 100,
+      "반응": 0
+     },
+     "mean_score": 5.5,
+     "complete_episodes": 1,
+     "stories": 2
+    },
+    "internal_states": {
+     "by_type": {
+      "지각": 0,
+      "생리": 1,
+      "의식": 0,
+      "감정": 0,
+      "정신": 0,
+      "말하기": 0
+     },
+     "examples": {
+      "지각": [],
+      "생리": [
+       "아프"
+      ],
+      "의식": [],
+      "감정": [],
+      "정신": [],
+      "말하기": []
+     }
+    },
+    "connectives": {
+     "by_type": {
+      "원인": 2,
+      "대조": 2,
+      "순서": 1
+     },
+     "example": "다람쥐가 넘어져서 다리가 아팠어요."
+    },
+    "emotion_vocab": {
+     "this_week": [
+      "울다"
+     ],
+     "cumulative": 6,
+     "new": []
+    }
+   },
+   "cards": {
+    "scenes": {
+     "value": 16,
+     "last_week": 24
+    },
+    "self_scenes": {
+     "value": 13,
+     "total": 16,
+     "choice_help": 3
+    },
+    "mlc_m": {
+     "value": 7.4,
+     "last_week": 8.1
+    },
+    "mean_eojeol": {
+     "value": 3.4,
+     "last_week": 3.5
+    },
+    "new_words": {
+     "count": 5,
+     "examples": [
+      "로봇",
+      "다람쥐",
+      "길"
+     ]
+    }
+   },
+   "speech_trend": [
+    {
+     "week_start": "2026-09-28",
+     "mean_eojeol": 3.07
+    },
+    {
+     "week_start": "2026-10-05",
+     "mean_eojeol": 3.08
+    },
+    {
+     "week_start": "2026-10-12",
+     "mean_eojeol": 3.42
+    },
+    {
+     "week_start": "2026-10-19",
+     "mean_eojeol": 3.71
+    },
+    {
+     "week_start": "2026-10-26",
+     "mean_eojeol": 3.54
+    },
+    {
+     "week_start": "2026-11-02",
+     "mean_eojeol": 3.44
+    }
+   ],
+   "themes": [
+    {
+     "word": "로봇",
+     "count": 7,
+     "character": true,
+     "increased": false
+    },
+    {
+     "word": "다람쥐",
+     "count": 5,
+     "character": true,
+     "increased": false
+    },
+    {
+     "word": "친구",
+     "count": 4,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "숲",
+     "count": 2,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "잠",
+     "count": 2,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "끝",
+     "count": 2,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "옛날",
+     "count": 1,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "다리",
+     "count": 1,
+     "character": false,
+     "increased": false
+    }
+   ]
+  },
+  "아이 O": {
+   "child_id": "아이 O",
+   "week_start": "2026-11-02",
+   "week_end": "2026-11-08",
+   "books": 2,
+   "age_months": 61,
+   "development": {
+    "weekly": {
+     "mlc_m": [
+      7.94,
+      7.42,
+      7.96,
+      8.05,
+      7.52,
+      8.2
+     ],
+     "conn_rate": [
+      0.06,
+      0.17,
+      0.27,
+      0.19,
+      0.4,
+      0.23
+     ],
+     "sg_score": [
+      2.0,
+      3.67,
+      5.0,
+      2.33,
+      3.67,
+      6.0
+     ],
+     "ist_rate": [
+      0.18,
+      0.17,
+      0.18,
+      0.17,
+      0.17,
+      0.15
+     ],
+     "self_ratio": [
+      88.24,
+      65.22,
+      63.64,
+      52.38,
+      85.0,
+      76.92
+     ]
+    },
+    "recent_3w": {
+     "units": {
+      "배경": 62,
+      "등장인물": 100,
+      "시작 사건": 75,
+      "목표": 38,
+      "시도": 75,
+      "결과": 50,
+      "반응": 25
+     },
+     "ist": {
+      "지각": 0,
+      "생리": 2,
+      "의식": 0,
+      "감정": 2,
+      "정신": 4,
+      "말하기": 2
+     },
+     "conn": {
+      "원인": 6,
+      "순서": 5,
+      "대조": 4
+     },
+     "sentences": 58,
+     "sentences_per_story": 7.2
+    },
+    "age_ref": {
+     "배경": 85,
+     "등장인물": 95,
+     "시작 사건": 95,
+     "목표": 25,
+     "시도": 100,
+     "결과": 80,
+     "반응": 11,
+     "sentences_per_story": 14.2,
+     "structure_8": 5.41,
+     "mlc_m": [
+      16.96,
+      2.05
+     ],
+     "age": 5
+    },
+    "growth_evidence": {
+     "before": {
+      "text": "여우가 밤하늘의 별을 세었어요.",
+      "date": "2026-10-01",
+      "complexity": 4.0
+     },
+     "recent": {
+      "text": "어느 날 고양이가 공원에 갔어요.",
+      "date": "2026-10-19",
+      "complexity": 5.0
+     },
+     "note": "각 기간의 중간 수준 장면 (가장 잘한 장면이 아님)"
+    },
+    "milestones": [
+     {
+      "skill": "생각을 나타내는 말",
+      "date": "2026-10-21",
+      "text": "공주는 집에 가야겠다고 생각했어요.",
+      "stories": 4
+     }
+    ],
+    "next_steps": [
+     {
+      "tier": "먼저",
+      "target": "배경",
+      "question": "언제, 어디에서 있었던 일일까?",
+      "reason": "이야기의 시간·장소를 말한 경우가 적어요 (최근 그림책 8권 중 5권, 또래는 보통 85%)"
+     },
+     {
+      "tier": "먼저",
+      "target": "결과",
+      "question": "그래서 어떻게 됐을까?",
+      "reason": "일이 어떻게 끝났는지 말한 경우가 적어요 (최근 그림책 8권 중 4권, 또래는 보통 80%)"
+     }
+    ],
+    "refined": {
+     "recent_3w": {
+      "stories": 8,
+      "ndw50": 31.3,
+      "episode_levels": {
+       "나열·묘사": 2,
+       "불완전한 에피소드": 3,
+       "완전한 에피소드": 3,
+       "여러 에피소드": 0
+      },
+      "best_level": "완전한 에피소드",
+      "intro_explicit_pct": 100,
+      "quotes_per_story": 0.0,
+      "complex_pct": 14,
+      "pronouns_per_10_sent": 0.34
+     },
+     "before_3w": {
+      "stories": 8,
+      "ndw50": 32.2,
+      "episode_levels": {
+       "나열·묘사": 1,
+       "불완전한 에피소드": 5,
+       "완전한 에피소드": 2,
+       "여러 에피소드": 0
+      },
+      "best_level": "완전한 에피소드",
+      "intro_explicit_pct": 100,
+      "quotes_per_story": 0.12,
+      "complex_pct": 22,
+      "pronouns_per_10_sent": 0.46
+     }
+    },
+    "this_week_vs_4weeks": [
+     {
+      "key": "mlc_m",
+      "label": "평균 문장 길이",
+      "unit": "형태소",
+      "help": "문장 하나의 평균 형태소 수(조사·어미 포함). 한국어 연구에서 4세와 5세 차이를 더 잘 보여 준 단위",
+      "value": 8.2,
+      "baseline": 7.74,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "conn_rate",
+      "label": "이음말",
+      "unit": "회 / 문장",
+      "help": "'그래서·그런데·-아서·-다가'처럼 사건을 잇는 말이 한 문장에 몇 번 나오는지",
+      "value": 0.23,
+      "baseline": 0.26,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "sg_score",
+      "label": "이야기문법",
+      "unit": "점 / 17",
+      "help": "배경·시작 사건·목표·시도·결과·반응을 얼마나 갖춰 말했는지 (이야기 한 편 평균)",
+      "value": 6.0,
+      "baseline": 3.67,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "ist_rate",
+      "label": "마음을 나타내는 말",
+      "unit": "회 / 문장",
+      "help": "보다·배고프다·기쁘다·생각하다·말하다처럼 인물의 마음과 상태를 말하는 낱말",
+      "value": 0.15,
+      "baseline": 0.17,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "self_ratio",
+      "label": "스스로 이어 말한 장면",
+      "unit": "%",
+      "help": "선택지 도움 없이 이어 말한 장면 비율",
+      "value": 76.92,
+      "baseline": 66.28,
+      "change": null,
+      "p_value": null
+     }
+    ],
+    "six_week_growth": [
+     {
+      "key": "mlc_m",
+      "label": "평균 문장 길이",
+      "unit": "형태소",
+      "help": "문장 하나의 평균 형태소 수(조사·어미 포함). 한국어 연구에서 4세와 5세 차이를 더 잘 보여 준 단위",
+      "value": 7.9,
+      "baseline": 7.75,
+      "change": null,
+      "p_value": 0.64
+     },
+     {
+      "key": "conn_rate",
+      "label": "이음말",
+      "unit": "회 / 문장",
+      "help": "'그래서·그런데·-아서·-다가'처럼 사건을 잇는 말이 한 문장에 몇 번 나오는지",
+      "value": 0.28,
+      "baseline": 0.18,
+      "change": null,
+      "p_value": 0.21
+     },
+     {
+      "key": "sg_score",
+      "label": "이야기문법",
+      "unit": "점 / 17",
+      "help": "배경·시작 사건·목표·시도·결과·반응을 얼마나 갖춰 말했는지 (이야기 한 편 평균)",
+      "value": 3.75,
+      "baseline": 3.75,
+      "change": null,
+      "p_value": 1.0
+     },
+     {
+      "key": "ist_rate",
+      "label": "마음을 나타내는 말",
+      "unit": "회 / 문장",
+      "help": "보다·배고프다·기쁘다·생각하다·말하다처럼 인물의 마음과 상태를 말하는 낱말",
+      "value": 0.17,
+      "baseline": 0.18,
+      "change": null,
+      "p_value": 0.87
+     },
+     {
+      "key": "self_ratio",
+      "label": "스스로 이어 말한 장면",
+      "unit": "%",
+      "help": "선택지 도움 없이 이어 말한 장면 비율",
+      "value": 70.37,
+      "baseline": 70.97,
+      "change": null,
+      "p_value": 0.95
+     }
+    ],
+    "story_grammar": {
+     "units": {
+      "배경": 100,
+      "등장인물": 100,
+      "시작 사건": 100,
+      "목표": 100,
+      "시도": 100,
+      "결과": 100,
+      "반응": 0
+     },
+     "mean_score": 6.0,
+     "complete_episodes": 2,
+     "stories": 2
+    },
+    "internal_states": {
+     "by_type": {
+      "지각": 0,
+      "생리": 1,
+      "의식": 0,
+      "감정": 0,
+      "정신": 0,
+      "말하기": 1
+     },
+     "examples": {
+      "지각": [],
+      "생리": [
+       "아프"
+      ],
+      "의식": [],
+      "감정": [],
+      "정신": [],
+      "말하기": [
+       "부르"
+      ]
+     }
+    },
+    "connectives": {
+     "by_type": {
+      "순서": 2,
+      "원인": 1
+     },
+     "example": "결국 여우가 집을 찾았어요."
+    },
+    "emotion_vocab": {
+     "this_week": [],
+     "cumulative": 4,
+     "new": []
+    }
+   },
+   "cards": {
+    "scenes": {
+     "value": 13,
+     "last_week": 20
+    },
+    "self_scenes": {
+     "value": 10,
+     "total": 13,
+     "choice_help": 3
+    },
+    "mlc_m": {
+     "value": 8.2,
+     "last_week": 7.5
+    },
+    "mean_eojeol": {
+     "value": 3.9,
+     "last_week": 3.4
+    },
+    "new_words": {
+     "count": 1,
+     "examples": [
+      "소리"
+     ]
+    }
+   },
+   "speech_trend": [
+    {
+     "week_start": "2026-09-28",
+     "mean_eojeol": 3.53
+    },
+    {
+     "week_start": "2026-10-05",
+     "mean_eojeol": 3.46
+    },
+    {
+     "week_start": "2026-10-12",
+     "mean_eojeol": 3.62
+    },
+    {
+     "week_start": "2026-10-19",
+     "mean_eojeol": 3.55
+    },
+    {
+     "week_start": "2026-10-26",
+     "mean_eojeol": 3.38
+    },
+    {
+     "week_start": "2026-11-02",
+     "mean_eojeol": 3.87
+    }
+   ],
+   "themes": [
+    {
+     "word": "여우",
+     "count": 13,
+     "character": true,
+     "increased": false
+    },
+    {
+     "word": "친구",
+     "count": 4,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "공",
+     "count": 2,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "집",
+     "count": 2,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "잠",
+     "count": 2,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "끝",
+     "count": 2,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "옛날",
+     "count": 1,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "공원",
+     "count": 1,
+     "character": false,
+     "increased": false
+    }
+   ]
+  },
+  "아이 P": {
+   "child_id": "아이 P",
+   "week_start": "2026-11-02",
+   "week_end": "2026-11-08",
+   "books": 3,
+   "age_months": 52,
+   "development": {
+    "weekly": {
+     "mlc_m": [
+      7.67,
+      8.18,
+      8.09,
+      7.14,
+      7.29,
+      8.0
+     ],
+     "conn_rate": [
+      0.17,
+      0.4,
+      0.3,
+      0.24,
+      0.31,
+      0.21
+     ],
+     "sg_score": [
+      2.67,
+      6.0,
+      5.67,
+      2.67,
+      4.0,
+      2.33
+     ],
+     "ist_rate": [
+      0.22,
+      0.2,
+      0.07,
+      0.14,
+      0.34,
+      0.4
+     ],
+     "self_ratio": [
+      69.57,
+      80.0,
+      80.0,
+      66.67,
+      81.25,
+      83.33
+     ]
+    },
+    "recent_3w": {
+     "units": {
+      "배경": 50,
+      "등장인물": 100,
+      "시작 사건": 75,
+      "목표": 12,
+      "시도": 75,
+      "결과": 25,
+      "반응": 12
+     },
+     "ist": {
+      "지각": 0,
+      "생리": 6,
+      "의식": 0,
+      "감정": 7,
+      "정신": 1,
+      "말하기": 5
+     },
+     "conn": {
+      "원인": 10,
+      "순서": 4,
+      "대조": 1
+     },
+     "sentences": 64,
+     "sentences_per_story": 8.0
+    },
+    "age_ref": {
+     "배경": 55,
+     "등장인물": 70,
+     "시작 사건": 70,
+     "목표": 20,
+     "시도": 65,
+     "결과": 60,
+     "반응": 10,
+     "sentences_per_story": 7.9,
+     "structure_8": 3.8,
+     "mlc_m": [
+      15.05,
+      2.07
+     ],
+     "age": 4
+    },
+    "growth_evidence": {
+     "before": {
+      "text": "펭귄이 밤하늘의 별을 세었어요.",
+      "date": "2026-10-02",
+      "complexity": 4.0
+     },
+     "recent": {
+      "text": "다람쥐는 따뜻한 수프를 끓였어요.",
+      "date": "2026-10-20",
+      "complexity": 4.0
+     },
+     "note": "각 기간의 중간 수준 장면 (가장 잘한 장면이 아님)"
+    },
+    "milestones": [
+     {
+      "skill": "인용",
+      "date": "2026-11-05",
+      "text": "펭귄이 \"같이 놀자\"라고 말했어요.",
+      "stories": 2
+     }
+    ],
+    "next_steps": [
+     {
+      "tier": "먼저",
+      "target": "결과",
+      "question": "그래서 어떻게 됐을까?",
+      "reason": "일이 어떻게 끝났는지 말한 경우가 적어요 (최근 그림책 8권 중 2권, 또래는 보통 60%)"
+     }
+    ],
+    "refined": {
+     "recent_3w": {
+      "stories": 8,
+      "ndw50": 32.4,
+      "episode_levels": {
+       "나열·묘사": 2,
+       "불완전한 에피소드": 6,
+       "완전한 에피소드": 0,
+       "여러 에피소드": 0
+      },
+      "best_level": "불완전한 에피소드",
+      "intro_explicit_pct": 75,
+      "quotes_per_story": 0.25,
+      "complex_pct": 23,
+      "pronouns_per_10_sent": 0.47
+     },
+     "before_3w": {
+      "stories": 8,
+      "ndw50": 30.5,
+      "episode_levels": {
+       "나열·묘사": 1,
+       "불완전한 에피소드": 5,
+       "완전한 에피소드": 2,
+       "여러 에피소드": 0
+      },
+      "best_level": "완전한 에피소드",
+      "intro_explicit_pct": 100,
+      "quotes_per_story": 0.0,
+      "complex_pct": 22,
+      "pronouns_per_10_sent": 0.0
+     }
+    },
+    "this_week_vs_4weeks": [
+     {
+      "key": "mlc_m",
+      "label": "평균 문장 길이",
+      "unit": "형태소",
+      "help": "문장 하나의 평균 형태소 수(조사·어미 포함). 한국어 연구에서 4세와 5세 차이를 더 잘 보여 준 단위",
+      "value": 8.0,
+      "baseline": 7.67,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "conn_rate",
+      "label": "이음말",
+      "unit": "회 / 문장",
+      "help": "'그래서·그런데·-아서·-다가'처럼 사건을 잇는 말이 한 문장에 몇 번 나오는지",
+      "value": 0.21,
+      "baseline": 0.31,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "sg_score",
+      "label": "이야기문법",
+      "unit": "점 / 17",
+      "help": "배경·시작 사건·목표·시도·결과·반응을 얼마나 갖춰 말했는지 (이야기 한 편 평균)",
+      "value": 2.33,
+      "baseline": 4.5,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "ist_rate",
+      "label": "마음을 나타내는 말",
+      "unit": "회 / 문장",
+      "help": "보다·배고프다·기쁘다·생각하다·말하다처럼 인물의 마음과 상태를 말하는 낱말",
+      "value": 0.4,
+      "baseline": 0.18,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "self_ratio",
+      "label": "스스로 이어 말한 장면",
+      "unit": "%",
+      "help": "선택지 도움 없이 이어 말한 장면 비율",
+      "value": 83.33,
+      "baseline": 76.39,
+      "change": null,
+      "p_value": null
+     }
+    ],
+    "six_week_growth": [
+     {
+      "key": "mlc_m",
+      "label": "평균 문장 길이",
+      "unit": "형태소",
+      "help": "문장 하나의 평균 형태소 수(조사·어미 포함). 한국어 연구에서 4세와 5세 차이를 더 잘 보여 준 단위",
+      "value": 7.52,
+      "baseline": 7.95,
+      "change": null,
+      "p_value": 0.37
+     },
+     {
+      "key": "conn_rate",
+      "label": "이음말",
+      "unit": "회 / 문장",
+      "help": "'그래서·그런데·-아서·-다가'처럼 사건을 잇는 말이 한 문장에 몇 번 나오는지",
+      "value": 0.25,
+      "baseline": 0.28,
+      "change": null,
+      "p_value": 0.74
+     },
+     {
+      "key": "sg_score",
+      "label": "이야기문법",
+      "unit": "점 / 17",
+      "help": "배경·시작 사건·목표·시도·결과·반응을 얼마나 갖춰 말했는지 (이야기 한 편 평균)",
+      "value": 2.88,
+      "baseline": 4.62,
+      "change": null,
+      "p_value": 0.18
+     },
+     {
+      "key": "ist_rate",
+      "label": "마음을 나타내는 말",
+      "unit": "회 / 문장",
+      "help": "보다·배고프다·기쁘다·생각하다·말하다처럼 인물의 마음과 상태를 말하는 낱말",
+      "value": 0.3,
+      "baseline": 0.16,
+      "change": null,
+      "p_value": 0.13
+     },
+     {
+      "key": "self_ratio",
+      "label": "스스로 이어 말한 장면",
+      "unit": "%",
+      "help": "선택지 도움 없이 이어 말한 장면 비율",
+      "value": 77.05,
+      "baseline": 75.86,
+      "change": null,
+      "p_value": 0.9
+     }
+    ],
+    "story_grammar": {
+     "units": {
+      "배경": 33,
+      "등장인물": 100,
+      "시작 사건": 67,
+      "목표": 33,
+      "시도": 67,
+      "결과": 0,
+      "반응": 0
+     },
+     "mean_score": 2.3,
+     "complete_episodes": 0,
+     "stories": 3
+    },
+    "internal_states": {
+     "by_type": {
+      "지각": 0,
+      "생리": 2,
+      "의식": 0,
+      "감정": 4,
+      "정신": 1,
+      "말하기": 3
+     },
+     "examples": {
+      "지각": [],
+      "생리": [
+       "고프"
+      ],
+      "의식": [],
+      "감정": [
+       "놀라",
+       "행복"
+      ],
+      "정신": [
+       "생각"
+      ],
+      "말하기": [
+       "말",
+       "부르"
+      ]
+     }
+    },
+    "connectives": {
+     "by_type": {
+      "원인": 5
+     },
+     "example": "친구가 와서 펭귄을 도와줬어요."
+    },
+    "emotion_vocab": {
+     "this_week": [
+      "깜짝",
+      "놀라다",
+      "울다",
+      "웃다",
+      "행복"
+     ],
+     "cumulative": 5,
+     "new": [
+      "울다"
+     ]
+    }
+   },
+   "cards": {
+    "scenes": {
+     "value": 24,
+     "last_week": 16
+    },
+    "self_scenes": {
+     "value": 20,
+     "total": 24,
+     "choice_help": 4
+    },
+    "mlc_m": {
+     "value": 8.0,
+     "last_week": 7.3
+    },
+    "mean_eojeol": {
+     "value": 3.5,
+     "last_week": 3.3
+    },
+    "new_words": {
+     "count": 6,
+     "examples": [
+      "크다",
+      "소리",
+      "신"
+     ]
+    }
+   },
+   "speech_trend": [
+    {
+     "week_start": "2026-09-28",
+     "mean_eojeol": 3.38
+    },
+    {
+     "week_start": "2026-10-05",
+     "mean_eojeol": 3.82
+    },
+    {
+     "week_start": "2026-10-12",
+     "mean_eojeol": 3.65
+    },
+    {
+     "week_start": "2026-10-19",
+     "mean_eojeol": 3.23
+    },
+    {
+     "week_start": "2026-10-26",
+     "mean_eojeol": 3.29
+    },
+    {
+     "week_start": "2026-11-02",
+     "mean_eojeol": 3.48
+    }
+   ],
+   "themes": [
+    {
+     "word": "펭귄",
+     "count": 7,
+     "character": true,
+     "increased": false
+    },
+    {
+     "word": "여우",
+     "count": 7,
+     "character": true,
+     "increased": false
+    },
+    {
+     "word": "공룡",
+     "count": 6,
+     "character": true,
+     "increased": false
+    },
+    {
+     "word": "친구",
+     "count": 5,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "행복",
+     "count": 2,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "집",
+     "count": 2,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "배",
+     "count": 2,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "사과",
+     "count": 2,
+     "character": false,
+     "increased": false
+    }
+   ]
+  },
+  "아이 Q": {
+   "child_id": "아이 Q",
+   "week_start": "2026-11-02",
+   "week_end": "2026-11-08",
+   "books": 3,
+   "age_months": 66,
+   "development": {
+    "weekly": {
+     "mlc_m": [
+      7.69,
+      8.17,
+      7.84,
+      8.45,
+      8.0,
+      8.84
+     ],
+     "conn_rate": [
+      0.61,
+      0.23,
+      0.36,
+      0.38,
+      0.29,
+      0.12
+     ],
+     "sg_score": [
+      5.67,
+      4.67,
+      5.67,
+      3.67,
+      5.33,
+      3.67
+     ],
+     "ist_rate": [
+      0.3,
+      0.14,
+      0.2,
+      0.14,
+      0.17,
+      0.21
+     ],
+     "self_ratio": [
+      100.0,
+      77.27,
+      77.27,
+      95.24,
+      80.95,
+      79.17
+     ]
+    },
+    "recent_3w": {
+     "units": {
+      "배경": 56,
+      "등장인물": 100,
+      "시작 사건": 89,
+      "목표": 11,
+      "시도": 78,
+      "결과": 67,
+      "반응": 0
+     },
+     "ist": {
+      "지각": 0,
+      "생리": 4,
+      "의식": 0,
+      "감정": 3,
+      "정신": 3,
+      "말하기": 2
+     },
+     "conn": {
+      "원인": 7,
+      "순서": 3,
+      "대조": 7
+     },
+     "sentences": 70,
+     "sentences_per_story": 7.8
+    },
+    "age_ref": {
+     "배경": 85,
+     "등장인물": 95,
+     "시작 사건": 95,
+     "목표": 25,
+     "시도": 100,
+     "결과": 80,
+     "반응": 11,
+     "sentences_per_story": 14.2,
+     "structure_8": 5.41,
+     "mlc_m": [
+      16.96,
+      2.05
+     ],
+     "age": 5
+    },
+    "growth_evidence": {
+     "before": {
+      "text": "그런데 토끼가 길을 잃어버렸어요.",
+      "date": "2026-09-28",
+      "complexity": 6.0
+     },
+     "recent": {
+      "text": "곰은 집에 가야겠다고 생각했어요.",
+      "date": "2026-10-29",
+      "complexity": 5.0
+     },
+     "note": "각 기간의 중간 수준 장면 (가장 잘한 장면이 아님)"
+    },
+    "milestones": [
+     {
+      "skill": "생각을 나타내는 말",
+      "date": "2026-10-21",
+      "text": "토끼는 집에 가야겠다고 생각했어요.",
+      "stories": 3
+     }
+    ],
+    "next_steps": [
+     {
+      "tier": "먼저",
+      "target": "배경",
+      "question": "언제, 어디에서 있었던 일일까?",
+      "reason": "이야기의 시간·장소를 말한 경우가 적어요 (최근 그림책 9권 중 5권, 또래는 보통 85%)"
+     },
+     {
+      "tier": "먼저",
+      "target": "결과",
+      "question": "그래서 어떻게 됐을까?",
+      "reason": "일이 어떻게 끝났는지 말한 경우가 적어요 (최근 그림책 9권 중 6권, 또래는 보통 80%)"
+     }
+    ],
+    "refined": {
+     "recent_3w": {
+      "stories": 9,
+      "ndw50": 33.0,
+      "episode_levels": {
+       "나열·묘사": 1,
+       "불완전한 에피소드": 7,
+       "완전한 에피소드": 1,
+       "여러 에피소드": 0
+      },
+      "best_level": "완전한 에피소드",
+      "intro_explicit_pct": 100,
+      "quotes_per_story": 0.11,
+      "complex_pct": 26,
+      "pronouns_per_10_sent": 0.0
+     },
+     "before_3w": {
+      "stories": 9,
+      "ndw50": 29.7,
+      "episode_levels": {
+       "나열·묘사": 0,
+       "불완전한 에피소드": 5,
+       "완전한 에피소드": 4,
+       "여러 에피소드": 0
+      },
+      "best_level": "완전한 에피소드",
+      "intro_explicit_pct": 100,
+      "quotes_per_story": 0.11,
+      "complex_pct": 28,
+      "pronouns_per_10_sent": 0.13
+     }
+    },
+    "this_week_vs_4weeks": [
+     {
+      "key": "mlc_m",
+      "label": "평균 문장 길이",
+      "unit": "형태소",
+      "help": "문장 하나의 평균 형태소 수(조사·어미 포함). 한국어 연구에서 4세와 5세 차이를 더 잘 보여 준 단위",
+      "value": 8.84,
+      "baseline": 8.11,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "conn_rate",
+      "label": "이음말",
+      "unit": "회 / 문장",
+      "help": "'그래서·그런데·-아서·-다가'처럼 사건을 잇는 말이 한 문장에 몇 번 나오는지",
+      "value": 0.12,
+      "baseline": 0.31,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "sg_score",
+      "label": "이야기문법",
+      "unit": "점 / 17",
+      "help": "배경·시작 사건·목표·시도·결과·반응을 얼마나 갖춰 말했는지 (이야기 한 편 평균)",
+      "value": 3.67,
+      "baseline": 4.83,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "ist_rate",
+      "label": "마음을 나타내는 말",
+      "unit": "회 / 문장",
+      "help": "보다·배고프다·기쁘다·생각하다·말하다처럼 인물의 마음과 상태를 말하는 낱말",
+      "value": 0.21,
+      "baseline": 0.16,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "self_ratio",
+      "label": "스스로 이어 말한 장면",
+      "unit": "%",
+      "help": "선택지 도움 없이 이어 말한 장면 비율",
+      "value": 79.17,
+      "baseline": 82.56,
+      "change": null,
+      "p_value": null
+     }
+    ],
+    "six_week_growth": [
+     {
+      "key": "mlc_m",
+      "label": "평균 문장 길이",
+      "unit": "형태소",
+      "help": "문장 하나의 평균 형태소 수(조사·어미 포함). 한국어 연구에서 4세와 5세 차이를 더 잘 보여 준 단위",
+      "value": 8.44,
+      "baseline": 7.89,
+      "change": null,
+      "p_value": 0.17
+     },
+     {
+      "key": "conn_rate",
+      "label": "이음말",
+      "unit": "회 / 문장",
+      "help": "'그래서·그런데·-아서·-다가'처럼 사건을 잇는 말이 한 문장에 몇 번 나오는지",
+      "value": 0.26,
+      "baseline": 0.4,
+      "change": null,
+      "p_value": 0.14
+     },
+     {
+      "key": "sg_score",
+      "label": "이야기문법",
+      "unit": "점 / 17",
+      "help": "배경·시작 사건·목표·시도·결과·반응을 얼마나 갖춰 말했는지 (이야기 한 편 평균)",
+      "value": 4.22,
+      "baseline": 5.33,
+      "change": null,
+      "p_value": 0.29
+     },
+     {
+      "key": "ist_rate",
+      "label": "마음을 나타내는 말",
+      "unit": "회 / 문장",
+      "help": "보다·배고프다·기쁘다·생각하다·말하다처럼 인물의 마음과 상태를 말하는 낱말",
+      "value": 0.17,
+      "baseline": 0.22,
+      "change": null,
+      "p_value": 0.59
+     },
+     {
+      "key": "self_ratio",
+      "label": "스스로 이어 말한 장면",
+      "unit": "%",
+      "help": "선택지 도움 없이 이어 말한 장면 비율",
+      "value": 84.85,
+      "baseline": 85.07,
+      "change": null,
+      "p_value": 1.0
+     }
+    ],
+    "story_grammar": {
+     "units": {
+      "배경": 33,
+      "등장인물": 100,
+      "시작 사건": 100,
+      "목표": 0,
+      "시도": 67,
+      "결과": 67,
+      "반응": 0
+     },
+     "mean_score": 3.7,
+     "complete_episodes": 0,
+     "stories": 3
+    },
+    "internal_states": {
+     "by_type": {
+      "지각": 0,
+      "생리": 3,
+      "의식": 0,
+      "감정": 0,
+      "정신": 1,
+      "말하기": 1
+     },
+     "examples": {
+      "지각": [],
+      "생리": [
+       "고프",
+       "졸리"
+      ],
+      "의식": [],
+      "감정": [],
+      "정신": [
+       "생각"
+      ],
+      "말하기": [
+       "말"
+      ]
+     }
+    },
+    "connectives": {
+     "by_type": {
+      "원인": 2,
+      "대조": 1
+     },
+     "example": "친구가 와서 토끼를 도와줬어요."
+    },
+    "emotion_vocab": {
+     "this_week": [],
+     "cumulative": 3,
+     "new": []
+    }
+   },
+   "cards": {
+    "scenes": {
+     "value": 24,
+     "last_week": 21
+    },
+    "self_scenes": {
+     "value": 19,
+     "total": 24,
+     "choice_help": 5
+    },
+    "mlc_m": {
+     "value": 8.8,
+     "last_week": 8.0
+    },
+    "mean_eojeol": {
+     "value": 3.9,
+     "last_week": 3.7
+    },
+    "new_words": {
+     "count": 6,
+     "examples": [
+      "펭귄",
+      "커다랗다",
+      "무지개"
+     ]
+    }
+   },
+   "speech_trend": [
+    {
+     "week_start": "2026-09-28",
+     "mean_eojeol": 3.54
+    },
+    {
+     "week_start": "2026-10-05",
+     "mean_eojeol": 3.88
+    },
+    {
+     "week_start": "2026-10-12",
+     "mean_eojeol": 3.68
+    },
+    {
+     "week_start": "2026-10-19",
+     "mean_eojeol": 3.73
+    },
+    {
+     "week_start": "2026-10-26",
+     "mean_eojeol": 3.65
+    },
+    {
+     "week_start": "2026-11-02",
+     "mean_eojeol": 3.92
+    }
+   ],
+   "themes": [
+    {
+     "word": "토끼",
+     "count": 15,
+     "character": true,
+     "increased": false
+    },
+    {
+     "word": "펭귄",
+     "count": 7,
+     "character": true,
+     "increased": false
+    },
+    {
+     "word": "친구",
+     "count": 5,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "풍선",
+     "count": 2,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "끝",
+     "count": 2,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "배",
+     "count": 2,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "사과",
+     "count": 2,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "날",
+     "count": 1,
+     "character": false,
+     "increased": false
+    }
+   ]
+  },
+  "아이 R": {
+   "child_id": "아이 R",
+   "week_start": "2026-11-02",
+   "week_end": "2026-11-08",
+   "books": 2,
+   "age_months": 70,
+   "development": {
+    "weekly": {
+     "mlc_m": [
+      8.3,
+      7.7,
+      8.05,
+      7.0,
+      8.13,
+      7.53
+     ],
+     "conn_rate": [
+      0.09,
+      0.23,
+      0.29,
+      0.08,
+      0.2,
+      0.29
+     ],
+     "sg_score": [
+      3.67,
+      3.33,
+      6.0,
+      1.5,
+      0.5,
+      2.5
+     ],
+     "ist_rate": [
+      0.05,
+      0.2,
+      0.09,
+      0.15,
+      0.13,
+      0.43
+     ],
+     "self_ratio": [
+      86.36,
+      77.27,
+      94.12,
+      92.31,
+      86.67,
+      85.71
+     ]
+    },
+    "recent_3w": {
+     "units": {
+      "배경": 50,
+      "등장인물": 100,
+      "시작 사건": 33,
+      "목표": 0,
+      "시도": 33,
+      "결과": 17,
+      "반응": 0
+     },
+     "ist": {
+      "지각": 0,
+      "생리": 3,
+      "의식": 0,
+      "감정": 1,
+      "정신": 2,
+      "말하기": 4
+     },
+     "conn": {
+      "원인": 6,
+      "순서": 1,
+      "대조": 1
+     },
+     "sentences": 43,
+     "sentences_per_story": 7.2
+    },
+    "age_ref": {
+     "배경": 85,
+     "등장인물": 95,
+     "시작 사건": 95,
+     "목표": 25,
+     "시도": 100,
+     "결과": 80,
+     "반응": 11,
+     "sentences_per_story": 14.2,
+     "structure_8": 5.41,
+     "mlc_m": [
+      16.96,
+      2.05
+     ],
+     "age": 5
+    },
+    "growth_evidence": {
+     "before": {
+      "text": "공룡은 소중한 공을 잃어버렸어요.",
+      "date": "2026-10-01",
+      "complexity": 4.0
+     },
+     "recent": {
+      "text": "펭귄이 친구에게 편지를 썼어요.",
+      "date": "2026-10-21",
+      "complexity": 4.0
+     },
+     "note": "각 기간의 중간 수준 장면 (가장 잘한 장면이 아님)"
+    },
+    "milestones": [
+     {
+      "skill": "생각을 나타내는 말",
+      "date": "2026-10-21",
+      "text": "펭귄은 집에 가야겠다고 생각했어요.",
+      "stories": 2
+     }
+    ],
+    "next_steps": [
+     {
+      "tier": "먼저",
+      "target": "배경",
+      "question": "언제, 어디에서 있었던 일일까?",
+      "reason": "이야기의 시간·장소를 말한 경우가 적어요 (최근 그림책 6권 중 3권, 또래는 보통 85%)"
+     },
+     {
+      "tier": "먼저",
+      "target": "시작 사건",
+      "question": "그런데 펭귄에게 무슨 일이 생겼을까?",
+      "reason": "이야기를 움직이는 사건이 드물어요 (최근 그림책 6권 중 2권, 또래는 보통 95%)"
+     }
+    ],
+    "refined": {
+     "recent_3w": {
+      "stories": 6,
+      "ndw50": 30.8,
+      "episode_levels": {
+       "나열·묘사": 4,
+       "불완전한 에피소드": 2,
+       "완전한 에피소드": 0,
+       "여러 에피소드": 0
+      },
+      "best_level": "불완전한 에피소드",
+      "intro_explicit_pct": 83,
+      "quotes_per_story": 0.17,
+      "complex_pct": 19,
+      "pronouns_per_10_sent": 0.7
+     },
+     "before_3w": {
+      "stories": 8,
+      "ndw50": 32.1,
+      "episode_levels": {
+       "나열·묘사": 2,
+       "불완전한 에피소드": 3,
+       "완전한 에피소드": 3,
+       "여러 에피소드": 0
+      },
+      "best_level": "완전한 에피소드",
+      "intro_explicit_pct": 100,
+      "quotes_per_story": 0.0,
+      "complex_pct": 20,
+      "pronouns_per_10_sent": 0.15
+     }
+    },
+    "this_week_vs_4weeks": [
+     {
+      "key": "mlc_m",
+      "label": "평균 문장 길이",
+      "unit": "형태소",
+      "help": "문장 하나의 평균 형태소 수(조사·어미 포함). 한국어 연구에서 4세와 5세 차이를 더 잘 보여 준 단위",
+      "value": 7.53,
+      "baseline": 7.76,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "conn_rate",
+      "label": "이음말",
+      "unit": "회 / 문장",
+      "help": "'그래서·그런데·-아서·-다가'처럼 사건을 잇는 말이 한 문장에 몇 번 나오는지",
+      "value": 0.29,
+      "baseline": 0.21,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "sg_score",
+      "label": "이야기문법",
+      "unit": "점 / 17",
+      "help": "배경·시작 사건·목표·시도·결과·반응을 얼마나 갖춰 말했는지 (이야기 한 편 평균)",
+      "value": 2.5,
+      "baseline": 2.89,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "ist_rate",
+      "label": "마음을 나타내는 말",
+      "unit": "회 / 문장",
+      "help": "보다·배고프다·기쁘다·생각하다·말하다처럼 인물의 마음과 상태를 말하는 낱말",
+      "value": 0.43,
+      "baseline": 0.15,
+      "change": null,
+      "p_value": null
+     },
+     {
+      "key": "self_ratio",
+      "label": "스스로 이어 말한 장면",
+      "unit": "%",
+      "help": "선택지 도움 없이 이어 말한 장면 비율",
+      "value": 85.71,
+      "baseline": 86.57,
+      "change": null,
+      "p_value": null
+     }
+    ],
+    "six_week_growth": [
+     {
+      "key": "mlc_m",
+      "label": "평균 문장 길이",
+      "unit": "형태소",
+      "help": "문장 하나의 평균 형태소 수(조사·어미 포함). 한국어 연구에서 4세와 5세 차이를 더 잘 보여 준 단위",
+      "value": 7.58,
+      "baseline": 8.02,
+      "change": null,
+      "p_value": 0.19
+     },
+     {
+      "key": "conn_rate",
+      "label": "이음말",
+      "unit": "회 / 문장",
+      "help": "'그래서·그런데·-아서·-다가'처럼 사건을 잇는 말이 한 문장에 몇 번 나오는지",
+      "value": 0.19,
+      "baseline": 0.2,
+      "change": null,
+      "p_value": 0.96
+     },
+     {
+      "key": "sg_score",
+      "label": "이야기문법",
+      "unit": "점 / 17",
+      "help": "배경·시작 사건·목표·시도·결과·반응을 얼마나 갖춰 말했는지 (이야기 한 편 평균)",
+      "value": 1.5,
+      "baseline": 4.12,
+      "change": null,
+      "p_value": 0.075
+     },
+     {
+      "key": "ist_rate",
+      "label": "마음을 나타내는 말",
+      "unit": "회 / 문장",
+      "help": "보다·배고프다·기쁘다·생각하다·말하다처럼 인물의 마음과 상태를 말하는 낱말",
+      "value": 0.24,
+      "baseline": 0.11,
+      "change": null,
+      "p_value": 0.11
+     },
+     {
+      "key": "self_ratio",
+      "label": "스스로 이어 말한 장면",
+      "unit": "%",
+      "help": "선택지 도움 없이 이어 말한 장면 비율",
+      "value": 88.1,
+      "baseline": 85.25,
+      "change": null,
+      "p_value": 0.7
+     }
+    ],
+    "story_grammar": {
+     "units": {
+      "배경": 50,
+      "등장인물": 100,
+      "시작 사건": 50,
+      "목표": 0,
+      "시도": 50,
+      "결과": 50,
+      "반응": 0
+     },
+     "mean_score": 2.5,
+     "complete_episodes": 0,
+     "stories": 2
+    },
+    "internal_states": {
+     "by_type": {
+      "지각": 0,
+      "생리": 2,
+      "의식": 0,
+      "감정": 1,
+      "정신": 0,
+      "말하기": 3
+     },
+     "examples": {
+      "지각": [],
+      "생리": [
+       "고프",
+       "아프"
+      ],
+      "의식": [],
+      "감정": [
+       "행복"
+      ],
+      "정신": [],
+      "말하기": [
+       "부르"
+      ]
+     }
+    },
+    "connectives": {
+     "by_type": {
+      "원인": 3,
+      "순서": 1
+     },
+     "example": "펭귄이 넘어져서 다리가 아팠어요."
+    },
+    "emotion_vocab": {
+     "this_week": [
+      "행복"
+     ],
+     "cumulative": 2,
+     "new": []
+    }
+   },
+   "cards": {
+    "scenes": {
+     "value": 14,
+     "last_week": 15
+    },
+    "self_scenes": {
+     "value": 12,
+     "total": 14,
+     "choice_help": 2
+    },
+    "mlc_m": {
+     "value": 7.5,
+     "last_week": 8.1
+    },
+    "mean_eojeol": {
+     "value": 3.5,
+     "last_week": 3.4
+    },
+    "new_words": {
+     "count": 2,
+     "examples": [
+      "공주",
+      "기차역"
+     ]
+    }
+   },
+   "speech_trend": [
+    {
+     "week_start": "2026-09-28",
+     "mean_eojeol": 3.78
+    },
+    {
+     "week_start": "2026-10-05",
+     "mean_eojeol": 3.43
+    },
+    {
+     "week_start": "2026-10-12",
+     "mean_eojeol": 3.68
+    },
+    {
+     "week_start": "2026-10-19",
+     "mean_eojeol": 3.0
+    },
+    {
+     "week_start": "2026-10-26",
+     "mean_eojeol": 3.4
+    },
+    {
+     "week_start": "2026-11-02",
+     "mean_eojeol": 3.47
+    }
+   ],
+   "themes": [
+    {
+     "word": "공주",
+     "count": 7,
+     "character": true,
+     "increased": false
+    },
+    {
+     "word": "펭귄",
+     "count": 6,
+     "character": true,
+     "increased": false
+    },
+    {
+     "word": "노래",
+     "count": 3,
+     "character": false,
+     "increased": true
+    },
+    {
+     "word": "행복",
+     "count": 1,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "조개",
+     "count": 1,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "껍데기",
+     "count": 1,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "상자",
+     "count": 1,
+     "character": false,
+     "increased": false
+    },
+    {
+     "word": "날",
+     "count": 1,
+     "character": false,
+     "increased": false
+    }
+   ]
+  }
+ }
+}

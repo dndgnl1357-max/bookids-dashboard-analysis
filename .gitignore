@@ -1,0 +1,26 @@
+# 파이썬 환경
+.venv/
+__pycache__/
+*.pyc
+
+# AI Hub 아동·청소년 상담 데이터에서 나온 것은 올리지 않는다 (재배포 금지)
+# - 추출한 라벨, 표, 형태소 캐시, 음성 특징
+data/*
+!data/demo/
+# - 상담 데이터로 학습한 모델 (어휘에 상담 대화가 들어 있음)
+models/
+# - 상담 데이터의 실제 문장을 인용한 보고서·사전 검토표·점검 문장
+reports/disclosure_samples.md
+reports/disclosure_review.md
+reports/lexicon_review.md
+reports/audio_check.md
+lexicon/emotion_review.csv
+lexicon/candidates.csv
+tests/disclosure_cases.csv
+# - 실행 기록
+reports/*.log
+
+# 기타
+*.tmp
+.DS_Store
+Thumbs.db
